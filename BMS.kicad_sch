@@ -2,9 +2,138 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 124184ba-5d68-4d9f-8da6-acc6720ab30b)
+	(uuid "124184ba-5d68-4d9f-8da6-acc6720ab30b")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 48.26 44.45)
+		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 31 138 58 1.0000)
+		)
+		(uuid "9364b786-ab76-48f0-917a-74b98e30a261")
+		(property "Sheetname" "main"
+			(at 48.26 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 48.26 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 74.93)
+		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 31 138 58 1.0000)
+		)
+		(uuid "93f9b420-7cce-46a9-9201-666f07a18f85")
+		(property "Sheetname" "main1"
+			(at 49.53 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 49.53 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 44.45)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 31 138 58 1.0000)
+		)
+		(uuid "fb11fb4b-d26e-4f92-a711-2d1664bdbd55")
+		(property "Sheetname" "pcb"
+			(at 111.76 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb.kicad_sch"
+			(at 111.76 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

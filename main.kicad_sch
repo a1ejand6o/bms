@@ -1,0 +1,93 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "64e97a94-79ab-45a2-9bbb-f07caaf21c8f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 39.37 80.01)
+		(size 12.7 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72bfe5e0-3464-488b-90f8-8143600a08cb")
+		(property "Sheetname" "Inputs"
+			(at 39.37 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input.kicad_sch"
+			(at 39.37 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/9364b786-ab76-48f0-917a-74b98e30a261"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 90.17)
+		(size 38.1 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d98fdb38-dbd9-4613-8402-dc473e6cf2ba")
+		(property "Sheetname" "BMS"
+			(at 120.65 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 120.65 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/9364b786-ab76-48f0-917a-74b98e30a261"
+					(page "5")
+				)
+			)
+		)
+	)
+)
