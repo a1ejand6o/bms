@@ -359,12 +359,102 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1",
+          "name": "Supplier_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1 P/N",
+          "name": "Supplier_1 P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1 Price @ QTY",
+          "name": "Supplier_1 Price @ QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1 Unit Price",
+          "name": "Supplier_1 Unit Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_2",
+          "name": "Supplier_2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_2 P/N",
+          "name": "Supplier_2 P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_2 Price @ QTY",
+          "name": "Supplier_2 Price @ QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_2 Unit Price",
+          "name": "Supplier_2 Unit Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR P/N",
+          "name": "MFR P/N",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -414,8 +504,8 @@
       "Root"
     ],
     [
-      "9364b786-ab76-48f0-917a-74b98e30a261",
-      "main"
+      "2982e12c-39cd-4158-a648-a90b7f6b527c",
+      "Outputs"
     ],
     [
       "fb11fb4b-d26e-4f92-a711-2d1664bdbd55",
@@ -423,15 +513,7 @@
     ],
     [
       "93f9b420-7cce-46a9-9201-666f07a18f85",
-      "main1"
-    ],
-    [
-      "d98fdb38-dbd9-4613-8402-dc473e6cf2ba",
-      "BMS"
-    ],
-    [
-      "72bfe5e0-3464-488b-90f8-8143600a08cb",
-      "Inputs"
+      "main"
     ],
     [
       "72bfe5e0-3464-488b-90f8-8143600a08cb",
