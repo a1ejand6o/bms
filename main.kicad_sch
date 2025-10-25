@@ -15,6 +15,16 @@
 		)
 		(uuid "03ee0f47-eac2-4dc1-88f2-9a41a55c7593")
 	)
+	(wire
+		(pts
+			(xy 158.75 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae65acbe-250e-4f9a-9d8b-bbdf380aa3d8")
+	)
 	(sheet
 		(at 203.2 82.55)
 		(size 12.7 29.21)
@@ -114,7 +124,7 @@
 	)
 	(sheet
 		(at 120.65 87.63)
-		(size 38.1 15.24)
+		(size 38.1 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -138,8 +148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "controller.kicad_sch"
-			(at 120.65 103.4546 0)
+		(property "Sheetfile" "bossmodeshi.kicad_sch"
+			(at 120.65 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,13 +168,90 @@
 			)
 		)
 		(pin "C6" input
-			(at 120.65 90.17 180)
+			(at 120.65 88.9 180)
 			(uuid "66ab6c7b-a29c-4ba2-9bb1-f8aaef09645e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BATT-" output
+			(at 158.75 99.06 0)
+			(uuid "3b49cdb3-a916-4b5d-9690-27ff4adccb1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "C5" input
+			(at 120.65 91.44 180)
+			(uuid "ed0156c5-45f9-4b10-a517-4d959cae9b25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "C0" input
+			(at 120.65 104.14 180)
+			(uuid "16d82c65-0d70-471e-85e5-2fad78fd0696")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "C1" input
+			(at 120.65 101.6 180)
+			(uuid "bcd06a04-feab-41ad-9008-ed1a6dc8b676")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "C2" input
+			(at 120.65 99.06 180)
+			(uuid "81aa50f1-44d6-43c9-9d50-59cc891184ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "C3" input
+			(at 120.65 96.52 180)
+			(uuid "5c054e98-8bca-4725-b0fe-88edeb11da4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "C4" input
+			(at 120.65 93.98 180)
+			(uuid "61e32ce3-e54a-4f57-b7c4-7e72c1fc35b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85"
+					(page "")
+				)
 			)
 		)
 	)
