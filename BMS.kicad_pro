@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -272,13 +272,55 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "HVBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 12
+      },
+      {
+        "name": "cells",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/main/BMS/BATT+": [
+        "HVBUS"
+      ],
+      "/main/BMS/C1": [
+        "cells"
+      ],
+      "/main/BMS/C2": [
+        "cells"
+      ],
+      "/main/BMS/C3": [
+        "cells"
+      ],
+      "/main/BMS/C4": [
+        "cells"
+      ],
+      "/main/BMS/C5": [
+        "cells"
+      ],
+      "/main/BMS/C6": [
+        "cells"
+      ],
+      "/main/BMS/PGNDE": [
+        "HVBUS"
+      ],
+      "GND": [
+        "cells"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -516,8 +558,12 @@
       "main"
     ],
     [
+      "959b991c-ec85-4b75-adc9-c8d386142e8b",
+      "tc_inputs"
+    ],
+    [
       "72bfe5e0-3464-488b-90f8-8143600a08cb",
-      "Inputs"
+      "cell_inputs"
     ],
     [
       "d98fdb38-dbd9-4613-8402-dc473e6cf2ba",
