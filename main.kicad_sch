@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 173.99 86.36) (xy 194.31 86.36)
+			(xy 173.99 74.93) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 194.31 88.9)
+			(xy 173.99 77.47) (xy 194.31 77.47)
 		)
 		(stroke
 			(width 0)
@@ -45,15 +45,15 @@
 		)
 		(uuid "400eda1a-d907-41c7-8ecf-60dd05e4a9e6")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 157.48 77.47) (xy 157.48 83.82)
+			(xy 109.22 69.85) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4798fbb0-d99d-439e-a9d5-9209dc4a98d9")
+		(uuid "5e5eb2a6-bfd7-43ed-a285-8ae6d7b6e441")
 	)
 	(wire
 		(pts
@@ -67,6 +67,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 67.31) (xy 132.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a89b66-4c43-4be4-9136-04c5aad2c26e")
+	)
+	(wire
+		(pts
 			(xy 109.22 101.6) (xy 132.08 101.6)
 		)
 		(stroke
@@ -75,15 +85,15 @@
 		)
 		(uuid "97b7b466-5e7a-4f33-b211-881bd8b0f9c6")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 194.31 77.47) (xy 157.48 77.47)
+			(xy 109.22 72.39) (xy 132.08 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5e2c0ce-4241-47a5-ab4e-666c33cc9d10")
+		(uuid "9fb1f797-5656-4db0-bb5e-19eb88065f9e")
 	)
 	(wire
 		(pts
@@ -94,6 +104,16 @@
 			(type default)
 		)
 		(uuid "b52c5760-6e9a-438a-b484-ac3708cc6708")
+	)
+	(wire
+		(pts
+			(xy 109.22 64.77) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b20a34-1ae1-4709-83d1-0e46bdec0147")
 	)
 	(wire
 		(pts
@@ -115,6 +135,16 @@
 		)
 		(uuid "ecab7fbf-42bf-4b19-95d7-1401c19b295b")
 	)
+	(bus
+		(pts
+			(xy 173.99 87.63) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e54f2b-87cf-4bad-bf55-32c7caa1fd9b")
+	)
 	(rule_area
 		(polyline
 			(pts
@@ -133,7 +163,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 181.61 90.17) (xy 181.61 85.09) (xy 186.69 85.09) (xy 186.69 90.17)
+				(xy 181.61 78.74) (xy 181.61 73.66) (xy 186.69 73.66) (xy 186.69 78.74)
 			)
 			(stroke
 				(width 0)
@@ -148,7 +178,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 184.15 85.09 0)
+		(at 184.15 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -158,7 +188,7 @@
 		)
 		(uuid "0de51687-a0c7-4a40-826d-35f5e88dcbd9")
 		(property "Netclass" "HVBUS"
-			(at 184.8485 82.55 0)
+			(at 184.8485 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +197,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -57.15 -15.24 0)
+			(at -57.15 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,8 +238,8 @@
 		)
 	)
 	(sheet
-		(at 194.31 74.93)
-		(size 12.7 16.51)
+		(at 194.31 66.04)
+		(size 12.7 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -224,7 +254,7 @@
 		)
 		(uuid "2982e12c-39cd-4158-a648-a90b7f6b527c")
 		(property "Sheetname" "Outputs"
-			(at 194.31 74.2184 0)
+			(at 194.31 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +272,7 @@
 			)
 		)
 		(pin "BATT+" input
-			(at 194.31 86.36 180)
+			(at 194.31 74.93 180)
 			(uuid "ea25061b-25be-4c2b-a175-a617b2244da2")
 			(effects
 				(font
@@ -252,7 +282,7 @@
 			)
 		)
 		(pin "BATT-" input
-			(at 194.31 88.9 180)
+			(at 194.31 77.47 180)
 			(uuid "7fe71295-7bd5-49c0-97bb-3777c693cb93")
 			(effects
 				(font
@@ -262,7 +292,7 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 194.31 77.47 180)
+			(at 194.31 87.63 180)
 			(uuid "b4077095-a61b-49a9-bf70-e759a32f73e6")
 			(effects
 				(font
@@ -392,7 +422,7 @@
 		)
 	)
 	(sheet
-		(at 194.31 97.79)
+		(at 96.52 60.96)
 		(size 12.7 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -408,7 +438,7 @@
 		)
 		(uuid "959b991c-ec85-4b75-adc9-c8d386142e8b")
 		(property "Sheetname" "tc_inputs"
-			(at 194.31 97.0784 0)
+			(at 96.52 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +447,7 @@
 			)
 		)
 		(property "Sheetfile" "tc_inputs.kicad_sch"
-			(at 194.31 112.3446 0)
+			(at 96.52 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,43 +456,43 @@
 			)
 		)
 		(pin "NTC1" output
-			(at 194.31 100.33 180)
+			(at 109.22 72.39 0)
 			(uuid "b642194c-a1e0-4687-8b0d-5efc8e1376e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "NTC2" output
-			(at 194.31 102.87 180)
+			(at 109.22 69.85 0)
 			(uuid "65ac8a49-83a4-4e25-b2c7-65bae93ddcca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "NTC3" output
-			(at 194.31 105.41 180)
+			(at 109.22 67.31 0)
 			(uuid "f3b9514a-2bf3-41e2-9048-997e268a29f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "NTC4" output
-			(at 194.31 107.95 180)
+			(at 109.22 64.77 0)
 			(uuid "7293496c-27ed-4abe-a044-1bfa57568adf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -474,8 +504,8 @@
 		)
 	)
 	(sheet
-		(at 132.08 83.82)
-		(size 41.91 27.94)
+		(at 132.08 60.96)
+		(size 41.91 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -490,7 +520,7 @@
 		)
 		(uuid "d98fdb38-dbd9-4613-8402-dc473e6cf2ba")
 		(property "Sheetname" "BMS"
-			(at 132.08 83.1084 0)
+			(at 132.08 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +539,7 @@
 			)
 		)
 		(pin "BATT+" output
-			(at 173.99 86.36 0)
+			(at 173.99 74.93 0)
 			(uuid "417a4974-3a85-4ddb-bc55-21609dea5c5b")
 			(effects
 				(font
@@ -529,7 +559,7 @@
 			)
 		)
 		(pin "BATT-" output
-			(at 173.99 88.9 0)
+			(at 173.99 77.47 0)
 			(uuid "3b49cdb3-a916-4b5d-9690-27ff4adccb1e")
 			(effects
 				(font
@@ -599,13 +629,53 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 157.48 83.82 90)
+			(at 173.99 87.63 0)
 			(uuid "8eeb15a0-0823-458e-994b-95130a68d1ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "NTC1" input
+			(at 132.08 72.39 180)
+			(uuid "1ef626a4-28d2-43a8-8034-1e2ea3996dd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC2" input
+			(at 132.08 69.85 180)
+			(uuid "b956a955-b067-48d7-b2b2-00c79a914d90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC3" input
+			(at 132.08 67.31 180)
+			(uuid "f104d687-012b-4dac-ad00-832623f018a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC4" input
+			(at 132.08 64.77 180)
+			(uuid "abf8b46a-f469-4524-9da5-18ab81781be1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
