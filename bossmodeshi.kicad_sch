@@ -2149,7 +2149,7 @@
 		(uuid "12ff36ec-a3dc-4afa-8d8e-219db423303c")
 	)
 	(junction
-		(at 71.12 48.26)
+		(at 140.97 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "174901bd-cfbd-472e-9c52-c143eaf2c5a6")
@@ -2257,7 +2257,7 @@
 		(uuid "865b6360-6a5e-4e3c-840b-e39c174583f3")
 	)
 	(junction
-		(at 271.78 48.26)
+		(at 266.7 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87236682-4978-4c70-a450-89312bde77e2")
@@ -2341,7 +2341,7 @@
 		(uuid "e1668d4b-d2e4-448a-b95d-9b57adeeee3e")
 	)
 	(junction
-		(at 278.13 48.26)
+		(at 273.05 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e52c1e2e-0348-47e1-88c4-0cf89eb55a33")
@@ -2696,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 48.26) (xy 71.12 55.88)
+			(xy 140.97 48.26) (xy 140.97 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 48.26) (xy 271.78 48.26)
+			(xy 273.05 48.26) (xy 266.7 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 48.26) (xy 171.45 48.26)
+			(xy 140.97 48.26) (xy 171.45 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2916,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 62.23) (xy 278.13 67.31)
+			(xy 273.05 62.23) (xy 273.05 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 67.31) (xy 278.13 67.31)
+			(xy 266.7 67.31) (xy 273.05 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 54.61) (xy 271.78 48.26)
+			(xy 266.7 54.61) (xy 266.7 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3416,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 54.61) (xy 278.13 48.26)
+			(xy 273.05 54.61) (xy 273.05 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 48.26) (xy 271.78 48.26)
+			(xy 238.76 48.26) (xy 266.7 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3546,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 67.31) (xy 271.78 62.23)
+			(xy 266.7 67.31) (xy 266.7 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3896,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 48.26) (xy 313.69 48.26)
+			(xy 273.05 48.26) (xy 313.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4036,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 71.12 48.26)
+			(xy 49.53 48.26) (xy 140.97 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4116,7 +4116,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 71.12 63.5)
+			(xy 140.97 66.04) (xy 140.97 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4535,7 +4535,7 @@
 		(uuid "c892b8c3-b97a-4950-9f8f-870f38a39629")
 	)
 	(label "PGND-E"
-		(at 278.13 67.31 0)
+		(at 273.05 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4960,163 +4960,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_MG")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 238.76 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "054d4df6-2641-4f0e-8996-a9225ff4dacd")
-		(property "Reference" "D_DSG_VGS"
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "16 V"
-			(at 243.84 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 238.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "987e78cc-89fa-4dc6-9134-3c318f5356d1")
-		)
-		(pin "1"
-			(uuid "76e98192-3f02-4369-8552-268f62513793")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "D_DSG_VGS")
 					(unit 1)
 				)
 			)
@@ -7123,7 +6966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M_CHG"
+		(property "Value" "PSMN3R7-100BSE"
 			(at 187.198 44.45 90)
 			(effects
 				(font
@@ -7132,7 +6975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 193.04 45.72 0)
 			(effects
 				(font
@@ -7186,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia USA Inc."
 			(at 190.5 50.8 90)
 			(effects
 				(font
@@ -7195,7 +7038,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "PSMN3R7-100BSEJ"
 			(at 190.5 50.8 90)
 			(effects
 				(font
@@ -7204,7 +7047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "Digikey"
 			(at 190.5 50.8 90)
 			(effects
 				(font
@@ -7213,7 +7056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "1727-PSMN3R7-100BSEJTR-ND"
 			(at 190.5 50.8 90)
 			(effects
 				(font
@@ -7222,7 +7065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" ""
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 190.5 50.8 90)
 			(effects
 				(font
@@ -7231,7 +7074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "6.51"
 			(at 190.5 50.8 90)
 			(effects
 				(font
@@ -7269,6 +7112,42 @@
 		)
 		(property "Supplier_2 Unit Price" ""
 			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8584,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 278.13 58.42 0)
+		(at 273.05 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8713,7 +8592,7 @@
 		(dnp no)
 		(uuid "4e1616c8-44a5-4a6c-95a7-aef6f5b775c1")
 		(property "Reference" "C_PACK_E"
-			(at 283.718 58.42 90)
+			(at 278.638 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8600,7 @@
 			)
 		)
 		(property "Value" "47 μF"
-			(at 281.94 58.42 90)
+			(at 276.86 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +8608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.0952 62.23 0)
+			(at 274.0152 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +8617,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4125_A785.pdf"
-			(at 278.13 58.42 0)
+			(at 273.05 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8626,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 278.13 58.42 0)
+			(at 273.05 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,7 +8635,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +8644,7 @@
 			)
 		)
 		(property "MFR P/N" "A785KN476M1JLAS045"
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +8653,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +8662,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "399-A785KN476M1JLAS045TR-ND"
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8671,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" "0.97"
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8680,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "1"
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8689,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +8698,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,7 +8707,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,7 +8716,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 278.13 58.42 90)
+			(at 273.05 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,6 +9495,199 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "C_CP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 238.76 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b8ab738-0798-4942-94f8-5f782a465744")
+		(property "Reference" "D_CHG_VGS1"
+			(at 243.84 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSMF4L16A"
+			(at 242.062 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-tpsmf4l-datasheet?assetguid=b90307ca-11e1-4891-9cbd-b9c54d21a402"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 16VWM 26VC SOD123F"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Littelfuse Inc."
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "TPSMF4L16A"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "F7539TR-ND"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.15000"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9c93f0b-b186-4b08-abe5-b4ed5689eb51")
+		)
+		(pin "1"
+			(uuid "5b5c655d-41b3-43da-b380-2b779f2a5dee")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "D_CHG_VGS1")
 					(unit 1)
 				)
 			)
@@ -10582,7 +10654,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 71.12 59.69 270)
+		(at 140.97 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10590,7 +10662,7 @@
 		(dnp no)
 		(uuid "7d550e2f-8dd8-42f1-abe6-321ea106471e")
 		(property "Reference" "D_BATT"
-			(at 74.168 60.96 90)
+			(at 144.018 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10671,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.58 57.404 0)
+			(at 138.43 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10698,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10707,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10716,7 @@
 			)
 		)
 		(property "MFR P/N" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10653,7 +10725,7 @@
 			)
 		)
 		(property "Supplier_1" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10734,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +10743,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +10752,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +10761,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10770,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +10779,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10788,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10797,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10806,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10815,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10752,7 +10824,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 71.12 59.69 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +10849,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 271.78 58.42 270)
+		(at 266.7 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10785,7 +10857,7 @@
 		(dnp no)
 		(uuid "8102c496-91a9-4f90-a306-c88b9612e53b")
 		(property "Reference" "D_PACK_E"
-			(at 266.954 54.356 0)
+			(at 261.874 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10794,7 +10866,7 @@
 			)
 		)
 		(property "Value" "3.3 V"
-			(at 269.24 56.134 0)
+			(at 264.16 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +10875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +10884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +10893,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +10902,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,7 +10911,7 @@
 			)
 		)
 		(property "MFR P/N" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10920,7 @@
 			)
 		)
 		(property "Supplier_1" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +10929,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +10938,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +10947,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +10956,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +10965,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10902,7 +10974,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10911,7 +10983,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 271.78 58.42 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +11184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M_DSG"
+		(property "Value" "PSMN020-100YS"
 			(at 226.06 41.656 90)
 			(effects
 				(font
@@ -11121,7 +11193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
 			(at 220.98 45.72 0)
 			(effects
 				(font
@@ -11175,7 +11247,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia USA Inc."
 			(at 223.52 50.8 90)
 			(effects
 				(font
@@ -11184,7 +11256,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "PSMN020-100YS,115"
 			(at 223.52 50.8 90)
 			(effects
 				(font
@@ -11193,7 +11265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "Digikey"
 			(at 223.52 50.8 90)
 			(effects
 				(font
@@ -11202,7 +11274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "1727-4286-2-ND"
 			(at 223.52 50.8 90)
 			(effects
 				(font
@@ -11211,7 +11283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" ""
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 223.52 50.8 90)
 			(effects
 				(font
@@ -11220,7 +11292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "2.09000"
 			(at 223.52 50.8 90)
 			(effects
 				(font
@@ -11258,6 +11330,42 @@
 		)
 		(property "Supplier_2 Unit Price" ""
 			(at 223.52 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 223.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,7 +13728,7 @@
 				)
 			)
 		)
-		(property "Value" "16 V"
+		(property "Value" "TPSMF4L16A"
 			(at 166.878 57.912 0)
 			(effects
 				(font
@@ -13628,7 +13736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13637,7 +13745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-tpsmf4l-datasheet?assetguid=b90307ca-11e1-4891-9cbd-b9c54d21a402"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13646,7 +13754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "TVS DIODE 16VWM 26VC SOD123F"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13655,7 +13763,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Littelfuse Inc."
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13664,7 +13772,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "TPSMF4L16A"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13673,7 +13781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "Digikey"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13682,7 +13790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "F7539TR-ND"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13691,7 +13799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" ""
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13700,7 +13808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "0.15000"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -13737,6 +13845,42 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -14274,7 +14418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 66.04 0)
+		(at 140.97 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14282,7 +14426,7 @@
 		(dnp no)
 		(uuid "f000f75c-d49d-43e4-87cc-904ae219e969")
 		(property "Reference" "#PWR012"
-			(at 71.12 72.39 0)
+			(at 140.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14291,7 +14435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 69.85 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,7 +14443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 66.04 0)
+			(at 140.97 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14308,7 +14452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 66.04 0)
+			(at 140.97 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14317,7 +14461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 66.04 0)
+			(at 140.97 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
