@@ -2155,6 +2155,12 @@
 		(uuid "174901bd-cfbd-472e-9c52-c143eaf2c5a6")
 	)
 	(junction
+		(at 124.46 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21b259af-0d25-445b-a0c0-7e2bdc5ea766")
+	)
+	(junction
 		(at 233.68 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2197,12 +2203,6 @@
 		(uuid "4e585d8d-ac28-41f5-85ef-091a84465a71")
 	)
 	(junction
-		(at 109.22 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e854927-79f8-4e01-b0b9-17675ba5f6f9")
-	)
-	(junction
 		(at 71.12 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2225,6 +2225,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69a075a9-5ab6-44f7-b06f-8cef9b44bb25")
+	)
+	(junction
+		(at 109.22 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bbae949-7997-488f-8a90-570c986a7ee9")
 	)
 	(junction
 		(at 71.12 121.92)
@@ -2290,13 +2296,7 @@
 		(at 140.97 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "963bbc98-b9b2-4d90-90d9-d5c7ce3de3cf")
-	)
-	(junction
-		(at 124.46 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c215046-a186-4520-be7d-4f563b41051c")
+		(uuid "9e2a8e2c-4986-4be2-89ce-b094678bbc61")
 	)
 	(junction
 		(at 71.12 147.32)
@@ -2566,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 146.05) (xy 162.56 146.05)
+			(xy 123.19 146.05) (xy 124.46 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 149.86) (xy 162.56 149.86)
+			(xy 139.7 149.86) (xy 140.97 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3116,16 +3116,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 149.86) (xy 140.97 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5652b93f-c6bd-4e34-a045-a1a9c689163e")
-	)
-	(wire
-		(pts
 			(xy 157.48 161.29) (xy 177.8 161.29)
 		)
 		(stroke
@@ -3226,6 +3216,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 146.05) (xy 162.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62197f7d-7beb-419d-91ca-3da5cb28676c")
+	)
+	(wire
+		(pts
 			(xy 59.69 134.62) (xy 71.12 134.62)
 		)
 		(stroke
@@ -3233,6 +3233,16 @@
 			(type default)
 		)
 		(uuid "647549d0-dc0f-49b3-8cc7-b353c4cf58fa")
+	)
+	(wire
+		(pts
+			(xy 140.97 149.86) (xy 162.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665325a1-cfe4-4120-b2d2-67591ec51ee1")
 	)
 	(wire
 		(pts
@@ -3463,16 +3473,6 @@
 			(type default)
 		)
 		(uuid "84f12941-77e6-4b17-a3dd-9cff2a90146f")
-	)
-	(wire
-		(pts
-			(xy 123.19 146.05) (xy 124.46 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8845d22f-07d1-4d7c-9b25-5d2981496d41")
 	)
 	(wire
 		(pts
@@ -4056,16 +4056,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 142.24) (xy 162.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db237a17-8334-42d1-a03d-ad4f03eb78f6")
-	)
-	(wire
-		(pts
 			(xy 233.68 62.23) (xy 233.68 66.04)
 		)
 		(stroke
@@ -4073,6 +4063,16 @@
 			(type default)
 		)
 		(uuid "db991d97-0f18-4d39-b97f-74cf3c169e55")
+	)
+	(wire
+		(pts
+			(xy 109.22 142.24) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc25bbf2-0cd8-4374-8320-4aaf2aa1e8bb")
 	)
 	(wire
 		(pts
@@ -7971,166 +7971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 124.46 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46fe8ad4-1444-4ee0-b886-f02110c67099")
-		(property "Reference" "R4"
-			(at 127 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 127 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.682 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 124.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3b75b11-339d-451e-b8bb-f4cc198cf397")
-		)
-		(pin "2"
-			(uuid "74fbc5ae-15ed-4b0a-b373-27a8f4ca1111")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 140.97 187.96 270)
 		(unit 1)
@@ -10110,7 +9950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10119,7 +9959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10128,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "Panasonic Electronic Components"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10137,7 +9977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "ERA-3AEB103V"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10146,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "DigiKey"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10155,7 +9995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "P10KDBTR-ND"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10164,7 +10004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "0.10"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10173,7 +10013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" ""
+		(property "Supplier_1 Price @ Qty" "1"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -10428,16 +10268,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 153.67 0)
+		(at 124.46 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "713e8bc1-dfbb-4a85-b82c-1f3e36968590")
-		(property "Reference" "R3"
-			(at 143.51 152.3999 0)
+		(uuid "73a32d31-bade-4996-bf1f-0edc7dfb04a8")
+		(property "Reference" "R4"
+			(at 127 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10286,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 143.51 154.9399 0)
+			(at 127 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.192 153.67 90)
+			(at 122.682 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,8 +10303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 140.97 153.67 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,8 +10312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 140.97 153.67 0)
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10481,8 +10321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
-			(at 140.97 153.67 0)
+		(property "Mfr" "Panasonic Electronic Components"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10490,8 +10330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
-			(at 140.97 153.67 0)
+		(property "Mfr P/N" "ERA-3AEB103V"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,8 +10339,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
-			(at 140.97 153.67 0)
+		(property "Supplier_1" "DigiKey"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,8 +10348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
-			(at 140.97 153.67 0)
+		(property "Supplier_1 P/N" "P10KDBTR-ND"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,8 +10357,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
-			(at 140.97 153.67 0)
+		(property "Supplier_1 Unit Price" "0.10"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,8 +10366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 140.97 153.67 0)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10376,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 140.97 153.67 0)
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +10385,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 140.97 153.67 0)
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +10394,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 140.97 153.67 0)
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10563,7 +10403,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 140.97 153.67 0)
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,15 +10412,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c5e80ca-83a1-4b1c-98a4-fdda4500e365")
+			(uuid "5c8a5468-03f3-4afe-ae0f-7d9ada65c14a")
 		)
 		(pin "2"
-			(uuid "667b90cc-f5ca-429b-a798-66ae370bc578")
+			(uuid "51be6842-be3b-449d-91d9-3f2731834c14")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11803,6 +11643,166 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_PACK_FLT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d708c29-4ac3-4503-924f-f9fea0cf8635")
+		(property "Reference" "R5"
+			(at 111.76 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.76 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.442 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Panasonic Electronic Components"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "ERA-3AEB103V"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "P10KDBTR-ND"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc5664ea-37fc-4169-85f7-3ba3e7277267")
+		)
+		(pin "2"
+			(uuid "08d5feed-27e7-40db-9577-e4b8fefd4768")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14258,16 +14258,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 146.05 0)
+		(at 140.97 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef9e5c06-28c3-43ea-889b-61c7e13833e3")
-		(property "Reference" "R5"
-			(at 111.76 144.7799 0)
+		(uuid "e5aff45a-7e12-4b4e-a422-0491302c065f")
+		(property "Reference" "R3"
+			(at 143.51 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14276,7 +14276,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 111.76 147.3199 0)
+			(at 143.51 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14285,7 +14285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.442 146.05 90)
+			(at 139.192 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14293,8 +14293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 146.05 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14302,8 +14302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 109.22 146.05 0)
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14311,8 +14311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
-			(at 109.22 146.05 0)
+		(property "Mfr" "Panasonic Electronic Components"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14320,8 +14320,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
-			(at 109.22 146.05 0)
+		(property "Mfr P/N" "ERA-3AEB103V"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14329,8 +14329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
-			(at 109.22 146.05 0)
+		(property "Supplier_1" "DigiKey"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14338,8 +14338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
-			(at 109.22 146.05 0)
+		(property "Supplier_1 P/N" "P10KDBTR-ND"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14347,8 +14347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
-			(at 109.22 146.05 0)
+		(property "Supplier_1 Unit Price" "0.10"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14356,8 +14356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 109.22 146.05 0)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14366,7 +14366,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 109.22 146.05 0)
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14375,7 +14375,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 109.22 146.05 0)
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,7 +14384,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 109.22 146.05 0)
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14393,7 +14393,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 146.05 0)
+			(at 140.97 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14402,15 +14402,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "844dd219-93ae-47b7-896f-88f514935271")
+			(uuid "99e5ef44-9e95-428a-b53d-40fe0851b21a")
 		)
 		(pin "2"
-			(uuid "1cd167a2-bcde-4af8-81e2-42258eedc298")
+			(uuid "d80df00b-c1a4-4963-9b4d-f5efebb4918d")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
