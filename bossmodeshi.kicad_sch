@@ -4254,7 +4254,7 @@
 		)
 		(uuid "ff504baa-1530-413d-b349-1db8d938aa5a")
 	)
-	(label "C2"
+	(label "CELL_2"
 		(at 73.66 147.32 0)
 		(effects
 			(font
@@ -4264,7 +4264,7 @@
 		)
 		(uuid "00c51ffe-2aa5-4590-8eff-3ee89e9d38fe")
 	)
-	(label "C4"
+	(label "CELL_4"
 		(at 73.66 121.92 0)
 		(effects
 			(font
@@ -4274,35 +4274,15 @@
 		)
 		(uuid "04c97c9f-c6c4-415e-b989-d199e7c49432")
 	)
-	(label "C0"
-		(at 175.26 143.51 180)
+	(label "CELL_5"
+		(at 175.26 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "077db7ce-2040-4c36-ab80-5e115901acc9")
-	)
-	(label "C6"
-		(at 175.26 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07e67dfc-10b8-4959-8ace-44a51bbce9cd")
-	)
-	(label "C1"
-		(at 175.26 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e7fbf6d-ce01-4d3b-9e49-785b6a0383a4")
+		(uuid "0bc50073-e704-4fd8-a082-f3f4f836dba6")
 	)
 	(label "SDA"
 		(at 252.73 151.13 0)
@@ -4314,17 +4294,7 @@
 		)
 		(uuid "12f53da7-c449-4712-b73c-70426ba1147b")
 	)
-	(label "C10"
-		(at 175.26 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "220b6ddc-e693-474d-b2e4-38890cf868c7")
-	)
-	(label "C3"
+	(label "CELL_3"
 		(at 73.66 134.62 0)
 		(effects
 			(font
@@ -4334,7 +4304,7 @@
 		)
 		(uuid "3231c047-002d-48f8-bb06-f31cfdcd3af0")
 	)
-	(label "C6"
+	(label "CELL_6"
 		(at 73.66 96.52 0)
 		(effects
 			(font
@@ -4373,6 +4343,16 @@
 			(justify left bottom)
 		)
 		(uuid "4d0cf34f-f7c4-407d-aa1a-f6a5f1f3b805")
+	)
+	(label "CELL_6"
+		(at 175.26 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d5ff887-64f3-44c5-b8c0-e596379706fa")
 	)
 	(label "PGNDE"
 		(at 231.14 236.22 0)
@@ -4484,7 +4464,7 @@
 		)
 		(uuid "a762638d-467e-4b93-8875-d4bf753a5b18")
 	)
-	(label "C0"
+	(label "CELL_0"
 		(at 73.66 172.72 0)
 		(effects
 			(font
@@ -4494,15 +4474,15 @@
 		)
 		(uuid "a9c4b525-fbf4-461a-85b3-c5a9116eeeff")
 	)
-	(label "C3"
-		(at 175.26 135.89 180)
+	(label "CELL_4"
+		(at 175.26 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b0cbd2a9-f25e-407e-ac59-52fc15090037")
+		(uuid "aa54e0fd-d405-4fa0-9eef-38a39f2a64c1")
 	)
 	(label "SRP"
 		(at 199.39 199.39 0)
@@ -4564,15 +4544,15 @@
 		)
 		(uuid "d4cac376-de24-4d1a-99f8-6f4c1faa00fe")
 	)
-	(label "C5"
-		(at 175.26 130.81 180)
+	(label "CELL_3"
+		(at 175.26 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "dbf9e4bd-39f2-4496-8fc7-e45e831464d5")
+		(uuid "dcbe9b24-b84a-4360-8a66-891769131338")
 	)
 	(label "SCL"
 		(at 252.73 153.67 0)
@@ -4584,7 +4564,7 @@
 		)
 		(uuid "dd3767ff-fbfd-47be-8f44-85a51a8ff6a9")
 	)
-	(label "C5"
+	(label "CELL_5"
 		(at 73.66 109.22 0)
 		(effects
 			(font
@@ -4594,17 +4574,7 @@
 		)
 		(uuid "e2c52e9a-b471-40a8-a58a-75c116bae1d3")
 	)
-	(label "C4"
-		(at 175.26 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e480cc78-6a35-44c3-bc8c-158dc9bf30a5")
-	)
-	(label "C1"
+	(label "CELL_1"
 		(at 73.66 160.02 0)
 		(effects
 			(font
@@ -4643,16 +4613,6 @@
 			(justify left bottom)
 		)
 		(uuid "eff8923f-a698-4d7f-aa82-288bcb3749d6")
-	)
-	(label "C2"
-		(at 175.26 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2fc4130-25cb-4184-9520-3b6ac4e14c6e")
 	)
 	(hierarchical_label "BATT+"
 		(shape output)

@@ -320,6 +320,9 @@
       "/main/BMS/PGNDE": [
         "HVBUS"
       ],
+      "/main/BMS/TOP": [
+        "cells"
+      ],
       "GND": [
         "cells"
       ]
