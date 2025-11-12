@@ -2100,7 +2100,7 @@
 	)
 	(text "Top Battery (+) Terminal"
 		(exclude_from_sim no)
-		(at 63.754 45.974 0)
+		(at 61.976 46.736 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4274,6 +4274,16 @@
 		)
 		(uuid "04c97c9f-c6c4-415e-b989-d199e7c49432")
 	)
+	(label "CELL_1"
+		(at 175.26 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06652eaf-bb7b-421c-afc6-ca83f74dc4b3")
+	)
 	(label "CELL_5"
 		(at 175.26 130.81 180)
 		(effects
@@ -4335,7 +4345,7 @@
 		(uuid "4b6d1d01-a706-4283-a398-20449c38101f")
 	)
 	(label "TOP"
-		(at 71.12 48.26 0)
+		(at 78.74 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4363,6 +4373,16 @@
 			(justify left bottom)
 		)
 		(uuid "544c32f2-99b1-4761-aaa9-86760dd03d31")
+	)
+	(label "CELL_0"
+		(at 175.26 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ae14776-1bca-48fd-b389-4e69269dfbe1")
 	)
 	(label "SRP"
 		(at 173.99 146.05 0)
@@ -4543,6 +4563,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4cac376-de24-4d1a-99f8-6f4c1faa00fe")
+	)
+	(label "CELL_2"
+		(at 175.26 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db5cba9b-5737-41d5-b64e-363a7c2b0436")
 	)
 	(label "CELL_3"
 		(at 175.26 135.89 180)
@@ -13265,7 +13295,7 @@
 		(dnp no)
 		(uuid "c961e2b5-096f-4b4d-babd-81c0403c8851")
 		(property "Reference" "R_CELL_FLT6"
-			(at 55.88 100.838 90)
+			(at 55.88 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13273,7 +13303,7 @@
 			)
 		)
 		(property "Value" "100 Ω"
-			(at 55.88 99.06 90)
+			(at 55.88 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
