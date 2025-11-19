@@ -294,6 +294,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2119,12 +2245,6 @@
 		(uuid "d47dbc9d-5194-4872-ad0e-5b837ef8500f")
 	)
 	(junction
-		(at 59.69 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04cf1e08-4bd2-497e-8349-9de1a91f53bc")
-	)
-	(junction
 		(at 285.75 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2159,6 +2279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "174901bd-cfbd-472e-9c52-c143eaf2c5a6")
+	)
+	(junction
+		(at 58.42 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "189ab962-2b34-4b34-8cbb-bbfb1d28e635")
 	)
 	(junction
 		(at 151.13 139.7)
@@ -2201,6 +2327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "404ac9d6-8df0-460c-b1fb-3ac545fe2ddc")
+	)
+	(junction
+		(at 59.69 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44b32ece-6cb9-446a-9d6e-9a09a44d6ff0")
 	)
 	(junction
 		(at 151.13 154.94)
@@ -2275,6 +2407,12 @@
 		(uuid "709c0cd0-832e-49db-bd37-b14ed65694bc")
 	)
 	(junction
+		(at 58.42 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7150dba2-2d42-471d-91c7-da8e37800993")
+	)
+	(junction
 		(at 201.93 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2297,12 +2435,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea73bcd-ba26-469c-8a70-7406dce84b2c")
-	)
-	(junction
-		(at 58.42 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f62f984-2e9a-4398-ae35-3c3e57f12e8a")
 	)
 	(junction
 		(at 59.69 205.74)
@@ -2374,7 +2506,7 @@
 		(at 59.69 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae08b87f-9850-46b1-b152-4d885f4a922e")
+		(uuid "b12c86fd-b6c0-4f61-ab85-17343fd2a906")
 	)
 	(junction
 		(at 201.93 109.22)
@@ -2435,12 +2567,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b679b2-e18a-4c07-8040-7b66cc6190ed")
-	)
-	(junction
-		(at 58.42 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7a2b834-26cc-42dc-969d-e885ad366434")
 	)
 	(junction
 		(at 201.93 111.76)
@@ -3088,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 245.11) (xy 147.32 247.65)
+			(xy 147.32 245.11) (xy 147.32 248.92)
 		)
 		(stroke
 			(width 0)
@@ -3248,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 193.04) (xy 74.93 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0ae80e-2ee6-4184-a0b4-4f5cdbc4672a")
+	)
+	(wire
+		(pts
 			(xy 71.12 205.74) (xy 74.93 205.74)
 		)
 		(stroke
@@ -3385,16 +3521,6 @@
 			(type default)
 		)
 		(uuid "584b1992-f532-415e-843d-435438bad4fd")
-	)
-	(wire
-		(pts
-			(xy 147.32 255.27) (xy 147.32 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58980a31-4a70-4123-83ed-c0e581df9a1e")
 	)
 	(wire
 		(pts
@@ -3548,6 +3674,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 102.87) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69346381-f190-4c6c-8430-bc3d6dc6b0e1")
+	)
+	(wire
+		(pts
+			(xy 59.69 179.07) (xy 59.69 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69393773-f362-4930-ad72-d402912fa65f")
+	)
+	(wire
+		(pts
 			(xy 224.79 259.08) (xy 224.79 251.46)
 		)
 		(stroke
@@ -3575,6 +3721,16 @@
 			(type default)
 		)
 		(uuid "6da8e5cb-bc41-4493-a883-8793760aad8d")
+	)
+	(wire
+		(pts
+			(xy 58.42 110.49) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1d63e9-9065-41bf-9249-d8be4bf78eed")
 	)
 	(wire
 		(pts
@@ -3668,16 +3824,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 137.16) (xy 59.69 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb4bc3d-935c-476e-9602-d4af160744f6")
-	)
-	(wire
-		(pts
 			(xy 237.49 219.71) (xy 245.11 219.71)
 		)
 		(stroke
@@ -3765,6 +3911,16 @@
 			(type default)
 		)
 		(uuid "821458ad-2cae-4050-9480-879408a49db9")
+	)
+	(wire
+		(pts
+			(xy 147.32 254) (xy 147.32 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dbd0a7-b1d9-4a94-953f-296d3792531a")
 	)
 	(wire
 		(pts
@@ -3955,16 +4111,6 @@
 			(type default)
 		)
 		(uuid "940827a3-6038-403b-a97f-54a36a5328e5")
-	)
-	(wire
-		(pts
-			(xy 58.42 102.87) (xy 62.23 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959a2de3-ba5b-4f7b-b2f5-7e9e77d5047d")
 	)
 	(wire
 		(pts
@@ -4208,16 +4354,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 137.16) (xy 63.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f493b0-3306-4411-84ec-0700c028dc2d")
-	)
-	(wire
-		(pts
 			(xy 201.93 104.14) (xy 204.47 104.14)
 		)
 		(stroke
@@ -4238,6 +4374,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 213.36) (xy 59.69 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a14086-89b4-46ee-b068-a904a1f6f43c")
+	)
+	(wire
+		(pts
 			(xy 261.62 162.56) (xy 260.35 162.56)
 		)
 		(stroke
@@ -4248,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 171.45) (xy 63.5 171.45)
+			(xy 49.53 171.45) (xy 59.69 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4438,16 +4584,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 193.04) (xy 74.93 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf4c7ed-215a-40fc-b874-44ff71674672")
-	)
-	(wire
-		(pts
 			(xy 80.01 240.03) (xy 80.01 243.84)
 		)
 		(stroke
@@ -4475,6 +4611,26 @@
 			(type default)
 		)
 		(uuid "d205710a-ff66-423d-bd26-8c25f031cc3b")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 58.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2427a85-779d-4b76-af2c-85fd786f728e")
+	)
+	(wire
+		(pts
+			(xy 59.69 137.16) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30fe034-5e0f-474f-bed6-8f58869b9b85")
 	)
 	(wire
 		(pts
@@ -4528,6 +4684,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 144.78) (xy 59.69 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d83650-e22a-4cda-9154-d1c010430983")
+	)
+	(wire
+		(pts
 			(xy 237.49 250.19) (xy 342.9 250.19)
 		)
 		(stroke
@@ -4558,7 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 68.58) (xy 62.23 68.58)
+			(xy 49.53 68.58) (xy 58.42 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4648,16 +4814,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 68.58) (xy 58.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea2dc02-bcab-43e5-894c-16156ddb929c")
-	)
-	(wire
-		(pts
 			(xy 252.73 48.26) (xy 262.89 48.26)
 		)
 		(stroke
@@ -4665,6 +4821,16 @@
 			(type default)
 		)
 		(uuid "e17aca5a-c89a-4740-8ddb-6fff547aa3e3")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d47283-96f5-41bc-b7f1-bd623ffa17a5")
 	)
 	(wire
 		(pts
@@ -4798,16 +4964,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 171.45) (xy 59.69 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2332544-d6c6-4334-97fc-f322d9820e0c")
-	)
-	(wire
-		(pts
 			(xy 260.35 147.32) (xy 290.83 147.32)
 		)
 		(stroke
@@ -4825,6 +4981,16 @@
 			(type default)
 		)
 		(uuid "f43b882f-a043-4bbe-98aa-afcf15a8e676")
+	)
+	(wire
+		(pts
+			(xy 59.69 171.45) (xy 63.5 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44f8fb7-c6d3-44b6-94db-eec001e83f37")
 	)
 	(wire
 		(pts
@@ -4875,6 +5041,16 @@
 			(type default)
 		)
 		(uuid "f8f589f6-63f7-4057-aa49-0fda6bfe3e84")
+	)
+	(wire
+		(pts
+			(xy 49.53 137.16) (xy 59.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f959371e-92b0-435e-818f-7fff924f25e1")
 	)
 	(wire
 		(pts
@@ -5461,232 +5637,6 @@
 		(uuid "f77f9f8f-9355-458c-a77d-c93fccb7d649")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 60.96 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0196ba56-becc-4bcc-b84f-0d47e9379c5c")
-		(property "Reference" "MBAL_4"
-			(at 52.07 120.142 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 54.61 120.142 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 60.96 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "52e7d3b7-9473-42c6-a47f-2d19714fdfee")
-		)
-		(pin "1"
-			(uuid "7d3d5e93-5544-40dc-b0df-6d2ab44c5a07")
-		)
-		(pin "3"
-			(uuid "c3e950c0-3898-44a1-9654-9b1bc2316744")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "MBAL_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 252.73 41.91 180)
 		(unit 1)
@@ -5711,7 +5661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.508 41.91 90)
 			(effects
 				(font
@@ -5844,6 +5794,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 67.31 205.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a87f1d2-feb9-42d6-93da-f1efbda41d1f")
+		(property "Reference" "R_CELL_FLT1"
+			(at 67.31 210.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000 Ω"
+			(at 67.31 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 207.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 67.31 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
+			(at 67.31 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "ERA-3AEB102V"
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "P1.0KDBTR-ND"
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.1"
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 67.31 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a407ea1-b85a-44f9-89bf-3ee5c3660e29")
+		)
+		(pin "2"
+			(uuid "a6c9933c-1510-42d2-8346-66e1341acc72")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_CELL_FLT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 293.37 120.65 0)
 		(unit 1)
@@ -5868,7 +5975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 294.3352 124.46 0)
 			(effects
 				(font
@@ -6195,6 +6302,163 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 73.66 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ca36abb-a563-427e-b134-88c08e6b8dce")
+		(property "Reference" "R_GATE4"
+			(at 67.31 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 Ω"
+			(at 69.596 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 75.438 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCE.pdf"
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES PREC, 0603, 10 OHM,  0.1%, 2"
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RNCE0603BTE10R0"
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "738-RNCE0603BTE10R0TR-ND"
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.12"
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a69d3d-9e99-4feb-887f-de96f35980d4")
+		)
+		(pin "2"
+			(uuid "4561ad77-3746-442c-badc-08f1389e1ce6")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_GATE4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 237.49 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6381,6 +6645,163 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_SRN_FLT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 199.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1074d406-d28a-4169-8be2-cc871b582c20")
+		(property "Reference" "R_GATE2"
+			(at 68.58 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 Ω"
+			(at 70.866 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.708 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCE.pdf"
+			(at 74.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES PREC, 0603, 10 OHM,  0.1%, 2"
+			(at 74.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RNCE0603BTE10R0"
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "738-RNCE0603BTE10R0TR-ND"
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.12"
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 74.93 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2a625e-4a5e-4633-9d5c-3b0021844270")
+		)
+		(pin "2"
+			(uuid "0372fdc4-6e5e-4ca3-b4d8-862a6993409e")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_GATE2")
 					(unit 1)
 				)
 			)
@@ -6709,7 +7130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 297.18 155.2448 0)
 			(effects
 				(font
@@ -6843,40 +7264,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 68.58 90)
+		(at 58.42 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1d7cf55a-0e58-4b6e-b790-1533bbec936d")
-		(property "Reference" "R_CELL_FLT5"
-			(at 66.04 72.898 90)
+		(uuid "1be3115c-4835-455a-956a-aacb627a7e9b")
+		(property "Reference" "R_BAL_5"
+			(at 52.07 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100 Ω"
-			(at 66.04 71.12 90)
+		(property "Value" "43 Ω"
+			(at 54.356 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
-			(at 66.04 68.58 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 60.198 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,8 +7296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
-			(at 66.04 68.58 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,8 +7305,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Susumu"
-			(at 66.04 68.58 90)
+		(property "Description" "RES 43 OHM 1% 1W 2512"
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,8 +7314,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "RG1608P-101-B-T5"
-			(at 66.04 68.58 90)
+		(property "MFR" "YAGEO"
+			(at 58.42 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RC2512FK-0743RL"
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +7333,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 66.04 68.58 90)
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,8 +7341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "RG16P100BTR-ND"
-			(at 66.04 68.58 90)
+		(property "Supplier_1 P/N" "13-RC2512FK-0743RLTR-ND"
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,8 +7350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "0.10"
-			(at 66.04 68.58 90)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,8 +7359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 66.04 68.58 90)
+		(property "Supplier_1 Unit Price" "0.21"
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +7369,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 66.04 68.58 90)
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +7378,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 66.04 68.58 90)
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +7387,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 66.04 68.58 90)
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,7 +7396,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 66.04 68.58 90)
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,15 +7405,172 @@
 			)
 		)
 		(pin "1"
-			(uuid "84ccfbdb-bcf8-484b-a212-ed9875a4e7d0")
+			(uuid "9a35a703-adec-45ce-90bd-bb1b1251c369")
 		)
 		(pin "2"
-			(uuid "f39b964a-1938-43a5-ad90-3692462bec2c")
+			(uuid "773a337e-f82f-421d-8bad-7a84dbadafe6")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_CELL_FLT5")
+					(reference "R_BAL_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d2e68dc-4486-4ca5-a149-c806a1843aa7")
+		(property "Reference" "R_CELL_FLT2"
+			(at 67.31 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000 Ω"
+			(at 67.31 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "ERA-3AEB102V"
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "P1.0KDBTR-ND"
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.1"
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 67.31 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe64ad77-b110-4eb2-81b9-9f3e26eb3cea")
+		)
+		(pin "2"
+			(uuid "858503dd-118c-4087-8360-0bcb82efa988")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_CELL_FLT2")
 					(unit 1)
 				)
 			)
@@ -7059,6 +7637,232 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 60.96 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27c7ddc7-a0f5-4fec-8c1f-c1a35185451b")
+		(property "Reference" "MBAL_4"
+			(at 52.07 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 54.61 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_BMS:SC70-6"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/75570/sq1464eeh.pdf"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 440MA SC70-6"
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 60.96 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Siliconix"
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "SQ1464EEH-T1_GE3"
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "SQ1464EEH-T1_GE3TR-ND"
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.62"
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "577c90e9-21aa-47f0-84d0-c9e84ad570b9")
+		)
+		(pin "1"
+			(uuid "a30e7e45-2b23-4f52-918e-4db63ab73331")
+		)
+		(pin "3"
+			(uuid "511b697d-0735-4c03-8672-0e457768efe8")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "MBAL_4")
 					(unit 1)
 				)
 			)
@@ -7148,7 +7952,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ω"
+		(property "Value" "1000 Ω"
 			(at 66.04 242.57 90)
 			(effects
 				(font
@@ -7156,7 +7960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.04 241.808 90)
 			(effects
 				(font
@@ -7165,7 +7969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 66.04 240.03 0)
 			(effects
 				(font
@@ -7174,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
 			(at 66.04 240.03 0)
 			(effects
 				(font
@@ -7183,7 +7987,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Susumu"
+		(property "MFR" "Panasonic Electronic Components"
 			(at 66.04 240.03 90)
 			(effects
 				(font
@@ -7192,7 +7996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "RG1608P-101-B-T5"
+		(property "MFR P/N" "ERA-3AEB102V"
 			(at 66.04 240.03 90)
 			(effects
 				(font
@@ -7210,7 +8014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "RG16P100BTR-ND"
+		(property "Supplier_1 P/N" "P1.0KDBTR-ND"
 			(at 66.04 240.03 90)
 			(effects
 				(font
@@ -7219,7 +8023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "0.10"
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 66.04 240.03 90)
 			(effects
 				(font
@@ -7228,7 +8032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
+		(property "Supplier_1 Unit Price" "0.1"
 			(at 66.04 240.03 90)
 			(effects
 				(font
@@ -7313,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 289.56 162.2552 0)
 			(effects
 				(font
@@ -7446,634 +8250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 175.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d498edd-10e2-44d4-8922-723d137ccbe5")
-		(property "Reference" "R_BAL_2"
-			(at 53.34 175.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 55.626 176.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.468 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 59.69 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34bf872e-84bb-4f50-859a-8a85fcb6ebbb")
-		)
-		(pin "2"
-			(uuid "39dfa9d7-19c7-4781-a91e-7bf3f7e85c86")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 80.01 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ea48399-31f0-4ea3-9fa7-6b695af8f74e")
-		(property "Reference" "C_CELL_FLT3"
-			(at 87.376 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 85.09 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.0448 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM31C5C1H104FA16-01.pdf"
-			(at 80.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V C0G/NP0 1206"
-			(at 80.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" "GCM31C5C1H104FA16L"
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "0.98"
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 80.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f31e2098-82dc-4a57-b7f7-fadfe98dec79")
-		)
-		(pin "1"
-			(uuid "faa72f72-ad1b-4f79-9ee4-f322f0603779")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "C_CELL_FLT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3123cb1f-ad97-483d-b2ab-8938d303a93e")
-		(property "Reference" "R_BAL_3"
-			(at 53.34 141.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 55.626 141.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.468 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 59.69 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dd8fd27-c17c-49a7-b415-91434d872d8d")
-		)
-		(pin "2"
-			(uuid "d313349e-bda8-4fc2-b190-c6a72ecd46ac")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31cfcbb2-db56-41e4-89fc-b0035ccd3d44")
-		(property "Reference" "R_GATE4"
-			(at 67.564 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 Ω"
-			(at 69.596 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.438 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 73.66 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b9c2fa2-19cc-44a6-9017-905599663c7c")
-		)
-		(pin "2"
-			(uuid "ae2dc798-b425-4c14-8d7b-9d6d7a0f4238")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_GATE4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 157.48 270)
 		(unit 1)
@@ -8140,41 +8316,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 80.01 187.96 0)
+		(lib_id "Device:R")
+		(at 59.69 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "32ce480d-3675-43f7-b695-65dd83822d23")
-		(property "Reference" "C_CELL_FLT1"
-			(at 85.598 187.96 90)
+		(uuid "3207c873-0d01-4e01-8499-6b1c2240bf72")
+		(property "Reference" "R_BAL_2"
+			(at 53.34 175.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 83.312 187.96 90)
+		(property "Value" "43 Ω"
+			(at 55.626 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 80.9752 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM31C5C1H104FA16-01.pdf"
-			(at 80.01 187.96 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 61.468 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,8 +8349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V C0G/NP0 1206"
-			(at 80.01 187.96 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 59.69 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,8 +8358,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
-			(at 80.01 187.96 90)
+		(property "Description" "RES 43 OHM 1% 1W 2512"
+			(at 59.69 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,8 +8367,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "GCM31C5C1H104FA16L"
-			(at 80.01 187.96 90)
+		(property "MFR" "YAGEO"
+			(at 59.69 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RC2512FK-0743RL"
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8386,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 80.01 187.96 90)
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,8 +8394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
-			(at 80.01 187.96 90)
+		(property "Supplier_1 P/N" "13-RC2512FK-0743RLTR-ND"
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,8 +8403,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "0.98"
-			(at 80.01 187.96 90)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,8 +8412,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 80.01 187.96 90)
+		(property "Supplier_1 Unit Price" "0.21"
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8422,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 80.01 187.96 90)
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +8431,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 80.01 187.96 90)
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8440,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 80.01 187.96 90)
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8449,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 80.01 187.96 90)
+			(at 59.69 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,16 +8457,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7feda7d3-6b28-4f8a-b39f-13e67348061a")
-		)
 		(pin "1"
-			(uuid "6c672fa9-cec9-4105-a088-436be323173c")
+			(uuid "cde3f403-cd5c-412a-8fad-987d2678c63e")
+		)
+		(pin "2"
+			(uuid "c11da4d6-39bc-461b-9fbf-80220daf3ce6")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "C_CELL_FLT1")
+					(reference "R_BAL_2")
 					(unit 1)
 				)
 			)
@@ -8539,7 +8715,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "10 nF"
 			(at 83.312 220.98 90)
 			(effects
 				(font
@@ -8547,7 +8723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.9752 224.79 0)
 			(effects
 				(font
@@ -8556,7 +8732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM31C5C1H104FA16-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1087_U2J_FT-CAP_SMD"
 			(at 80.01 220.98 0)
 			(effects
 				(font
@@ -8565,7 +8741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V C0G/NP0 1206"
+		(property "Description" "CAP CER 10000PF 50V U2J 0603"
 			(at 80.01 220.98 0)
 			(effects
 				(font
@@ -8574,7 +8750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "KEMET"
 			(at 80.01 220.98 90)
 			(effects
 				(font
@@ -8583,7 +8759,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "GCM31C5C1H104FA16L"
+		(property "MFR P/N" "C0603X103F5JACTU"
 			(at 80.01 220.98 90)
 			(effects
 				(font
@@ -8601,7 +8777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
+		(property "Supplier_1 P/N" "399-13405-2-ND"
 			(at 80.01 220.98 90)
 			(effects
 				(font
@@ -8610,7 +8786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "0.98"
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 80.01 220.98 90)
 			(effects
 				(font
@@ -8619,7 +8795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
+		(property "Supplier_1 Unit Price" "0.93"
 			(at 80.01 220.98 90)
 			(effects
 				(font
@@ -8935,40 +9111,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 165.1 180)
+		(at 59.69 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "42e3d496-b6ef-4b3e-8cf3-495fdc447548")
-		(property "Reference" "R_GATE3"
-			(at 68.834 164.846 90)
+		(uuid "4319570d-1995-4051-bc3a-037571c99664")
+		(property "Reference" "R_BAL_3"
+			(at 53.34 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10 Ω"
-			(at 70.866 165.354 90)
+		(property "Value" "43 Ω"
+			(at 55.626 141.986 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.708 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 165.1 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 61.468 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,8 +9143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 74.93 165.1 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 59.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,8 +9152,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
-			(at 74.93 165.1 90)
+		(property "Description" "RES 43 OHM 1% 1W 2512"
+			(at 59.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,8 +9161,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
-			(at 74.93 165.1 90)
+		(property "MFR" "YAGEO"
+			(at 59.69 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RC2512FK-0743RL"
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +9180,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 74.93 165.1 90)
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,8 +9188,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
-			(at 74.93 165.1 90)
+		(property "Supplier_1 P/N" "13-RC2512FK-0743RLTR-ND"
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +9198,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" "1"
-			(at 74.93 165.1 90)
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,8 +9206,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
-			(at 74.93 165.1 90)
+		(property "Supplier_1 Unit Price" "0.21"
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +9216,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 74.93 165.1 90)
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,7 +9225,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 74.93 165.1 90)
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +9234,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 74.93 165.1 90)
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9243,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 74.93 165.1 90)
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,15 +9252,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7dc56be4-a956-402a-aa75-59ff0233d577")
+			(uuid "88f5c036-6d57-4f73-907a-f4311e0331f4")
 		)
 		(pin "2"
-			(uuid "bb0ee386-bda6-43e6-8501-6a25055b0144")
+			(uuid "d9d36993-4e11-416f-bfcb-6a21dc433209")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_GATE3")
+					(reference "R_BAL_3")
 					(unit 1)
 				)
 			)
@@ -9953,7 +10129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 303.2252 44.45 0)
 			(effects
 				(font
@@ -9971,7 +10147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP1206 COG .047UF 1% 100V"
 			(at 302.26 40.64 0)
 			(effects
 				(font
@@ -10087,163 +10263,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e1f3a1b-33ac-42c9-975c-5faf4fb3faaa")
-		(property "Reference" "R_CELL_FLT4"
-			(at 66.04 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 Ω"
-			(at 66.04 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
-			(at 66.04 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
-			(at 66.04 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Susumu"
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" "RG1608P-101-B-T5"
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "RG16P100BTR-ND"
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "0.10"
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 66.04 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c24dccc-72a5-4879-b829-8fa0ece52842")
-		)
-		(pin "2"
-			(uuid "4cd33aec-3fba-4253-9cad-f8f069e1f81c")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_CELL_FLT4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 252.73 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10267,7 +10286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.508 59.69 90)
 			(effects
 				(font
@@ -10400,6 +10419,232 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 62.23 185.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53fca662-e0fd-4663-9c26-d5cf9d5006f0")
+		(property "Reference" "MBAL_2"
+			(at 53.34 188.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 55.88 188.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_BMS:SC70-6"
+			(at 57.15 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/75570/sq1464eeh.pdf"
+			(at 62.23 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 440MA SC70-6"
+			(at 62.23 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 62.23 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 62.23 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 62.23 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Siliconix"
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "SQ1464EEH-T1_GE3"
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "SQ1464EEH-T1_GE3TR-ND"
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.62"
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 62.23 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 62.23 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 62.23 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 62.23 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 62.23 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66972a88-fa42-4e1f-aa58-232d1b183b32")
+		)
+		(pin "1"
+			(uuid "1975e4d2-f314-401c-a1f6-fdb3c8897580")
+		)
+		(pin "3"
+			(uuid "3690f81d-61d2-41d3-957f-dd4e7b3703d3")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "MBAL_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 193.04 0)
 		(unit 1)
@@ -10467,163 +10712,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56e3d335-86e3-4ce4-9205-438e0ccb8616")
-		(property "Reference" "R_CELL_FLT2"
-			(at 67.31 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 Ω"
-			(at 67.31 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
-			(at 67.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
-			(at 67.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Susumu"
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" "RG1608P-101-B-T5"
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "RG16P100BTR-ND"
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "0.10"
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 67.31 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d0e3e8c-4e53-412b-8d51-d35e79133793")
-		)
-		(pin "2"
-			(uuid "57f66232-41e0-4f0d-9a17-b780152904d2")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_CELL_FLT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 74.93 233.68 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10647,7 +10735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.708 233.68 90)
 			(effects
 				(font
@@ -10656,7 +10744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCE.pdf"
 			(at 74.93 233.68 0)
 			(effects
 				(font
@@ -10665,7 +10753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES PREC, 0603, 10 OHM,  0.1%, 2"
 			(at 74.93 233.68 0)
 			(effects
 				(font
@@ -10674,7 +10762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 74.93 233.68 90)
 			(effects
 				(font
@@ -10683,7 +10771,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "RNCE0603BTE10R0"
 			(at 74.93 233.68 90)
 			(effects
 				(font
@@ -10701,7 +10789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "738-RNCE0603BTE10R0TR-ND"
 			(at 74.93 233.68 90)
 			(effects
 				(font
@@ -10719,7 +10807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "0.12"
 			(at 74.93 233.68 90)
 			(effects
 				(font
@@ -10774,6 +10862,163 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_GATE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58643b5f-9141-4cb4-b422-05b77e5ddbc1")
+		(property "Reference" "R_CELL_FLT6"
+			(at 66.04 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000 Ω"
+			(at 66.04 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "ERA-3AEB102V"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "P1.0KDBTR-ND"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.1"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be56a444-e68b-4111-8b9f-735d341d67a4")
+		)
+		(pin "2"
+			(uuid "4645e730-4fd9-4b90-8610-7e741f1a866c")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_CELL_FLT6")
 					(unit 1)
 				)
 			)
@@ -10871,7 +11116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 280.67 118.4148 0)
 			(effects
 				(font
@@ -11287,7 +11532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 221.488 41.91 90)
 			(effects
 				(font
@@ -11420,163 +11665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 80.01 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f7e179b-f5bf-4410-aca0-0f19068d8e62")
-		(property "Reference" "C_CELL_FLT2"
-			(at 86.868 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 84.582 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.0448 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM31C5C1H104FA16-01.pdf"
-			(at 80.01 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V C0G/NP0 1206"
-			(at 80.01 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" "GCM31C5C1H104FA16L"
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "0.98"
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 80.01 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc707b4c-d3a0-444b-9f5f-96e060c344eb")
-		)
-		(pin "1"
-			(uuid "54560a6f-3532-4f34-bbd0-a5a348a26f98")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "C_CELL_FLT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 151.13 0)
 		(unit 1)
@@ -11604,7 +11692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.372 151.13 90)
 			(effects
 				(font
@@ -11737,198 +11825,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e4cbc7c-348d-4434-96e6-757145614899")
-		(property "Reference" "R_GATE5"
-			(at 67.31 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 Ω"
-			(at 69.596 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.438 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 73.66 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e58c03d-dd72-42d0-bac8-38c99c9b20d8")
-		)
-		(pin "2"
-			(uuid "ecf575d8-5dd0-433c-8c70-ef26e2da3ffd")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_GATE5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 80.01 85.09 0)
+		(at 80.01 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e587889-7b6b-4a7a-b201-a478cf981f72")
-		(property "Reference" "C_CELL_FLT4"
-			(at 85.598 85.09 90)
+		(uuid "68c7bb71-7c03-4503-847d-6f955c4e15eb")
+		(property "Reference" "C_CELL_FLT1"
+			(at 85.598 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 83.312 85.09 90)
+		(property "Value" "10 nF"
+			(at 83.312 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 80.9752 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM31C5C1H104FA16-01.pdf"
-			(at 80.01 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.9752 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,8 +11858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V C0G/NP0 1206"
-			(at 80.01 85.09 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1087_U2J_FT-CAP_SMD"
+			(at 80.01 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11945,8 +11867,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
-			(at 80.01 85.09 90)
+		(property "Description" "CAP CER 10000PF 50V U2J 0603"
+			(at 80.01 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11954,8 +11876,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "GCM31C5C1H104FA16L"
-			(at 80.01 85.09 90)
+		(property "MFR" "KEMET"
+			(at 80.01 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "C0603X103F5JACTU"
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,7 +11895,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 80.01 85.09 90)
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,231 +11903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "0.98"
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 80.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 80.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 80.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 80.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd9989e4-9323-4b78-b047-58c7bd674c1e")
-		)
-		(pin "1"
-			(uuid "cf404bfb-7bcc-4ba5-b76b-04fb104125f9")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "C_CELL_FLT4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 62.23 185.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "728789c2-d4c3-4e40-9bb6-1ebd8cb9dce6")
-		(property "Reference" "MBAL_2"
-			(at 53.34 188.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 55.88 188.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 62.23 202.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 62.23 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 62.23 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 62.23 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 62.23 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 62.23 185.42 90)
+		(property "Supplier_1 P/N" "399-13405-2-ND"
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12205,7 +11913,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" "1"
-			(at 62.23 185.42 90)
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12213,8 +11921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
-			(at 62.23 185.42 90)
+		(property "Supplier_1 Unit Price" "0.93"
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12223,7 +11931,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 62.23 185.42 90)
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12232,7 +11940,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 62.23 185.42 90)
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12241,7 +11949,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 62.23 185.42 90)
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,43 +11958,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 62.23 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 62.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 62.23 185.42 0)
+			(at 80.01 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,18 +11967,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "23b28de3-335c-499b-93f0-21a7085ad390")
+			(uuid "0cd1ab75-9ab6-4b1a-9987-66312ca77c3f")
 		)
 		(pin "1"
-			(uuid "ace8217b-a464-4af8-8e38-eab857a08a98")
-		)
-		(pin "3"
-			(uuid "3674ddca-a0e9-4a92-8d58-211613e64683")
+			(uuid "ae6b1eab-168d-4ae8-83db-14d8b216f22d")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "MBAL_2")
+					(reference "C_CELL_FLT1")
 					(unit 1)
 				)
 			)
@@ -12407,7 +12076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.352 143.51 90)
 			(effects
 				(font
@@ -12600,6 +12269,163 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7734ccfc-7770-47a3-8f61-5346d5c02f9f")
+		(property "Reference" "C_CELL_FLT5"
+			(at 85.598 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 nF"
+			(at 83.312 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.9752 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1087_U2J_FT-CAP_SMD"
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10000PF 50V U2J 0603"
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "C0603X103F5JACTU"
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "399-13405-2-ND"
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.93"
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "331359fa-d11d-4a73-b993-743124c0db22")
+		)
+		(pin "1"
+			(uuid "1389097b-1035-497e-bd99-13742b3be0fc")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "C_CELL_FLT5")
 					(unit 1)
 				)
 			)
@@ -12801,232 +12627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 60.96 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8009e2d2-2cb5-44b0-8840-19c7ec26a7b7")
-		(property "Reference" "MBAL_5"
-			(at 52.07 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 54.61 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 60.96 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 60.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 60.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 60.96 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0680612-dfba-4bed-a4c8-7518eca8a77b")
-		)
-		(pin "1"
-			(uuid "2ea654af-79c7-47cb-9877-6225d296f32f")
-		)
-		(pin "3"
-			(uuid "93fb75fe-841f-441e-814b-db8a5a7754cb")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "MBAL_5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 295.91 40.64 270)
 		(unit 1)
@@ -13210,7 +12810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 61.468 209.55 90)
 			(effects
 				(font
@@ -13219,7 +12819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 59.69 209.55 0)
 			(effects
 				(font
@@ -13228,7 +12828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 43 OHM 1% 1W 2512"
 			(at 59.69 209.55 0)
 			(effects
 				(font
@@ -13237,7 +12837,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "YAGEO"
 			(at 59.69 209.55 90)
 			(effects
 				(font
@@ -13246,7 +12846,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "RC2512FK-0743RL"
 			(at 59.69 209.55 90)
 			(effects
 				(font
@@ -13264,7 +12864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "13-RC2512FK-0743RLTR-ND"
 			(at 59.69 209.55 90)
 			(effects
 				(font
@@ -13282,7 +12882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "0.21"
 			(at 59.69 209.55 90)
 			(effects
 				(font
@@ -13337,166 +12937,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_BAL_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 251.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "881cc878-7523-41e8-9fc0-0de930ab0f57")
-		(property "Reference" "R1"
-			(at 149.86 250.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 149.86 252.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 145.542 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 147.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47d73d8b-458b-41ea-9552-2c85ba9f7800")
-		)
-		(pin "2"
-			(uuid "1ec0acce-36c3-4584-adac-234e191b5b0a")
-		)
-		(instances
-			(project ""
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14012,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 338.328 124.46 90)
 			(effects
 				(font
@@ -14239,7 +13679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 134.112 139.7 90)
 			(effects
 				(font
@@ -14433,6 +13873,163 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "D_BAL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2326d71-cc67-44be-89da-f18ef5c050d8")
+		(property "Reference" "R_GATE3"
+			(at 68.58 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 Ω"
+			(at 70.866 165.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.708 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCE.pdf"
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES PREC, 0603, 10 OHM,  0.1%, 2"
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RNCE0603BTE10R0"
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "738-RNCE0603BTE10R0TR-ND"
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.12"
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 74.93 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be568832-357a-4a2f-a8ec-30d2dc856223")
+		)
+		(pin "2"
+			(uuid "277f5450-bbe1-47cb-a72c-e279609a3c07")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_GATE3")
 					(unit 1)
 				)
 			)
@@ -14633,320 +14230,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6b9e611-ca0f-497c-ae37-bad7cf2899de")
-		(property "Reference" "R_BAL_4"
-			(at 52.07 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 54.356 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.198 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 58.42 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70083232-57a2-4a7b-8fcc-c6f66035f243")
-		)
-		(pin "2"
-			(uuid "c2da938f-0772-4710-b387-52542741235c")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 199.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7b8ec81-cb25-4744-9f62-1e7b981caab5")
-		(property "Reference" "R_GATE2"
-			(at 68.834 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 Ω"
-			(at 70.866 199.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.708 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 74.93 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d83a80e8-f852-4c7f-911a-6189b5923ad3")
-		)
-		(pin "2"
-			(uuid "3a441b20-06a4-4451-99c4-ef1695ee6345")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_GATE2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 208.28 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14970,7 +14253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 210.058 40.64 90)
 			(effects
 				(font
@@ -15103,6 +14386,389 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 80.01 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab5592eb-f748-400b-8345-e720837b42b1")
+		(property "Reference" "C_CELL_FLT3"
+			(at 85.598 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 nF"
+			(at 83.312 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.9752 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1087_U2J_FT-CAP_SMD"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10000PF 50V U2J 0603"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "C0603X103F5JACTU"
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "399-13405-2-ND"
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.93"
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 80.01 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d7deb74-f3cb-40bc-a273-a84d4c81dad4")
+		)
+		(pin "1"
+			(uuid "8317600b-d943-49ac-ac77-5b33eac6b3f4")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "C_CELL_FLT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 60.96 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac4cd4ad-7604-47a1-b9f0-aafd72f4cec3")
+		(property "Reference" "MBAL_6"
+			(at 52.07 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 54.61 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_BMS:SC70-6"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/75570/sq1464eeh.pdf"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 440MA SC70-6"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 60.96 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Siliconix"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "SQ1464EEH-T1_GE3"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "SQ1464EEH-T1_GE3TR-ND"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.62"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa82c874-4501-4c27-b2a6-e2e13f4bbaf4")
+		)
+		(pin "1"
+			(uuid "8ccf8a48-5d1f-4ff8-a8f7-3f5aa82c7502")
+		)
+		(pin "3"
+			(uuid "0e5efc59-5bff-4ed5-a618-a968bb96c652")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "MBAL_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 262.89 40.64 180)
 		(unit 1)
@@ -15127,7 +14793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 264.668 40.64 90)
 			(effects
 				(font
@@ -15327,41 +14993,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 80.01 50.8 0)
+		(lib_id "Device:R")
+		(at 66.04 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b57fbad7-1002-40df-9c2f-0d684d4c1f53")
-		(property "Reference" "C_CELL_FLT5"
-			(at 85.598 50.8 90)
+		(uuid "b53f90fe-a4fb-40ec-a30e-712793e349e1")
+		(property "Reference" "R_CELL_FLT4"
+			(at 66.04 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 83.312 50.8 90)
+		(property "Value" "1000 Ω"
+			(at 66.04 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 80.9752 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM31C5C1H104FA16-01.pdf"
-			(at 80.01 50.8 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15369,8 +15026,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V C0G/NP0 1206"
-			(at 80.01 50.8 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 66.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15378,8 +15035,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
-			(at 80.01 50.8 90)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
+			(at 66.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15387,8 +15044,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "GCM31C5C1H104FA16L"
-			(at 80.01 50.8 90)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 66.04 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "ERA-3AEB102V"
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15397,7 +15063,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 80.01 50.8 90)
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15405,8 +15071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
-			(at 80.01 50.8 90)
+		(property "Supplier_1 P/N" "P1.0KDBTR-ND"
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15414,8 +15080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "0.98"
-			(at 80.01 50.8 90)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15423,8 +15089,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 80.01 50.8 90)
+		(property "Supplier_1 Unit Price" "0.1"
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15433,7 +15099,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 80.01 50.8 90)
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15442,7 +15108,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 80.01 50.8 90)
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15451,7 +15117,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 80.01 50.8 90)
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15460,60 +15126,24 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 80.01 50.8 90)
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Mfr" ""
-			(at 80.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 80.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 80.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 80.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "358dc99e-e3a6-4592-a207-20a036e80952")
 		)
 		(pin "1"
-			(uuid "c820f7f1-62f7-40b0-b713-e24a84a7abb9")
+			(uuid "c9aedaff-57f9-4c20-8e77-2ad1179f110e")
+		)
+		(pin "2"
+			(uuid "b672b60e-7c2e-434b-bcf3-46e1181c32fe")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "C_CELL_FLT5")
+					(reference "R_CELL_FLT4")
 					(unit 1)
 				)
 			)
@@ -15546,7 +15176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 356.362 105.41 90)
 			(effects
 				(font
@@ -15686,7 +15316,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b7ac63a3-1b22-4464-b96c-3e2ecc63b5a2")
+		(uuid "bbfc8c19-ae2e-4926-9a30-0c8410ed27da")
 		(property "Reference" "R_CELL_FLT3"
 			(at 67.31 141.478 90)
 			(effects
@@ -15695,7 +15325,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ω"
+		(property "Value" "1000 Ω"
 			(at 67.31 139.7 90)
 			(effects
 				(font
@@ -15703,7 +15333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 138.938 90)
 			(effects
 				(font
@@ -15712,7 +15342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -15721,7 +15351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -15730,7 +15360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Susumu"
+		(property "MFR" "Panasonic Electronic Components"
 			(at 67.31 137.16 90)
 			(effects
 				(font
@@ -15739,7 +15369,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "RG1608P-101-B-T5"
+		(property "MFR P/N" "ERA-3AEB102V"
 			(at 67.31 137.16 90)
 			(effects
 				(font
@@ -15757,7 +15387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "RG16P100BTR-ND"
+		(property "Supplier_1 P/N" "P1.0KDBTR-ND"
 			(at 67.31 137.16 90)
 			(effects
 				(font
@@ -15766,7 +15396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "0.10"
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 67.31 137.16 90)
 			(effects
 				(font
@@ -15775,7 +15405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
+		(property "Supplier_1 Unit Price" "0.1"
 			(at 67.31 137.16 90)
 			(effects
 				(font
@@ -15821,15 +15451,241 @@
 			)
 		)
 		(pin "1"
-			(uuid "df53f33b-bed8-42bd-948a-21e0cb386bbb")
+			(uuid "6a2932b2-327f-43c0-9c8e-1fac8fb76352")
 		)
 		(pin "2"
-			(uuid "4a7e5094-e352-4075-a815-f3da815797c8")
+			(uuid "40c4bf26-ea6c-4909-8543-0bdb8c3b9e17")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_CELL_FLT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 62.23 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bda03856-8537-4fdc-abb6-0d22b9b3997b")
+		(property "Reference" "MBAL_3"
+			(at 53.34 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 55.88 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_BMS:SC70-6"
+			(at 57.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/75570/sq1464eeh.pdf"
+			(at 62.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 440MA SC70-6"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 62.23 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 62.23 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Siliconix"
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "SQ1464EEH-T1_GE3"
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "SQ1464EEH-T1_GE3TR-ND"
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.62"
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 62.23 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "043bd510-657f-4875-b37d-0e5ce8093344")
+		)
+		(pin "1"
+			(uuid "65de1941-4f68-4297-b5ec-3ee8a1174f3b")
+		)
+		(pin "3"
+			(uuid "4c8c454d-d9b2-477d-a144-9ddd55642f3c")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "MBAL_3")
 					(unit 1)
 				)
 			)
@@ -15860,7 +15716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 231.14 253.238 90)
 			(effects
 				(font
@@ -15869,7 +15725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-PA0100_2512_51_ROHS"
 			(at 231.14 251.46 0)
 			(effects
 				(font
@@ -15878,7 +15734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0.002 OHM 1% 1/4W 0805"
 			(at 231.14 251.46 0)
 			(effects
 				(font
@@ -15887,7 +15743,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "YAGEO"
 			(at 231.14 251.46 90)
 			(effects
 				(font
@@ -15896,7 +15752,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "PA0805FRE7W0R002L"
 			(at 231.14 251.46 90)
 			(effects
 				(font
@@ -15905,7 +15761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "DigiKey"
 			(at 231.14 251.46 90)
 			(effects
 				(font
@@ -15914,7 +15770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "13-PA0805FRE7W0R002LTR-ND"
 			(at 231.14 251.46 90)
 			(effects
 				(font
@@ -15923,7 +15779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" ""
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 231.14 251.46 90)
 			(effects
 				(font
@@ -15932,7 +15788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "0.19"
 			(at 231.14 251.46 90)
 			(effects
 				(font
@@ -15993,163 +15849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 67.31 205.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1817a82-ee5d-46ad-bf12-93e61325e944")
-		(property "Reference" "R_CELL_FLT1"
-			(at 67.31 210.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 Ω"
-			(at 67.31 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 207.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
-			(at 67.31 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
-			(at 67.31 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Susumu"
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" "RG1608P-101-B-T5"
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "RG16P100BTR-ND"
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "0.10"
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 67.31 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dc039fe-61d4-47c4-b621-d46c5b4032e9")
-		)
-		(pin "2"
-			(uuid "8b26bbfb-16aa-4309-aa38-4bd464ce12c0")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_CELL_FLT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 336.55 134.62 180)
 		(unit 1)
@@ -16174,7 +15873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 335.5848 130.81 0)
 			(effects
 				(font
@@ -16334,7 +16033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_BMS:SC70-6"
 			(at 57.15 217.17 0)
 			(effects
 				(font
@@ -16343,7 +16042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/75570/sq1464eeh.pdf"
 			(at 62.23 232.41 0)
 			(effects
 				(font
@@ -16352,7 +16051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 60V 440MA SC70-6"
 			(at 62.23 219.71 0)
 			(effects
 				(font
@@ -16388,7 +16087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Vishay Siliconix"
 			(at 62.23 219.71 90)
 			(effects
 				(font
@@ -16397,7 +16096,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "SQ1464EEH-T1_GE3"
 			(at 62.23 219.71 90)
 			(effects
 				(font
@@ -16415,7 +16114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "SQ1464EEH-T1_GE3TR-ND"
 			(at 62.23 219.71 90)
 			(effects
 				(font
@@ -16433,7 +16132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "0.62"
 			(at 62.23 219.71 90)
 			(effects
 				(font
@@ -16534,40 +16233,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 34.29 90)
+		(at 58.42 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c961e2b5-096f-4b4d-babd-81c0403c8851")
-		(property "Reference" "R_CELL_FLT6"
-			(at 66.294 36.83 90)
+		(uuid "c895a82c-12d4-41f3-a3b0-e18efe6a6549")
+		(property "Reference" "R_BAL_6"
+			(at 52.07 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100 Ω"
-			(at 66.294 38.608 90)
+		(property "Value" "43 Ω"
+			(at 54.356 39.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 36.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
-			(at 66.04 34.29 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 60.198 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,8 +16265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
-			(at 66.04 34.29 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16584,8 +16274,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Susumu"
-			(at 66.04 34.29 90)
+		(property "Description" "RES 43 OHM 1% 1W 2512"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16593,8 +16283,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "RG1608P-101-B-T5"
-			(at 66.04 34.29 90)
+		(property "MFR" "YAGEO"
+			(at 58.42 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RC2512FK-0743RL"
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16603,7 +16302,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 66.04 34.29 90)
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16611,8 +16310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "RG16P100BTR-ND"
-			(at 66.04 34.29 90)
+		(property "Supplier_1 P/N" "13-RC2512FK-0743RLTR-ND"
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16620,8 +16319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "0.10"
-			(at 66.04 34.29 90)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16629,8 +16328,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
-			(at 66.04 34.29 90)
+		(property "Supplier_1 Unit Price" "0.21"
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16639,7 +16338,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 66.04 34.29 90)
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16648,7 +16347,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 66.04 34.29 90)
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16657,7 +16356,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 66.04 34.29 90)
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16666,43 +16365,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 66.04 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 66.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 66.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 66.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 66.04 34.29 0)
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16711,15 +16374,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d33c4d3a-996d-403b-ab9c-ded8094f3374")
+			(uuid "43c4450f-2da4-4fcd-9a77-ae4370785e1c")
 		)
 		(pin "2"
-			(uuid "e6f02068-32da-4d99-a9ff-92e73ae797aa")
+			(uuid "2f8ecef4-8920-4e1a-98c9-8fb2ea521ff0")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_CELL_FLT6")
+					(reference "R_BAL_6")
 					(unit 1)
 				)
 			)
@@ -16816,7 +16479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 311.15 118.618 90)
 			(effects
 				(font
@@ -16943,163 +16606,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_MID")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d16d3ec6-770f-4533-8d4f-9eed1bf1ca26")
-		(property "Reference" "R_BAL_6"
-			(at 52.07 38.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 54.356 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.198 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 58.42 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "795d7025-0ed1-4139-b5b8-582b36c1a32a")
-		)
-		(pin "2"
-			(uuid "ad21a357-2cc7-4966-83fb-68fb3f0edc81")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_6")
 					(unit 1)
 				)
 			)
@@ -17299,232 +16805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 62.23 151.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d64e3b2d-072a-4f40-994f-e291cbbefea3")
-		(property "Reference" "MBAL_3"
-			(at 53.34 154.432 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 55.88 154.432 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 62.23 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 62.23 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 62.23 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ccb5f06-3745-4dde-8326-1d8c30fed4d6")
-		)
-		(pin "1"
-			(uuid "4e17af63-7121-4dec-9256-7b9e6322ad30")
-		)
-		(pin "3"
-			(uuid "8276fce9-97d6-4187-ac85-3cb908d822f4")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "MBAL_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 358.14 118.11 0)
 		(unit 1)
@@ -17551,7 +16831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 359.1052 121.92 0)
 			(effects
 				(font
@@ -17904,7 +17184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.862 147.32 90)
 			(effects
 				(font
@@ -18037,44 +17317,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 60.96 48.26 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 80.01 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8c762f2-f83c-42dc-9f9a-0069ef7ccfc4")
-		(property "Reference" "MBAL_6"
-			(at 52.07 51.562 90)
+		(uuid "e6b755e0-e981-4b56-8fd4-d3485633bea0")
+		(property "Reference" "C_CELL_FLT2"
+			(at 85.598 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MOSFET"
-			(at 54.61 51.562 90)
+		(property "Value" "10 nF"
+			(at 83.312 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.9752 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18082,8 +17350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 48.26 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1087_U2J_FT-CAP_SMD"
+			(at 80.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18091,8 +17359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 60.96 65.405 0)
+		(property "Description" "CAP CER 10000PF 50V U2J 0603"
+			(at 80.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18100,8 +17368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 60.96 67.31 0)
+		(property "MFR" "KEMET"
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18109,222 +17377,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 60.96 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5d6bd4a-15ae-4146-8612-288e20ac56ce")
-		)
-		(pin "1"
-			(uuid "84a7d277-30ec-48ff-aaf8-103f53127a35")
-		)
-		(pin "3"
-			(uuid "8c987561-8ca4-4054-b391-8f895b36e232")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "MBAL_6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec2fb546-90a0-4657-aa99-efa6dc7ac9f8")
-		(property "Reference" "R_BAL_5"
-			(at 52.07 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 54.356 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.198 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 58.42 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 58.42 72.39 90)
+		(property "MFR P/N" "C0603X103F5JACTU"
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18333,7 +17387,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 58.42 72.39 90)
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18341,8 +17395,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
-			(at 58.42 72.39 90)
+		(property "Supplier_1 P/N" "399-13405-2-ND"
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18351,7 +17405,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" "1"
-			(at 58.42 72.39 90)
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18359,8 +17413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
-			(at 58.42 72.39 90)
+		(property "Supplier_1 Unit Price" "0.93"
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18369,7 +17423,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 58.42 72.39 90)
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,7 +17432,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 58.42 72.39 90)
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18387,7 +17441,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 58.42 72.39 90)
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,7 +17450,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 58.42 72.39 90)
+			(at 80.01 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18404,16 +17458,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e023c581-6481-45e4-b5bc-4b3a489be596")
-		)
 		(pin "2"
-			(uuid "2ccb5348-ea27-4ed7-988a-515d767223f6")
+			(uuid "69dc7f5e-ecd5-4ee0-ad32-87abb027d539")
+		)
+		(pin "1"
+			(uuid "eb95c0e2-92d0-4db2-817f-0ed8d80900aa")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_5")
+					(reference "C_CELL_FLT2")
 					(unit 1)
 				)
 			)
@@ -18552,6 +17606,320 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 58.42 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c73111-401b-4b6c-bd1d-4c1b8396e838")
+		(property "Reference" "R_BAL_4"
+			(at 52.07 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 54.356 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 60.198 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 43 OHM 1% 1W 2512"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RC2512FK-0743RL"
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "13-RC2512FK-0743RLTR-ND"
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.21"
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 58.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4204ff52-96bf-4fcc-a08a-bd3bc596b595")
+		)
+		(pin "2"
+			(uuid "e1c5f6a2-ecec-4746-a786-c08d0f566562")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_BAL_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f128318c-09f4-4ad1-bc93-16766d54c424")
+		(property "Reference" "C_CELL_FLT4"
+			(at 85.598 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 nF"
+			(at 83.312 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.9752 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1087_U2J_FT-CAP_SMD"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10000PF 50V U2J 0603"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "C0603X103F5JACTU"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "399-13405-2-ND"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.93"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d408216-e816-417a-b369-c74132deb42d")
+		)
+		(pin "1"
+			(uuid "0ee468e8-314a-452b-b185-063b08a50c2e")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "C_CELL_FLT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 66.04 124.46 180)
 		(unit 1)
@@ -18613,6 +17981,232 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "D_BAL4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 60.96 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f32775af-1465-4189-a16e-5d58e3f06dd1")
+		(property "Reference" "MBAL_5"
+			(at 52.07 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 54.61 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_BMS:SC70-6"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/75570/sq1464eeh.pdf"
+			(at 60.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 440MA SC70-6"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 60.96 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Siliconix"
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "SQ1464EEH-T1_GE3"
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "SQ1464EEH-T1_GE3TR-ND"
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.62"
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51e680ec-b681-4c44-8e77-5b6345bc876a")
+		)
+		(pin "1"
+			(uuid "bc817531-9a06-4e1a-8c0d-f00ea09b9686")
+		)
+		(pin "3"
+			(uuid "8f0ae95c-a2aa-4b9b-8667-9f997894d1a6")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "MBAL_5")
 					(unit 1)
 				)
 			)
@@ -18812,6 +18406,320 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 73.66 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9392af1-699d-40f0-9c66-132e217ee323")
+		(property "Reference" "R_GATE5"
+			(at 67.31 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 Ω"
+			(at 69.596 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 75.438 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCE.pdf"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES PREC, 0603, 10 OHM,  0.1%, 2"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RNCE0603BTE10R0"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "738-RNCE0603BTE10R0TR-ND"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.12"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f146b0f5-acfa-4dbe-8db3-02d802b58f35")
+		)
+		(pin "2"
+			(uuid "09a1ed67-6fe4-4937-a983-b4ae249f9f4f")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_GATE5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9539583-2861-4cda-ab4f-7b9cdc0459f2")
+		(property "Reference" "R_CELL_FLT5"
+			(at 66.04 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000 Ω"
+			(at 66.04 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/10W 0603"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "ERA-3AEB102V"
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "P1.0KDBTR-ND"
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.1"
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 66.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecbae7e1-ff51-4b62-b2d1-eef652bf6c47")
+		)
+		(pin "2"
+			(uuid "fceba4e0-2458-4ae0-9a2f-11ffc0964816")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_CELL_FLT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 259.08 0)
 		(unit 1)
@@ -18878,32 +18786,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 62.23 180)
+		(lib_id "Device:NetTie_2")
+		(at 147.32 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc5392f3-b9b4-4d15-933f-a883e4707d98")
-		(property "Reference" "R_GATE6"
-			(at 67.564 61.722 90)
+		(fields_autoplaced yes)
+		(uuid "fc4a98f3-40ff-4015-a2ff-452ddf908ccd")
+		(property "Reference" "NT1"
+			(at 148.59 250.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10 Ω"
-			(at 69.596 62.484 90)
+		(property "Value" "NetTie_2"
+			(at 148.59 252.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 75.438 62.23 90)
+			(at 147.32 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18911,8 +18822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 62.23 0)
+		(property "Datasheet" "~"
+			(at 147.32 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18920,98 +18831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 73.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 73.66 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 73.66 62.23 90)
+		(property "Description" "Net tie, 2 pins"
+			(at 147.32 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19020,15 +18841,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbd6237b-8eab-49ff-9079-88190d6aa288")
+			(uuid "f2586207-c212-483b-b9d2-e8e2a0601ddb")
 		)
 		(pin "2"
-			(uuid "31100e3a-0b13-4da1-ab48-f9cac6f2f4f5")
+			(uuid "dd6ae11b-b10e-40de-b642-dc4778dcadd0")
 		)
 		(instances
-			(project "BMS"
+			(project ""
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_GATE6")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -19059,7 +18880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 221.488 59.69 90)
 			(effects
 				(font
@@ -19186,6 +19007,163 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_CHG_DRIVER")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff0703bb-f548-42a2-88f7-803cfef3ee4e")
+		(property "Reference" "R_GATE6"
+			(at 67.31 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 Ω"
+			(at 69.596 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 75.438 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCE.pdf"
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES PREC, 0603, 10 OHM,  0.1%, 2"
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "RNCE0603BTE10R0"
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "738-RNCE0603BTE10R0TR-ND"
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.12"
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04467baa-42c4-41cf-a19c-b09fe84ed8e7")
+		)
+		(pin "2"
+			(uuid "a677d04a-b209-403f-aff0-4782c351ff83")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_GATE6")
 					(unit 1)
 				)
 			)
