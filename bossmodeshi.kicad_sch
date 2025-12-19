@@ -7723,7 +7723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TQFP-48_MP2790_MNP"
+		(property "Footprint" "_BMS:QFP50P900X900X120-48N"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7743,7 +7743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Battery Battery Monitor IC Multi-Chemistry 48-TQFP (7x7)"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7752,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Monolithic Power Systems Inc."
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7761,7 +7761,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" ""
+		(property "MFR P/N" "MP2790DFP-0000-T"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "Digikey"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7779,7 +7779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "1589-MP2790DFP-0000-T-ND"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" ""
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7797,7 +7797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" ""
+		(property "Supplier_1 Unit Price" "3.30"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -7834,6 +7834,42 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
 			(at 204.47 104.14 0)
 			(effects
 				(font
