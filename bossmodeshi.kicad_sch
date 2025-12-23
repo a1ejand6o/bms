@@ -9201,8 +9201,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 217.17 33.02 270)
-		(mirror x)
+		(at 250.19 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9210,7 +9209,7 @@
 		(dnp no)
 		(uuid "34fed873-bd23-43ef-b624-eff9938610f8")
 		(property "Reference" "Q2"
-			(at 213.868 24.13 90)
+			(at 253.492 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9218,7 @@
 			)
 		)
 		(property "Value" "PSMN3R7-100BSE"
-			(at 213.868 26.67 90)
+			(at 253.492 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,7 +9227,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 219.71 27.94 0)
+			(at 247.65 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +9236,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 204.47 33.02 0)
+			(at 262.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9246,7 +9245,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 217.17 33.02 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9255,7 +9254,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 200.025 33.02 0)
+			(at 267.335 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9264,7 +9263,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 198.12 33.02 0)
+			(at 269.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9273,7 +9272,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 33.02 0)
+			(at 265.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9281,7 @@
 			)
 		)
 		(property "MFR" "Nexperia USA Inc."
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9290,7 @@
 			)
 		)
 		(property "MFR P/N" "PSMN3R7-100BSEJ"
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9299,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9308,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "1727-PSMN3R7-100BSEJTR-ND"
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9317,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" "1"
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9326,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "6.51"
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9335,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +9344,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,7 +9353,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9362,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 217.17 33.02 90)
+			(at 250.19 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,7 +9371,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 217.17 33.02 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +9380,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 217.17 33.02 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,7 +9389,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 217.17 33.02 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +9398,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 217.17 33.02 0)
+			(at 250.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13168,7 +13167,8 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 250.19 33.02 90)
+		(at 217.17 33.02 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13176,7 +13176,7 @@
 		(dnp no)
 		(uuid "8d3820f0-2816-40e2-929a-1fdb4670c8e1")
 		(property "Reference" "Q3"
-			(at 252.73 26.416 90)
+			(at 214.63 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,7 +13185,7 @@
 			)
 		)
 		(property "Value" "PSMN020-100YS"
-			(at 252.73 23.876 90)
+			(at 214.63 23.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13194,7 +13194,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-			(at 247.65 27.94 0)
+			(at 219.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13203,7 +13203,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 262.89 33.02 0)
+			(at 204.47 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13212,7 +13212,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 250.19 33.02 0)
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13221,7 +13221,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 267.335 33.02 0)
+			(at 200.025 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,7 +13230,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 269.24 33.02 0)
+			(at 198.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,7 +13239,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 265.43 33.02 0)
+			(at 201.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +13248,7 @@
 			)
 		)
 		(property "MFR" "Nexperia USA Inc."
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +13257,7 @@
 			)
 		)
 		(property "MFR P/N" "PSMN020-100YS,115"
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +13266,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13275,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "1727-4286-2-ND"
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13284,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ QTY" "1"
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13293,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "2.09000"
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,7 +13302,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13311,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13320,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ QTY" ""
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,7 +13329,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 250.19 33.02 90)
+			(at 217.17 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13338,7 +13338,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 250.19 33.02 0)
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +13347,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 250.19 33.02 0)
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13356,7 +13356,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 250.19 33.02 0)
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13365,7 +13365,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 250.19 33.02 0)
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15974,7 +15974,7 @@
 		(dnp no)
 		(uuid "c8589901-89d6-45ff-92ca-f083ab0ac777")
 		(property "Reference" "MBAL_6"
-			(at 52.07 223.012 90)
+			(at 52.832 224.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15983,7 +15983,7 @@
 			)
 		)
 		(property "Value" "MOSFET"
-			(at 53.34 223.012 90)
+			(at 54.61 224.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
