@@ -769,6 +769,14 @@
       "tc_inputs"
     ],
     [
+      "c2adc9be-e610-42dc-8b04-cee3e27e6dce",
+      "microcontroller"
+    ],
+    [
+      "52dd28bb-1fec-4388-aa12-cd7f56de9263",
+      "usb"
+    ],
+    [
       "72bfe5e0-3464-488b-90f8-8143600a08cb",
       "cell_inputs"
     ],

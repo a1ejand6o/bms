@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "_RP2354A")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-12-25_02-14-02.kicad_sym")(options "")(descr ""))
+  (lib (name "_MP2790")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-12-25_02-13-27.kicad_sym")(options "")(descr ""))
+  (lib (name "_AMB8")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-12-25_02-34-13.kicad_sym")(options "")(descr ""))
+)
