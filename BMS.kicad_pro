@@ -754,7 +754,7 @@
     ],
     [
       "2982e12c-39cd-4158-a648-a90b7f6b527c",
-      "Outputs"
+      "external_io"
     ],
     [
       "fb11fb4b-d26e-4f92-a711-2d1664bdbd55",
@@ -773,8 +773,8 @@
       "microcontroller"
     ],
     [
-      "52dd28bb-1fec-4388-aa12-cd7f56de9263",
-      "usb"
+      "1875dae8-5675-4324-bc32-eabf0e306a05",
+      "housekeeping"
     ],
     [
       "72bfe5e0-3464-488b-90f8-8143600a08cb",
