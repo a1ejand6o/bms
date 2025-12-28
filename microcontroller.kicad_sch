@@ -3570,6 +3570,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 99.06) (xy 231.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551ea3e8-5434-4ae9-b0ad-d94b01a239da")
+	)
+	(wire
+		(pts
 			(xy 49.53 87.63) (xy 53.34 87.63)
 		)
 		(stroke
@@ -9014,7 +9024,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 102.87 0)
+		(at 231.14 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9023,7 +9033,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ee5509c-c5dc-4ca5-a68b-3f2d1a2220d0")
 		(property "Reference" "R12"
-			(at 233.68 101.5999 0)
+			(at 233.68 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9032,7 +9042,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 233.68 104.1399 0)
+			(at 233.68 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,7 +9051,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.362 102.87 90)
+			(at 229.362 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,7 +9060,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/Resource%20Library/Datasheet/PYU-PE_521_ROHS_L.pdf"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +9069,7 @@
 			)
 		)
 		(property "Description" "RES 0.033 OHM 1% 1/16W 0402"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9078,7 @@
 			)
 		)
 		(property "Mfr" "PE0402FRF070R033L"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +9087,7 @@
 			)
 		)
 		(property "Mfr P/N" "YAGEO"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9096,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,7 +9105,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "13-PE0402FRF070R033LTR-ND"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,7 +9114,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.54000"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,7 +9123,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +9132,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9141,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9140,7 +9150,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,7 +9159,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 231.14 102.87 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
