@@ -1,4 +1,4 @@
-26669239579754425
+26678071401044481
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106267,6 +106267,13 @@ AMPHENOL_12402012E212A
 16
 16
 _BMS
+LFPAK56_1
+LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+LFPAK56 SOT-669 Power-SO8
+0
+18
+3
+_BMS
 QFN-60_7X7_RPI
 
 RP2350A 
@@ -106301,6 +106308,27 @@ powerpak sc70 sc-70 dual
 0
 6
 6
+_BMS
+SW_TS02-66-43-BK-160-LCR-D
+
+
+0
+4
+4
+_BMS
+TB4-Hirose
+
+
+0
+12
+11
+_BMS
+TO-263-2
+TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+7
+3
 _BMS
 TQFN-32_MPF42797_MNP
 
@@ -106343,3 +106371,10 @@ MP2790DFP-0000-T
 0
 48
 48
+_BMS
+VSSOP8_DGN_TEX
+
+TPS7B8133QDGNRQ1 
+0
+9
+9

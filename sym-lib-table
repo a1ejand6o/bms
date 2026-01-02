@@ -5,4 +5,5 @@
   (lib (name "_AMB8")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-12-25_02-34-13.kicad_sym")(options "")(descr ""))
   (lib (name "_USB")(type "KiCad")(uri "${KIPRJMOD}/symbols/12402012E212A.kicad_sym")(options "")(descr ""))
   (lib (name "_SQ1464")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-12-27_21-55-09.kicad_sym")(options "")(descr ""))
+  (lib (name "_TPS7B")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7B8133DRVR.kicad_sym")(options "")(descr ""))
 )
