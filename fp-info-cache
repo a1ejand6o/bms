@@ -1,4 +1,4 @@
-26678071401044481
+26679838814800554
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106266,6 +106266,13 @@ AMPHENOL_12402012E212A
 0
 16
 16
+_BMS
+AMPHENOL_GSB1CA11101DSHR
+
+
+0
+20
+20
 _BMS
 LFPAK56_1
 LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
