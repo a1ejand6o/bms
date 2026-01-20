@@ -184,7 +184,13 @@
 		(at 172.72 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c55d9c78-a03c-4b48-ac34-eee8d56e754d")
+		(uuid "5ca13727-4519-4c1c-a7c0-d6a0a0e3fc7e")
+	)
+	(junction
+		(at 158.75 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c745db31-7bae-4115-a869-3d27bee8df2d")
 	)
 	(wire
 		(pts
@@ -268,7 +274,7 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 77.47) (xy 158.75 90.17)
+			(xy 158.75 77.47) (xy 158.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -306,6 +312,16 @@
 		)
 		(uuid "70b40f4f-1fbc-4c10-8e84-240da7a79877")
 	)
+	(bus
+		(pts
+			(xy 158.75 83.82) (xy 194.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fccbc5b-08cc-4175-a6be-44bf149afe9e")
+	)
 	(wire
 		(pts
 			(xy 170.18 64.77) (xy 194.31 64.77)
@@ -325,6 +341,16 @@
 			(type default)
 		)
 		(uuid "8c37031a-cde6-4fcd-bab3-ba25dc6094d6")
+	)
+	(bus
+		(pts
+			(xy 172.72 128.27) (xy 194.31 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904c503a-e615-468b-99c5-88a217723173")
 	)
 	(wire
 		(pts
@@ -406,6 +432,16 @@
 		)
 		(uuid "a7d6926c-0c61-4874-ab7b-83ff39776328")
 	)
+	(bus
+		(pts
+			(xy 158.75 83.82) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1575d0-8242-4b91-9c4a-94f37f6ccf77")
+	)
 	(wire
 		(pts
 			(xy 105.41 137.16) (xy 128.27 137.16)
@@ -425,6 +461,16 @@
 			(type default)
 		)
 		(uuid "b5b20a34-1ae1-4709-83d1-0e46bdec0147")
+	)
+	(bus
+		(pts
+			(xy 172.72 74.93) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5178c1-48d6-47f4-b216-42c6207aa043")
 	)
 	(wire
 		(pts
@@ -468,16 +514,6 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 74.93) (xy 172.72 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc20f637-6f0d-40dc-9d1a-f4bb19b7b597")
-	)
-	(bus
-		(pts
 			(xy 170.18 72.39) (xy 194.31 72.39)
 		)
 		(stroke
@@ -515,16 +551,6 @@
 			(type default)
 		)
 		(uuid "f295a431-11ec-4f58-a7d4-b3a941e1c753")
-	)
-	(bus
-		(pts
-			(xy 172.72 128.27) (xy 194.31 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2cf117d-972b-4943-b3c1-991d8db1b1b2")
 	)
 	(wire
 		(pts
@@ -872,7 +898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6495c6b0-8de4-4604-9b08-2231eaf9a472")
-		(property "Reference" "D11"
+		(property "Reference" "D3"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -1032,7 +1058,7 @@
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1260,7 +1286,7 @@
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85"
-					(page "10")
+					(page "6")
 				)
 			)
 		)
@@ -1409,10 +1435,20 @@
 				(justify left)
 			)
 		)
+		(pin "{BMS_SIG}" bidirectional
+			(at 194.31 83.82 180)
+			(uuid "f995bc0b-1cd8-4048-96c6-615b913e7d43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
@@ -1564,7 +1600,7 @@
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85"
-					(page "#")
+					(page "7")
 				)
 			)
 		)
@@ -1603,16 +1639,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DP" bidirectional
-			(at 170.18 52.07 0)
-			(uuid "831f1c0a-a7f2-4827-8e2e-33f12760b3fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{I2C}" bidirectional
 			(at 170.18 74.93 0)
 			(uuid "387c8465-8b4e-4f45-be33-d814a40caeae")
@@ -1631,16 +1657,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "USB_DM" bidirectional
-			(at 170.18 54.61 0)
-			(uuid "fbc2c26a-85a0-4d3b-8ac5-52400f2051f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "{SERIAL}" bidirectional
@@ -1683,10 +1699,30 @@
 				(justify right)
 			)
 		)
+		(pin "USB_D+" bidirectional
+			(at 170.18 52.07 0)
+			(uuid "b9d50cc1-1466-4280-b86e-8e44dcab99e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 170.18 54.61 0)
+			(uuid "0c88779d-0b90-4a49-a53a-629ce72d65f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85"
-					(page "8")
+					(page "5")
 				)
 			)
 		)
@@ -1724,16 +1760,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "BATT+" output
-			(at 128.27 114.3 180)
-			(uuid "417a4974-3a85-4ddb-bc55-21609dea5c5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "BATT-" output
@@ -1856,16 +1882,6 @@
 				(justify right)
 			)
 		)
-		(pin "AFE_5V" output
-			(at 128.27 92.71 180)
-			(uuid "6a48d8c4-2325-4607-8325-7ee76dee80f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PACK+" output
 			(at 170.18 114.3 0)
 			(uuid "cd7cad70-869c-4a68-a7ad-c99beba8102c")
@@ -1886,10 +1902,30 @@
 				(justify right)
 			)
 		)
+		(pin "INT_5V" output
+			(at 128.27 92.71 180)
+			(uuid "39e47710-abb7-427e-b50a-89ceae827b1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOP" input
+			(at 128.27 114.3 180)
+			(uuid "ffa11692-8957-45f0-8bab-8fa5798881b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85"
-					(page "#")
+					(page "8")
 				)
 			)
 		)

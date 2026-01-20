@@ -1,4 +1,4 @@
-26679838814800554
+26683375559663057
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106253,6 +106253,13 @@ Varistor VF
 2
 2
 _BMS
+216989-0001_MOL
+
+2169890001 
+0
+14
+14
+_BMS
 ABM8-272-T3_ABR
 
 ABM8-272-T3 
@@ -106273,6 +106280,13 @@ AMPHENOL_GSB1CA11101DSHR
 0
 20
 20
+_BMS
+Harwin TP
+
+
+0
+1
+1
 _BMS
 LFPAK56_1
 LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf

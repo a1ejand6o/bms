@@ -576,7 +576,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDREF"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -597,7 +597,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDREF"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -623,7 +623,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -641,46 +641,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDREF_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -691,7 +655,7 @@
 					)
 				)
 			)
-			(symbol "GNDREF_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -814,6 +778,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 99.06) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a53aa0-dd2d-4de2-837d-9c040745493a")
+	)
+	(wire
+		(pts
 			(xy 125.73 91.44) (xy 125.73 96.52)
 		)
 		(stroke
@@ -893,7 +867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0343a89e-3ec9-4a7b-9902-d05c365b008f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -944,7 +918,7 @@
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -1235,17 +1209,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 116.84 99.06 0)
+		(lib_id "power:GND")
+		(at 116.84 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40e89558-84a5-47af-8306-6a7079884d4c")
-		(property "Reference" "#PWR043"
-			(at 116.84 105.41 0)
+		(uuid "611c3e10-fd72-4e1e-abd4-52992ca20059")
+		(property "Reference" "#PWR050"
+			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,8 +1227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 116.84 104.14 0)
+		(property "Value" "GND"
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 99.06 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 99.06 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,8 +1253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 116.84 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,19 +1263,179 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ab90cb8-b6ed-4b2e-b559-b9cefc4b1e3c")
+			(uuid "b66892cb-b2fc-485d-b9d0-e8d4827487e8")
 		)
 		(instances
-			(project "BMS"
+			(project ""
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
-					(reference "#PWR043")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
+		(lib_id "Device:C")
+		(at 116.84 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a05f6e-ae01-473f-8875-757be084abf8")
+		(property "Reference" "C17"
+			(at 120.65 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 120.65 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 117.8052 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 50V X5R 0805"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "GRM21BR61H106KE43L"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "490-18663-1-ND"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$0.28"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93b7899b-e46e-4431-a51d-760c8e1ac95f")
+		)
+		(pin "1"
+			(uuid "79a182ae-223e-4f9d-87ab-5ad7236327f1")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 173.99 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1309,8 +1443,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93d2332a-6ab5-4ca2-bb51-6e7286f85e11")
-		(property "Reference" "#PWR045"
+		(uuid "c9725041-844c-45f9-aaf6-f2ed76e66601")
+		(property "Reference" "#PWR052"
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -1319,7 +1453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
+		(property "Value" "GND"
 			(at 173.99 111.76 0)
 			(effects
 				(font
@@ -1345,7 +1479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -1355,238 +1489,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b17b8200-f755-4afe-b300-241558742017")
+			(uuid "1f781395-78c5-4a83-9128-f22e7153cf7b")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 165.1 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b53dcb40-ab3e-4cb0-a82b-949edb9a23c3")
-		(property "Reference" "#PWR044"
-			(at 165.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 165.1 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d52389f1-3207-4610-8b87-b03c3b689232")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 116.84 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3a05f6e-ae01-473f-8875-757be084abf8")
-		(property "Reference" "C16"
-			(at 120.65 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 120.65 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 117.8052 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 50V X5R 0805"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM21BR61H106KE43L"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-18663-1-ND"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$0.28"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93b7899b-e46e-4431-a51d-760c8e1ac95f")
-		)
-		(pin "1"
-			(uuid "79a182ae-223e-4f9d-87ab-5ad7236327f1")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
-					(reference "C16")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1602,7 +1510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ff9df7-b196-463a-a2fd-4323e8a4ae39")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 177.8 101.5999 0)
 			(effects
 				(font
@@ -1746,7 +1654,73 @@
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
-					(reference "C17")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6bff10-46a4-4722-9876-56f5d10f037a")
+		(property "Reference" "#PWR051"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbe759af-9abe-4628-be34-3c4e245fbc36")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

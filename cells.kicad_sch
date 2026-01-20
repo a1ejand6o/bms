@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "5125fb0b-d27d-4d4f-ac37-03a276ed8a7a")
 	(paper "A4")
+	(title_block
+		(title "Cell Inputs")
+		(company "Solar Airplane")
+		(comment 1 "Engineer: Ezzat Suhaime")
+		(comment 2 "Reviwer 1:")
+		(comment 3 "Reviewer 2:")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -666,33 +673,53 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 140.97 82.55)
+			(xy 124.46 80.01) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25239e5f-9b58-4159-965f-409ef9e0d266")
+		(uuid "1c147b1f-9234-4a97-9f1c-fbc8b0640b18")
 	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 140.97 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b189938-bee2-47c9-b41c-c96c0da271f0")
-	)
-	(wire
-		(pts
-			(xy 124.46 113.03) (xy 140.97 113.03)
+			(xy 124.46 109.22) (xy 140.97 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3c8de861-27f7-40d3-a4a0-ea8b4f825f84")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0a90a5-e37b-4022-bd41-a10550533925")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6145efb0-ec60-47e0-aaa3-ef6b670b1156")
+	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644cf67a-3234-4043-91c8-43181433b163")
 	)
 	(wire
 		(pts
@@ -706,63 +733,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 140.97 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "942ce453-ee17-4e83-8c4c-536dbc6d2c6b")
-	)
-	(wire
-		(pts
-			(xy 124.46 74.93) (xy 140.97 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "955b18ab-abf2-46f7-aaad-8cba4029f3a2")
-	)
-	(wire
-		(pts
 			(xy 124.46 77.47) (xy 140.97 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a9fd7bd-e4e7-4afd-b27a-223c9aa0e26e")
+		(uuid "ce1447d8-ffad-4cdd-a7d5-c99a9ff32fff")
 	)
 	(wire
 		(pts
-			(xy 124.46 110.49) (xy 140.97 110.49)
+			(xy 124.46 106.68) (xy 140.97 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ceb344ba-6f87-4bc2-8ee2-2be6d96ee3ae")
-	)
-	(wire
-		(pts
-			(xy 124.46 97.79) (xy 140.97 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28b8048-7a93-412b-8bcd-43208b436925")
-	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 140.97 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9148b5f-69e0-4f21-a5fe-265b9ef229f7")
 	)
 	(wire
 		(pts
@@ -774,9 +761,29 @@
 		)
 		(uuid "f4ddd315-b312-407a-afad-2849a6d978b8")
 	)
+	(wire
+		(pts
+			(xy 124.46 92.71) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f914eabe-1f01-474e-894c-cfc667d4a78c")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff39fc15-d4ba-4bfa-8f85-e950b5189cc3")
+	)
 	(hierarchical_label "BATT-"
 		(shape input)
-		(at 140.97 110.49 0)
+		(at 140.97 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -875,7 +882,7 @@
 	)
 	(hierarchical_label "BATT+"
 		(shape input)
-		(at 140.97 113.03 0)
+		(at 140.97 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1080,7 +1087,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 119.38 110.49 0)
+		(at 119.38 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1088,7 +1095,7 @@
 		(dnp no)
 		(uuid "d0884b84-b291-401d-a227-6f6eab08c257")
 		(property "Reference" "J8"
-			(at 118.11 113.0301 0)
+			(at 118.11 109.2201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1104,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 118.11 110.4901 0)
+			(at 118.11 106.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1113,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1131,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1140,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,7 +1149,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1158,7 @@
 			)
 		)
 		(property "Supplier_1" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1167,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1176,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1185,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +1194,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1203,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1212,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1221,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 119.38 110.49 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
