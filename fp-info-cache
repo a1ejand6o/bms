@@ -1,4 +1,4 @@
-26683375559663057
+26685144490796732
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106322,6 +106322,13 @@ QFP50P900X900X120-48N
 0
 48
 48
+_BMS
+SAMESKY_UJ20-C-H-G-SMT-1-P16-TR
+
+
+0
+16
+16
 _BMS
 SC70-6
 Vishay PowerPAK SC70 dual transistor package http://www.vishay.com/docs/70487/70487.pdf

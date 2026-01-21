@@ -69,10 +69,6 @@
           ""
         ],
         [
-          "courtyards_overlap|150180000|129083711|927cc661-97d1-477c-8a98-736491ba8b94|dc025c8e-c65b-41dd-ab87-08ecc44a20c7",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|140550000|105300000|035889cd-4532-4707-8482-3a2cd982cb16|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -651,10 +647,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -720,7 +716,7 @@
           "group_by": false,
           "label": "Supplier_1",
           "name": "Supplier_1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
