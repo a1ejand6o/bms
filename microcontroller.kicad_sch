@@ -2774,7 +2774,7 @@
 	)
 	(text "I2C Pull-Ups"
 		(exclude_from_sim no)
-		(at 33.782 27.432 0)
+		(at 39.624 61.722 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2784,7 +2784,7 @@
 	)
 	(text_box "BMS_SIG are inputs from the AFE"
 		(exclude_from_sim no)
-		(at 19.05 68.58 0)
+		(at 53.34 88.9 0)
 		(size 16.51 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2841,12 +2841,6 @@
 		(uuid "1d1a450d-3ccc-4687-b6a5-c8484f403897")
 	)
 	(junction
-		(at 201.93 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "331be335-3a02-42f9-b539-666e296ab416")
-	)
-	(junction
 		(at 243.84 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2871,6 +2865,12 @@
 		(uuid "413f306b-971e-40ec-8682-867f9e909e2f")
 	)
 	(junction
+		(at 228.6 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d04b62f-aeaf-4f62-a86e-34384f87b404")
+	)
+	(junction
 		(at 92.71 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2881,6 +2881,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77bb7659-a250-442a-88e6-452a06045443")
+	)
+	(junction
+		(at 200.66 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d64da36-3341-4082-b27c-0856a08c92eb")
+	)
+	(junction
+		(at 189.23 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eab4428-ea8a-45d2-9a6f-72bd270ca741")
 	)
 	(junction
 		(at 106.68 69.85)
@@ -2907,16 +2919,10 @@
 		(uuid "b0f1bd2f-8134-4e6a-a08c-e461c4e856db")
 	)
 	(junction
-		(at 228.6 109.22)
+		(at 242.57 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b299877a-7e90-435a-a1ba-c720d3fc01fe")
-	)
-	(junction
-		(at 189.23 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9ad325c-75bd-4cf4-bd20-b4bdb1b68c79")
+		(uuid "bfa0152a-7cb0-4e35-86e4-583a34bf5d0f")
 	)
 	(junction
 		(at 115.57 160.02)
@@ -2925,16 +2931,10 @@
 		(uuid "d7df9c5f-3fe8-400f-9209-455674206d89")
 	)
 	(junction
-		(at 242.57 109.22)
+		(at 201.93 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dba7f292-d83d-4ce4-b164-98bc455febb1")
-	)
-	(junction
-		(at 204.47 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5844dd2-d356-41a7-ba62-1ed0921fe7e5")
+		(uuid "e47e1789-c094-4f83-8025-8a9a007ea8a2")
 	)
 	(junction
 		(at 106.68 96.52)
@@ -3057,7 +3057,7 @@
 		(uuid "74731263-5fec-4ab9-92c1-fd7284c3a762")
 	)
 	(bus_entry
-		(at 31.75 87.63)
+		(at 25.4 91.44)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3066,7 +3066,7 @@
 		(uuid "a966e1e0-b618-456e-83d2-c2d14aa05cf4")
 	)
 	(bus_entry
-		(at 31.75 101.6)
+		(at 25.4 109.22)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3084,7 +3084,7 @@
 		(uuid "cc4a92b8-8995-48f3-b7eb-af2d74db0410")
 	)
 	(bus_entry
-		(at 31.75 91.44)
+		(at 25.4 95.25)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3102,7 +3102,7 @@
 		(uuid "da918edc-1324-4239-8acc-bbb1aa1e13af")
 	)
 	(bus_entry
-		(at 31.75 106.68)
+		(at 25.4 114.3)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3111,7 +3111,7 @@
 		(uuid "e98a7bbb-800e-4aed-b5e3-85ce96662ee6")
 	)
 	(bus_entry
-		(at 31.75 83.82)
+		(at 25.4 87.63)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3161,16 +3161,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 109.22) (xy 52.07 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07fb2c2f-8157-4f21-956d-a8cf0df553b9")
-	)
-	(wire
-		(pts
 			(xy 260.35 82.55) (xy 264.16 82.55)
 		)
 		(stroke
@@ -3181,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 86.36) (xy 46.99 86.36)
+			(xy 27.94 90.17) (xy 43.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3201,7 +3191,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 104.14) (xy 43.18 104.14)
+			(xy 27.94 111.76) (xy 35.56 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3221,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 116.84) (xy 60.96 116.84)
+			(xy 64.77 116.84) (xy 66.04 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3231,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 29.21) (xy 212.09 29.21)
+			(xy 204.47 29.21) (xy 208.28 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3341,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6c539b-e5d7-44db-8adc-68ca998840c3")
+	)
+	(wire
+		(pts
 			(xy 176.53 76.2) (xy 191.77 60.96)
 		)
 		(stroke
@@ -3431,7 +3431,7 @@
 	)
 	(bus
 		(pts
-			(xy 31.75 80.01) (xy 31.75 83.82)
+			(xy 25.4 83.82) (xy 25.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3511,33 +3511,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 29.21) (xy 200.66 29.21)
+			(xy 191.77 29.21) (xy 196.85 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ef4fb25-314b-4237-9601-82290528d88e")
-	)
-	(wire
-		(pts
-			(xy 60.96 29.21) (xy 64.77 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ff3944-f5d9-4c75-8cc5-477590b6b836")
-	)
-	(wire
-		(pts
-			(xy 50.8 104.14) (xy 52.07 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cf55fcd-55eb-4209-a724-13acfb4abe52")
 	)
 	(wire
 		(pts
@@ -3581,16 +3561,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 25.4) (xy 64.77 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "635a3a84-60f0-4e2f-8372-0927f9b07e58")
-	)
-	(wire
-		(pts
 			(xy 92.71 66.04) (xy 107.95 66.04)
 		)
 		(stroke
@@ -3621,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 90.17) (xy 46.99 90.17)
+			(xy 27.94 93.98) (xy 43.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3699,17 +3669,6 @@
 		)
 		(uuid "8068c626-41b6-4e22-a56c-d5ec952cb519")
 	)
-	(polyline
-		(pts
-			(xy 76.2 113.03) (xy 96.52 113.03)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 132 132 132 1)
-		)
-		(uuid "80c39f79-2fb7-4ee3-ba23-e53d500eb9e8")
-	)
 	(wire
 		(pts
 			(xy 168.91 111.76) (xy 171.45 111.76)
@@ -3719,17 +3678,6 @@
 			(type default)
 		)
 		(uuid "85b95a3d-7cb5-4bf1-9687-907096811926")
-	)
-	(polyline
-		(pts
-			(xy 82.55 87.63) (xy 96.52 87.63)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 132 132 132 1)
-		)
-		(uuid "85f67d41-2570-4991-b82c-0d4882c2515e")
 	)
 	(wire
 		(pts
@@ -3773,7 +3721,7 @@
 	)
 	(bus
 		(pts
-			(xy 30.48 80.01) (xy 31.75 80.01)
+			(xy 24.13 83.82) (xy 25.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3793,7 +3741,7 @@
 	)
 	(bus
 		(pts
-			(xy 31.75 91.44) (xy 31.75 87.63)
+			(xy 25.4 95.25) (xy 25.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3813,7 +3761,7 @@
 	)
 	(bus
 		(pts
-			(xy 31.75 87.63) (xy 31.75 83.82)
+			(xy 25.4 91.44) (xy 25.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3880,17 +3828,6 @@
 			(type default)
 		)
 		(uuid "9d0052e4-38f0-40b9-9074-0a12dda29fea")
-	)
-	(polyline
-		(pts
-			(xy 57.15 90.17) (xy 82.55 87.63)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 132 132 132 1)
-		)
-		(uuid "9ffee1e1-be3e-4e33-b4ea-4cedab583e78")
 	)
 	(wire
 		(pts
@@ -4014,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 107.95 116.84)
+			(xy 73.66 116.84) (xy 107.95 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4034,7 +3971,7 @@
 	)
 	(bus
 		(pts
-			(xy 30.48 100.33) (xy 31.75 100.33)
+			(xy 24.13 107.95) (xy 25.4 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4084,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 45.72) (xy 204.47 45.72)
+			(xy 196.85 45.72) (xy 200.66 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4114,7 +4051,7 @@
 	)
 	(bus
 		(pts
-			(xy 31.75 100.33) (xy 31.75 101.6)
+			(xy 25.4 107.95) (xy 25.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4192,17 +4129,6 @@
 		)
 		(uuid "e4ad4cf0-d2fe-4bde-a23a-f28afe3d9b69")
 	)
-	(polyline
-		(pts
-			(xy 63.5 106.68) (xy 76.2 113.03)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 132 132 132 1)
-		)
-		(uuid "e95602fa-72fb-4299-84d3-0f9883bf4b84")
-	)
 	(wire
 		(pts
 			(xy 219.71 91.44) (xy 222.25 91.44)
@@ -4225,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 44.45) (xy 204.47 45.72)
+			(xy 200.66 44.45) (xy 200.66 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4235,7 +4161,7 @@
 	)
 	(bus
 		(pts
-			(xy 31.75 101.6) (xy 31.75 106.68)
+			(xy 25.4 109.22) (xy 25.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4325,16 +4251,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 109.22) (xy 43.18 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5eb6f95-faef-41f2-acaa-31fed3ac531c")
-	)
-	(wire
-		(pts
 			(xy 180.34 55.88) (xy 191.77 44.45)
 		)
 		(stroke
@@ -4345,7 +4261,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 93.98) (xy 46.99 93.98)
+			(xy 27.94 97.79) (xy 43.18 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4374,7 +4290,7 @@
 		(uuid "01dd7e46-4118-4c7e-be07-caa1a8bee490")
 	)
 	(label "SCL"
-		(at 64.77 29.21 0)
+		(at 43.18 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4394,7 +4310,7 @@
 		(uuid "25ee488c-f48a-476e-a249-470aae6f2f2c")
 	)
 	(label "SWCLK_INT"
-		(at 52.07 104.14 0)
+		(at 43.18 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,7 +4320,7 @@
 		(uuid "311eb6b9-fb55-4857-b911-f90dc8cf9ad4")
 	)
 	(label "WDT"
-		(at 46.99 86.36 0)
+		(at 43.18 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4424,7 +4340,7 @@
 		(uuid "4d506397-fb6f-4e8b-a372-6562d17287b7")
 	)
 	(label "XALERT"
-		(at 46.99 93.98 0)
+		(at 43.18 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,8 +4369,8 @@
 		)
 		(uuid "5640bdfe-1b5a-4ae3-a65b-98e5a52d8b95")
 	)
-	(label "NSHDN"
-		(at 46.99 90.17 0)
+	(label "nSHDN"
+		(at 43.18 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4464,7 +4380,7 @@
 		(uuid "583590fa-5659-4eab-ada6-7990075a5f08")
 	)
 	(label "SWDIO"
-		(at 35.56 109.22 0)
+		(at 27.94 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4474,7 +4390,7 @@
 		(uuid "5eb5cc05-6eca-4c16-bf25-4bcc1435d10a")
 	)
 	(label "SDA"
-		(at 64.77 25.4 0)
+		(at 43.18 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4534,7 +4450,7 @@
 		(uuid "70ae2140-ad1b-46f6-abaf-627ed4292173")
 	)
 	(label "SWCLK"
-		(at 35.56 104.14 0)
+		(at 27.94 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4563,7 +4479,7 @@
 		)
 		(uuid "952878f7-88f9-4655-9b82-0fc3a2fdcb3a")
 	)
-	(label "NSHDN"
+	(label "nSHDN"
 		(at 106.68 88.9 180)
 		(effects
 			(font
@@ -4584,7 +4500,7 @@
 		(uuid "d476f3f5-82f7-4758-9908-81d690ade5b6")
 	)
 	(label "SWDIO_INT"
-		(at 52.07 109.22 0)
+		(at 43.18 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4614,18 +4530,18 @@
 		(uuid "f0e08dbc-d1c9-4503-a942-ca1bcc9b54f4")
 	)
 	(label "QSPI_SS"
-		(at 191.77 29.21 0)
+		(at 195.58 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fb76744c-b3be-47b6-891f-5b7a5452e0a1")
 	)
 	(hierarchical_label "{BMS_SIG}"
 		(shape bidirectional)
-		(at 30.48 80.01 180)
+		(at 24.13 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4658,7 +4574,7 @@
 	)
 	(hierarchical_label "BOOT"
 		(shape input)
-		(at 212.09 29.21 0)
+		(at 208.28 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4669,7 +4585,7 @@
 	)
 	(hierarchical_label "{SWD}"
 		(shape bidirectional)
-		(at 30.48 100.33 180)
+		(at 24.13 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4702,7 +4618,7 @@
 	)
 	(hierarchical_label "RUN"
 		(shape input)
-		(at 59.69 116.84 180)
+		(at 64.77 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4713,40 +4629,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 130.81 180)
+		(at 161.29 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "014f8026-3746-4d24-8bba-cd4c372a7cd0")
-		(property "Reference" "C10"
-			(at 207.518 131.064 90)
+		(uuid "00a5713b-3592-43eb-bcc0-46a80e3664e6")
+		(property "Reference" "C8"
+			(at 164.338 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 205.486 130.81 90)
+		(property "Value" "15p"
+			(at 164.338 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 200.9648 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 201.93 130.81 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 160.3248 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,8 +4663,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 201.93 130.81 0)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603FRNPO9BN150"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,8 +4672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
-			(at 201.93 130.81 0)
+		(property "Description" "CAP CER 15PF 50V C0G/NPO 0603"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,8 +4681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 201.93 130.81 0)
+		(property "Mfr" " YAGEO"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,8 +4690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "DigiKey"
-			(at 201.93 130.81 0)
+		(property "Mfr P/N" "CC0603FRNPO9BN150"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,8 +4699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 201.93 130.81 0)
+		(property "Supplier_1" "Digikey"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,8 +4708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 201.93 130.81 0)
+		(property "Supplier_1 P/N" "311-3887-2-ND"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,8 +4717,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 201.93 130.81 0)
+		(property "Supplier_1 Unit Price" "0.14000"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,8 +4726,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
-			(at 201.93 130.81 0)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,8 +4735,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
-			(at 201.93 130.81 0)
+		(property "Supplier_2" "JLCPCB"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,8 +4744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 201.93 130.81 0)
+		(property "Supplier_2 P/N" "C519483"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,8 +4753,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
-			(at 201.93 130.81 0)
+		(property "Supplier_2 Unit Price" "0.0098"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,34 +4762,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 201.93 130.81 0)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 161.29 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 201.93 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4b53937-d7fb-484d-b2ee-8175e2ceaea0")
 		)
 		(pin "1"
-			(uuid "10142aeb-65b6-4838-be15-48da7b831ec5")
+			(uuid "96173667-6395-40b8-be3d-d4420638e8e7")
+		)
+		(pin "2"
+			(uuid "178569fe-6c41-4e7d-b59b-1b1efce84258")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 171.45 0)
 			(effects
 				(font
@@ -4922,7 +4822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E150JA01-01.pdf"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603FRNPO9BN150"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -4931,7 +4831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 15PF 25V C0G/NP0 0201"
+		(property "Description" "CAP CER 15PF 50V C0G/NPO 0603"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -4940,7 +4840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" " YAGEO"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -4949,7 +4849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM0335C1E150JA01D"
+		(property "Mfr P/N" "CC0603FRNPO9BN150"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -4967,7 +4867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-9658-2-ND"
+		(property "Supplier_1 P/N" "311-3887-2-ND"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -4976,7 +4876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" "0.14000"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -4994,7 +4894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -5003,7 +4903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C519483"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -5012,7 +4912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
+		(property "Supplier_2 Unit Price" "0.0098"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -5021,7 +4921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
+		(property "Supplier_2 Price @ Qty" "1"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -5040,6 +4940,163 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c0d8a2-7fc6-4187-89e8-d6713574a880")
+		(property "Reference" "C4"
+			(at 86.614 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 86.36 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.55 102.5652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C91183"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87ff7ca5-c566-40d9-acfe-f158dc8cd9b3")
+		)
+		(pin "1"
+			(uuid "0e22385e-7280-4378-9a14-7257eeae743d")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5070,7 +5127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 62.738 90)
 			(effects
 				(font
@@ -5079,7 +5136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -5088,7 +5145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "YAG2554TR-ND"
+		(property "Description" "RES SMD 27 OHM 0.1% 1/10W 0603"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -5106,7 +5163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RC0201FR-0727RL"
+		(property "Mfr P/N" "RT0603BRD0727RL"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -5124,7 +5181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "YAG2554TR-ND"
+		(property "Supplier_1 P/N" "13-RT0603BRD0727RLTR-ND"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -5133,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" "0.14000"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -5204,181 +5261,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a5a526e-8255-438b-aa8a-f1856baf388a")
-		(property "Reference" "C5"
-			(at 86.614 103.632 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 86.36 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 110.1852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 86.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8321af2d-c29c-4115-bcc5-6edb2765d49c")
-		)
-		(pin "1"
-			(uuid "c3e8dc5f-b865-4a40-8f75-4223a90bbab1")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 214.63 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5402,7 +5284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.5952 125.73 0)
 			(effects
 				(font
@@ -5411,7 +5293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME87-01.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5420,7 +5302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 6.3V X5R 0402"
+		(property "Description" "CAP CER 4.7UF 16V X7R 0603"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5429,7 +5311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "Murata"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5438,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM155R60J475ME87D"
+		(property "Mfr P/N" "GRM188Z71C475KE21D"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5447,7 +5329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digkey"
+		(property "Supplier_1" "Digikey"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5456,7 +5338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-5408-2-ND"
+		(property "Supplier_1 P/N" "490-GRM188Z71C475KE21DTR-ND"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5465,7 +5347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" "0.25000"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5483,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5492,7 +5374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C389010"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5501,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
+		(property "Supplier_2 Unit Price" "0.0710"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5510,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
+		(property "Supplier_2 Price @ Qty" "1"
 			(at 214.63 121.92 0)
 			(effects
 				(font
@@ -5529,163 +5411,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 215.9 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "123bbe12-fd1f-4062-ba28-f3b3dc4eb4b1")
-		(property "Reference" "R11"
-			(at 215.9 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 215.9 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 215.9 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "YAG2554TR-ND"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "YAGEO"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "RC0201FR-0727RL"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "YAG2554TR-ND"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e511969-ac6c-468a-8367-13186032ac86")
-		)
-		(pin "1"
-			(uuid "beab0f6c-727f-4422-8092-13141a65fe0b")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5752,6 +5477,164 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14aef3b6-a1fe-4eb9-b04a-75155699566e")
+		(property "Reference" "R7"
+			(at 69.85 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 69.85 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.85 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0603"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "AC0603FR-071KL"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1KLDTR-ND"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C116692"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0025"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ce8aa41-32d5-4357-a744-c31afbabd855")
+		)
+		(pin "1"
+			(uuid "82c482eb-70da-4b30-adb4-5387f4b355dc")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5825,6 +5708,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18c7274d-491c-460f-a3d1-cfb24e4c988d")
+		(property "Reference" "C6"
+			(at 86.614 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 86.36 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.55 127.9652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C91183"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0913bfe-e868-438f-9dac-8493f345a32b")
+		)
+		(pin "1"
+			(uuid "5c76e82d-2790-4bea-aa1d-ac28480530e5")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 171.45 0)
 		(unit 1)
@@ -5891,6 +5931,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e243119-eaeb-4880-b585-db46fb5592fa")
+		(property "Reference" "C13"
+			(at 234.188 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 232.156 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 227.6348 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C91183"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16f8631e-2da3-4e4d-b9e5-b935d7c97cdf")
+		)
+		(pin "1"
+			(uuid "78c5a70d-30a5-4e15-95e1-184f25fb12a5")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 92.71 109.22 0)
 		(unit 1)
@@ -5951,6 +6148,163 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2146b83b-e4bd-4511-986e-9207a60c01a6")
+		(property "Reference" "C9"
+			(at 194.818 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 192.786 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 188.2648 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C91183"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ca05ab1-6b34-430b-87ec-214e71ece5d4")
+		)
+		(pin "1"
+			(uuid "4e5d461b-c0d9-4277-87a5-38e65491f792")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 29.21 270)
+		(at 35.56 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6034,7 +6388,7 @@
 		(fields_autoplaced yes)
 		(uuid "269c0489-c4e0-475f-86df-421f0b5e6224")
 		(property "Reference" "#PWR011"
-			(at 46.99 29.21 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 29.2099 90)
+			(at 31.75 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 29.21 0)
+			(at 35.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 29.21 0)
+			(at 35.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 29.21 0)
+			(at 35.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,165 +6445,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 64.77 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2761a0d2-88ac-4596-9929-424d7b742813")
-		(property "Reference" "R7"
-			(at 64.77 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 64.77 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 64.77 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73-RT.pdf"
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1K OHM 1% 1/10W 0402"
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "RK73H1ERTTP1001F"
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "2019-RK73H1ERTTP1001FTR-ND"
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.13000"
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 64.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6915c9ae-7465-4ea5-b7cd-1113c3d1eacc")
-		)
-		(pin "1"
-			(uuid "d20daac3-79ea-43b0-8697-a362f87ccbc5")
-		)
-		(instances
-			(project ""
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 44.45 0)
+		(at 200.66 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6258,7 +6455,7 @@
 		(dnp no)
 		(uuid "2d261443-535e-4a55-9227-a73833144e83")
 		(property "Reference" "#PWR037"
-			(at 204.47 48.26 0)
+			(at 200.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6464,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 204.47 39.37 0)
+			(at 200.66 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 44.45 0)
+			(at 200.66 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 44.45 0)
+			(at 200.66 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 44.45 0)
+			(at 200.66 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,41 +6511,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 46.99 104.14 90)
+		(lib_id "Device:C")
+		(at 242.57 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2f44c236-581d-4372-a772-bbd7a77e9dbd")
-		(property "Reference" "R3"
-			(at 46.99 99.568 90)
+		(uuid "2ef1ba1f-66d1-4671-ad80-3361c36a26d6")
+		(property "Reference" "C14"
+			(at 247.65 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 46.99 102.108 90)
+		(property "Value" "4.7u"
+			(at 247.65 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 46.99 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 46.99 104.14 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 243.5352 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,8 +6544,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/20W 0201"
-			(at 46.99 104.14 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,8 +6553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "YAGEO"
-			(at 46.99 104.14 0)
+		(property "Description" "CAP CER 4.7UF 16V X7R 0603"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,8 +6562,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "AC0201FR-07100RL"
-			(at 46.99 104.14 0)
+		(property "Mfr" "Murata"
+			(at 242.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "GRM188Z71C475KE21D"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6581,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 46.99 104.14 0)
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,8 +6589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "YAG3412TR-ND"
-			(at 46.99 104.14 0)
+		(property "Supplier_1 P/N" "490-GRM188Z71C475KE21DTR-ND"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,8 +6598,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 46.99 104.14 0)
+		(property "Supplier_1 Unit Price" "0.25000"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6608,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 46.99 104.14 0)
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,8 +6616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
-			(at 46.99 104.14 0)
+		(property "Supplier_2" "JLCPCB"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,8 +6625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
-			(at 46.99 104.14 0)
+		(property "Supplier_2 P/N" "C389010"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,8 +6634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
-			(at 46.99 104.14 0)
+		(property "Supplier_2 Unit Price" "0.0710"
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,8 +6643,165 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 46.99 104.14 0)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 242.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18baf90d-33d9-48ee-9ac0-2d985080dd50")
+		)
+		(pin "2"
+			(uuid "16b3252f-de0a-4083-9d43-828300c0af22")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f44c236-581d-4372-a772-bbd7a77e9dbd")
+		(property "Reference" "R3"
+			(at 39.37 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 39.37 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RT0603BRD07100RL"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "YAG1497TR-ND"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.14000"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" " C122970"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0214"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 39.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,8 +6892,322 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 201.93 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "315da77f-53ad-406f-ab61-c813584c6e3b")
+		(property "Reference" "C10"
+			(at 207.518 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 205.486 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 200.9648 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C91183"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79724ae8-9e54-49f9-803e-c98da7bf0d58")
+		)
+		(pin "1"
+			(uuid "a3589f58-fe88-44fe-baca-d13db26b0112")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3521fc13-cbea-422a-a2a7-3b39bc0a7461")
+		(property "Reference" "C11"
+			(at 206.248 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 204.216 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 199.6948 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C91183"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cf5bb35-dc62-4cb2-a15c-a36b52015320")
+		)
+		(pin "1"
+			(uuid "e82917cf-fb58-47a2-bce0-b8f0d2743f18")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 204.47 53.34 0)
+		(at 200.66 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6548,7 +7216,7 @@
 		(fields_autoplaced yes)
 		(uuid "360ab77a-3881-42bf-bf78-2ffa0a3ab342")
 		(property "Reference" "#PWR038"
-			(at 204.47 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +7225,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 58.42 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +7233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 53.34 0)
+			(at 200.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +7242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 53.34 0)
+			(at 200.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +7251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 53.34 0)
+			(at 200.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,163 +7266,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36e61955-5d04-4dd5-90e8-b307fa0199c8")
-		(property "Reference" "R9"
-			(at 204.47 23.368 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 204.47 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 204.47 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73-RT.pdf"
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1K OHM 1% 1/10W 0402"
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "RK73H1ERTTP1001F"
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "2019-RK73H1ERTTP1001FTR-ND"
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.13000"
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 204.47 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0d8acc5-db4b-4ebf-8071-b8b8b97f65e7")
-		)
-		(pin "1"
-			(uuid "e7ea051f-98b0-488e-92cf-554535e0a727")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6828,41 +7339,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 256.54 88.9 90)
+		(lib_id "Device:R")
+		(at 39.37 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4418fd08-fa4e-410c-bb20-717fa62f1ca6")
-		(property "Reference" "C15"
-			(at 260.096 85.09 90)
+		(uuid "3b910a47-2114-4157-a031-72987577ab8b")
+		(property "Reference" "R4"
+			(at 39.37 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 260.096 87.63 90)
+		(property "Value" "100"
+			(at 39.37 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 260.35 87.9348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME87-01.pdf"
-			(at 256.54 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,8 +7372,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 6.3V X5R 0402"
-			(at 256.54 88.9 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,8 +7381,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
-			(at 256.54 88.9 0)
+		(property "Description" "RES SMD 100 OHM 0.1% 1/10W 0603"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,8 +7390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM155R60J475ME87D"
-			(at 256.54 88.9 0)
+		(property "Mfr" "YAGEO"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,8 +7399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digkey"
-			(at 256.54 88.9 0)
+		(property "Mfr P/N" "RT0603BRD07100RL"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,8 +7408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-5408-2-ND"
-			(at 256.54 88.9 0)
+		(property "Supplier_1" "Digikey"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,8 +7417,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 256.54 88.9 0)
+		(property "Supplier_1 P/N" "YAG1497TR-ND"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.14000"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6925,7 +7436,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 256.54 88.9 0)
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,8 +7444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
-			(at 256.54 88.9 0)
+		(property "Supplier_2" "JLCPCB"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,8 +7453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
-			(at 256.54 88.9 0)
+		(property "Supplier_2 P/N" " C122970"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,8 +7462,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
-			(at 256.54 88.9 0)
+		(property "Supplier_2 Unit Price" "0.0214"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,25 +7471,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 256.54 88.9 0)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "91685da5-b7b2-4d6a-be27-6450164734b4")
 		)
 		(pin "2"
-			(uuid "e3081ff8-9ec5-4be2-8f7a-bb512d61cbc9")
+			(uuid "e9681417-fef1-45ea-878d-0c87cfff6e74")
+		)
+		(pin "1"
+			(uuid "e6b5bd0c-98f8-410f-83c9-2c02e2c44872")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C15")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7118,181 +7629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 228.6 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49c0847f-0550-462e-9b2f-b4e82a4abe31")
-		(property "Reference" "C13"
-			(at 234.188 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 232.156 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 227.6348 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6aa63885-ea94-4a9e-b7cc-c9051818eec0")
-		)
-		(pin "1"
-			(uuid "56a6d801-892a-44e5-b728-4d1e814158c2")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 106.68 82.55 270)
 		(unit 1)
@@ -7426,183 +7762,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 86.36 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52327fef-38d8-459a-b065-20873e0e0484")
-		(property "Reference" "C3"
-			(at 86.614 73.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 86.36 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 79.7052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1341da99-9a47-48c9-85e8-538eb23dc4f0")
-		)
-		(pin "1"
-			(uuid "07e838c6-735e-43a9-be85-68f8855edc23")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 53.34 25.4 270)
+		(at 35.56 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7611,7 +7772,7 @@
 		(fields_autoplaced yes)
 		(uuid "53ddb08b-be98-465d-bdaf-0e4a645c00ef")
 		(property "Reference" "#PWR010"
-			(at 46.99 25.4 0)
+			(at 29.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 25.3999 90)
+			(at 31.75 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +7790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 25.4 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 25.4 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 25.4 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,163 +7961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 256.54 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "791e82be-1663-40e4-87fc-e320b383dd17")
-		(property "Reference" "C16"
-			(at 260.35 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 260.35 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 260.35 95.5548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME87-01.pdf"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 4.7UF 6.3V X5R 0402"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155R60J475ME87D"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digkey"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-5408-2-ND"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 256.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "830a8b94-57a4-474e-8de5-8451ba05752c")
-		)
-		(pin "2"
-			(uuid "69e3c710-0f33-4702-b1fc-d7134a700ba2")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 256.54 82.55 90)
 		(unit 1)
@@ -7966,7 +7970,7 @@
 		(dnp no)
 		(uuid "79b61e08-0d40-496d-aa5b-1017f9452f03")
 		(property "Reference" "L1"
-			(at 260.35 78.74 90)
+			(at 261.366 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +7978,7 @@
 			)
 		)
 		(property "Value" "3.3u"
-			(at 260.35 81.28 90)
+			(at 261.366 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,40 +8589,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 109.22 270)
+		(at 215.9 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8b94c12b-379d-4f5d-aaf5-156bd099b41d")
-		(property "Reference" "R4"
-			(at 46.99 111.506 90)
+		(uuid "8c035824-6481-4752-8eff-2faa7d0e3ea0")
+		(property "Reference" "R11"
+			(at 215.9 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 46.99 114.046 90)
+		(property "Value" "27"
+			(at 215.9 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 46.99 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 46.99 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,8 +8621,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/20W 0201"
-			(at 46.99 109.22 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 215.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 27 OHM 0.1% 1/10W 0603"
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +8640,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 46.99 109.22 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,8 +8648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "AC0201FR-07100RL"
-			(at 46.99 109.22 0)
+		(property "Mfr P/N" "RT0603BRD0727RL"
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8658,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 46.99 109.22 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,8 +8666,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "YAG3412TR-ND"
-			(at 46.99 109.22 0)
+		(property "Supplier_1 P/N" "13-RT0603BRD0727RLTR-ND"
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,8 +8675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 46.99 109.22 0)
+		(property "Supplier_1 Unit Price" "0.14000"
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8685,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 46.99 109.22 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,7 +8694,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 46.99 109.22 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,7 +8703,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 46.99 109.22 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +8712,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 46.99 109.22 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,7 +8721,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 46.99 109.22 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,15 +8730,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a73c3676-f3e1-4366-8910-b6c031efe54d")
+			(uuid "d0484fe5-fd1c-4c56-acbf-86dcb253fee0")
 		)
 		(pin "1"
-			(uuid "f573a204-7c7e-4655-a50c-bb53f6b47c61")
+			(uuid "1459ed7b-f2f6-4e9d-a6da-5b9781ad3da0")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8809,6 +8813,163 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 39.37 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e5694fc-184b-44f6-98fd-1b9dd4ae687b")
+		(property "Reference" "R6"
+			(at 39.37 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 39.37 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 33K OHM 1% 1/10W 0603"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RC0603FR-0733KL"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-33.0KHRTR-ND"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C126359"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0015"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e6a01c8-99b1-4d26-9f13-55c404b98cbc")
+		)
+		(pin "1"
+			(uuid "bd504a2d-eb37-4757-8092-26c3b74f1455")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 242.57 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8835,7 +8996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.792 104.14 90)
 			(effects
 				(font
@@ -8844,7 +9005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8853,7 +9014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33 OHM 0.5% 0.13W 0402"
+		(property "Description" "RES 33 OHM 1% 1/8W 0603"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8862,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Vishay Dale"
+		(property "Mfr" "KOA Speer Electronics, Inc."
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8871,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "TNPW040233R0DEED"
+		(property "Mfr P/N" "RK73H1JTTD33R0F"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8889,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "541-TNPW040233R0DEEDTR-ND"
+		(property "Supplier_1 P/N" "2019-RK73H1JTTD33R0FTR-ND"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8898,7 +9059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.20000"
+		(property "Supplier_1 Unit Price" "0.10000"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8916,7 +9077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8925,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C160041"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8934,7 +9095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
+		(property "Supplier_2 Unit Price" "0.0041"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8943,7 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
+		(property "Supplier_2 Price @ Qty" "1"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -8992,7 +9153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 54.3052 0)
 			(effects
 				(font
@@ -9010,7 +9171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9019,7 +9180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "YAGEO"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9028,7 +9189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9046,16 +9207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
+		(property "Supplier_1 P/N" "311-1779-2-ND"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9073,7 +9225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_1 Price @ QTY" "1"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9082,7 +9234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9091,7 +9243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ QTY" ""
+		(property "Supplier_2 P/N" "C91183"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9100,7 +9252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
+		(property "Supplier_2 Unit Price" "0.0042"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9109,16 +9261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
+		(property "Supplier_2 Price @ QTY" "1"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -9144,15 +9287,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 49.53 180)
+		(at 86.36 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "906174f9-be71-4168-b106-714a93295f4d")
-		(property "Reference" "C11"
-			(at 210.058 49.784 90)
+		(uuid "95b0aad0-a740-4751-b59e-84b1eb425f5d")
+		(property "Reference" "C5"
+			(at 86.614 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,15 +9303,15 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 208.026 49.53 90)
+			(at 86.36 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 203.5048 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.55 110.1852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9320,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 204.47 49.53 0)
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,8 +9328,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 204.47 49.53 0)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,8 +9337,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
-			(at 204.47 49.53 0)
+		(property "Mfr" "YAGEO"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,8 +9346,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 204.47 49.53 0)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9356,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 204.47 49.53 0)
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,17 +9364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 204.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 204.47 49.53 0)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9374,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10000"
-			(at 204.47 49.53 0)
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,8 +9382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
-			(at 204.47 49.53 0)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,8 +9391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
-			(at 204.47 49.53 0)
+		(property "Supplier_2" "JLCPCB"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,8 +9400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 204.47 49.53 0)
+		(property "Supplier_2 P/N" "C91183"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,8 +9409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
-			(at 204.47 49.53 0)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,17 +9418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 204.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 204.47 49.53 0)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,15 +9428,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "827c0367-77c1-49d6-a302-4b305c561955")
+			(uuid "b96d2bab-0a72-41da-8a0d-62c49922e656")
 		)
 		(pin "1"
-			(uuid "7d10914a-a1b8-4f52-98b6-385556b12b6d")
+			(uuid "d9742d17-d81c-4038-b24e-3f406641f35a")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9610,6 +9735,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 256.54 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a116cf4c-1c84-4077-ad30-de7ba48cda5e")
+		(property "Reference" "C16"
+			(at 261.366 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 261.366 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 252.73 97.4852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 16V X7R 0603"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "GRM188Z71C475KE21D"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "490-GRM188Z71C475KE21DTR-ND"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.25000"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C389010"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0710"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ff5805d-5333-4787-9ae5-31fb8f8a96d7")
+		)
+		(pin "2"
+			(uuid "28607024-c039-4fc8-84be-6fe05fbe8d70")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 109.22 270)
 		(unit 1)
@@ -9678,15 +9960,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 66.04 270)
+		(at 86.36 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a779ab7b-7ec1-4db3-9b34-57ceee1eb272")
-		(property "Reference" "C2"
-			(at 86.614 60.452 90)
+		(uuid "aa1f0df2-3281-4450-afca-402666804d89")
+		(property "Reference" "C3"
+			(at 86.614 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,15 +9976,15 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 86.36 62.484 90)
+			(at 86.36 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 67.0052 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.55 79.7052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9993,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 86.36 66.04 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,8 +10001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 86.36 66.04 0)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,8 +10010,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
-			(at 86.36 66.04 0)
+		(property "Mfr" "YAGEO"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,8 +10019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 86.36 66.04 0)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,7 +10029,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 86.36 66.04 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9755,17 +10037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 86.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 86.36 66.04 0)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,7 +10047,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10000"
-			(at 86.36 66.04 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,8 +10055,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
-			(at 86.36 66.04 0)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9791,8 +10064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
-			(at 86.36 66.04 0)
+		(property "Supplier_2" "JLCPCB"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,8 +10073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 86.36 66.04 0)
+		(property "Supplier_2 P/N" "C91183"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,8 +10082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
-			(at 86.36 66.04 0)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,17 +10091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 86.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 86.36 66.04 0)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,15 +10101,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "83f0557d-2d0a-4930-b7b8-1239b7151cf5")
+			(uuid "6f02f0a7-5d93-491d-a0c9-eceb05cfb166")
 		)
 		(pin "1"
-			(uuid "850a652c-8e95-4d80-93f3-1a45ce8137f3")
+			(uuid "8cf067d1-761c-4e7b-8dff-6d0e9089b240")
 		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9912,6 +10176,164 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acbe3d0d-5b94-48ea-a02e-64faf4f2b501")
+		(property "Reference" "R9"
+			(at 200.66 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 200.66 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.66 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0603"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "AC0603FR-071KL"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1KLDTR-ND"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C116692"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0025"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f8c4325-c23f-4f58-9392-fa2c7e3607ed")
+		)
+		(pin "1"
+			(uuid "984125cd-7a21-4c8f-8d26-09431be4cb3c")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10150,6 +10572,320 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b310f421-ed25-40f1-acf6-a3a65df39577")
+		(property "Reference" "C2"
+			(at 86.614 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 86.36 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.55 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±5% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "CC0603JRX7R9BB104"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "311-1779-2-ND"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" "1"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C91183"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0042"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" "1"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6b8ca80-b598-44b1-8ba0-840de69843a8")
+		)
+		(pin "1"
+			(uuid "1d89b473-0965-4f81-8e35-cca832e21cc9")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b86cc017-179d-4175-88b1-52254b067211")
+		(property "Reference" "C15"
+			(at 261.366 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 261.366 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 260.35 87.9348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 16V X7R 0603"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "GRM188Z71C475KE21D"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "490-GRM188Z71C475KE21DTR-ND"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.25000"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C389010"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "0.0710"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29bdcc61-7c03-48a8-9e0e-88cda9de7d79")
+		)
+		(pin "2"
+			(uuid "5169599f-b20e-43db-a63b-1d920a8beb6d")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 228.6 116.84 0)
 		(unit 1)
@@ -10210,181 +10946,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 86.36 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b989c03a-5f85-442a-9a2f-07fa8edb5a5a")
-		(property "Reference" "C4"
-			(at 86.614 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 86.36 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 102.5652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "148f6f38-13e4-4042-94f8-7bafe8b6ab1e")
-		)
-		(pin "1"
-			(uuid "50e80ef9-8f52-459b-8126-b62ea2f2e0df")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10517,181 +11078,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 189.23 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf8581d6-0426-4548-a8c9-1e4b3314e642")
-		(property "Reference" "C9"
-			(at 194.818 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 192.786 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 188.2648 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67b0a86b-3102-4ca8-aaaa-1219a4d5329e")
-		)
-		(pin "1"
-			(uuid "27293253-83dd-4a65-94c2-f43113514ffb")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10987,7 +11373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.512 154.94 90)
 			(effects
 				(font
@@ -10996,7 +11382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr-a-as.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11005,7 +11391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RESA-AS 0201 1K 1% 50MW TC200"
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0603"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11014,7 +11400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Bourns Inc."
+		(property "Mfr" "YAGEO"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11023,7 +11409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "CR0201AFW-1001GAS"
+		(property "Mfr P/N" "AC0603FR-071KL"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11041,7 +11427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "CR0201AFW-1001GASTR-ND"
+		(property "Supplier_1 P/N" "311-1KLDTR-ND"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11050,7 +11436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.1"
+		(property "Supplier_1 Unit Price" "0.10000"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11068,7 +11454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11077,7 +11463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C116692"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11086,7 +11472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
+		(property "Supplier_2 Unit Price" "0.0025"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11095,7 +11481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
+		(property "Supplier_2 Price @ Qty" "1"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -11187,7 +11573,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 25.4 90)
+		(at 39.37 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11196,7 +11582,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0cd4a3f-a2a4-4223-840f-b11c4d5e7ff9")
 		(property "Reference" "R5"
-			(at 57.15 19.05 90)
+			(at 39.37 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,24 +11590,15 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 57.15 21.59 90)
+			(at 39.37 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.15 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
-			(at 57.15 25.4 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,8 +11606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33K OHM 0.1% 1/16W 0402"
-			(at 57.15 25.4 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,8 +11615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
-			(at 57.15 25.4 0)
+		(property "Description" "RES 33K OHM 1% 1/10W 0603"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11247,8 +11624,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RN73R1ETTP3302B25"
-			(at 57.15 25.4 0)
+		(property "Mfr" "YAGEO"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "RC0603FR-0733KL"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11257,7 +11643,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 57.15 25.4 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11265,8 +11651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2019-RN73R1ETTP3302B25TR-ND"
-			(at 57.15 25.4 0)
+		(property "Supplier_1 P/N" "311-33.0KHRTR-ND"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11275,7 +11661,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10000"
-			(at 57.15 25.4 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11670,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 57.15 25.4 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11292,8 +11678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
-			(at 57.15 25.4 0)
+		(property "Supplier_2" "JLCPCB"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11301,8 +11687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
-			(at 57.15 25.4 0)
+		(property "Supplier_2 P/N" "C126359"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,8 +11696,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
-			(at 57.15 25.4 0)
+		(property "Supplier_2 Unit Price" "0.0015"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,8 +11705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 57.15 25.4 0)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11405,165 +11791,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7f2246e-d964-4300-a0ee-274698ad5e7b")
-		(property "Reference" "C8"
-			(at 154.178 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15p"
-			(at 154.178 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 162.2552 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E150JA01-01.pdf"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 15PF 25V C0G/NP0 0201"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM0335C1E150JA01D"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-9658-2-ND"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb8fb4f9-4173-4662-8c32-55b2bd929262")
-		)
-		(pin "2"
-			(uuid "40ab5a3a-01d3-4313-a975-c3378f27ee36")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11762,495 +11989,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 57.15 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7957c27-77db-4a16-b5f8-b92799c16f44")
-		(property "Reference" "R6"
-			(at 57.15 32.004 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 57.15 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.15 27.432 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 33K OHM 0.1% 1/16W 0402"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "RN73R1ETTP3302B25"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "2019-RN73R1ETTP3302B25TR-ND"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4ae8d71-fcb4-4b4c-8049-9afe8ffbfe97")
-		)
-		(pin "1"
-			(uuid "6144aa69-6e6e-4729-a18e-149bbc5605d1")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 242.57 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f91c8baa-dfd1-4aae-8bf8-dfe9cf6afe18")
-		(property "Reference" "C14"
-			(at 247.65 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 247.65 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 243.5352 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME87-01.pdf"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 4.7UF 6.3V X5R 0402"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155R60J475ME87D"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digkey"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-5408-2-ND"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43a9c4f0-d5ba-4368-9751-129437a5bf3d")
-		)
-		(pin "2"
-			(uuid "00684d3f-846d-4efe-9b5e-fe211de93042")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 86.36 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa2da0d8-1988-4171-858a-052d15ce1d83")
-		(property "Reference" "C6"
-			(at 86.614 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 86.36 123.444 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 127.9652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GRM155C71H104JE19D"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DTR-ND"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" "1"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.10000"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6c101f0-813f-4197-88f0-393311323027")
-		)
-		(pin "1"
-			(uuid "332f418f-405a-424c-8c85-99ece28c76ea")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/c2adc9be-e610-42dc-8b04-cee3e27e6dce"
-					(reference "C6")
 					(unit 1)
 				)
 			)

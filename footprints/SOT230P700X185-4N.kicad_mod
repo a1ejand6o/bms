@@ -1,0 +1,224 @@
+(footprint "SOT230P700X185-4N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.275 -4.485 0)
+		(layer "F.SilkS")
+		(uuid "0b577ddc-6cd2-4f3a-bbe4-8a4d1aa6f203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT230P700X185-4N"
+		(at 6.345 4.385 0)
+		(layer "F.Fab")
+		(uuid "9e0a33be-262c-40b3-9248-93c3e07f8f12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0df1e48-d404-4b7e-9f31-4e49d356ec6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d32fb85f-a7ca-4c9e-8f96-f7cdb178292a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad23bd4b-6811-49d5-b532-804c2e79f9ab")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae2a74e2-f129-4a14-b5c6-97bf133423e6")
+	)
+	(fp_line
+		(start 1.75 2.1)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c11b4437-aee2-40f1-b8c0-71320b624ad3")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ecbc59f-e89d-4022-b032-1301c5ecb8d9")
+	)
+	(fp_circle
+		(center -5.1 -2.3)
+		(end -5 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "db0be8c5-9f2d-4cca-a7ca-49e291bb7706")
+	)
+	(fp_line
+		(start -4.45 -3.5)
+		(end -4.45 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d1e6401-6db0-4bdc-b596-30ccc027b482")
+	)
+	(fp_line
+		(start -4.45 3.5)
+		(end 4.45 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "298a0907-b3c4-4825-8a5d-100f343156b3")
+	)
+	(fp_line
+		(start 4.45 -3.5)
+		(end -4.45 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a2adbe0-c2b0-4a1e-a44b-e799d6ce1693")
+	)
+	(fp_line
+		(start 4.45 3.5)
+		(end 4.45 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f112a25b-e429-41f5-b2d9-26a93191d6f2")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3040caf6-5e82-4007-a147-81dcc6453359")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89e3d154-eb1e-4ef8-91c4-e88b7425b4da")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd262871-d2df-46ae-8e49-2fdf0263d115")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7976cec9-9f13-4e8d-9612-41df6a59ce80")
+	)
+	(fp_circle
+		(center -5.1 -2.3)
+		(end -5 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0f0d2412-2f95-46b3-ad89-0a8830fd52ee")
+	)
+	(pad "1" smd rect
+		(at -3.1 0)
+		(size 2.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "29fa00d1-a8b0-42c1-8778-cc2d5e90e3d4")
+	)
+	(pad "1" smd rect
+		(at 3.1 0)
+		(size 2.2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "67d7c136-7b9d-4ec6-9fb2-1434fdb76d43")
+	)
+	(pad "2" smd rect
+		(at -3.1 2.3)
+		(size 2.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "99591cba-10d3-4f4e-9869-2d671d9bbd1f")
+	)
+	(pad "3" smd rect
+		(at -3.1 -2.3)
+		(size 2.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dd8d8523-ce31-41e8-a003-e1e19a0f3a49")
+	)
+	(embedded_fonts no)
+)

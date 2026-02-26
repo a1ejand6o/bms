@@ -144,46 +144,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_TPS7B:TPS7B8133DRVR"
+		(symbol "_TPS7B:TPS7B8133QDGNRQ1"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 8.62 0)
+				(at 20.32 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "TPS7B8133DRVR"
-				(at -12.7 -12.7 0)
+			(property "Value" "TPS7B8133QDGNRQ1"
+				(at 20.32 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TPS7B8133DRVR:SON65P200X200X80-7N"
+			(property "Footprint" "VSSOP8_DGN_TEX"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tps7b81-q1"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -197,253 +196,239 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey_Part_Number" "296-TPS7B8133DRVRCT-ND"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=snap"
+			(property "ki_keywords" "TPS7B8133QDGNRQ1"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(property "ki_fp_filters" "VSSOP8_DGN_TEX VSSOP8_DGN_TEX-M VSSOP8_DGN_TEX-L"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "WSON-6 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TPS7B8133QDGNRQ1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -15.24)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "April 2020"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TPS7B8133DRVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "150-mA, off-battery (40-V), ultra-low-IQ, low-dropout (LDO) voltage regulator with enable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TPS7B8133DRVR_0_0"
-				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 7.62)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 33.02 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -15.24) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
+					(at 0 0 0)
+					(length 7.62)
 					(name "IN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
+					(at 0 -2.54 0)
+					(length 7.62)
 					(name "EN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "DNC"
+				(pin no_connect line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "EXP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(hide yes)
+				(pin power_out line
+					(at 0 -7.62 0)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-			)
-			(symbol "TPS7B8133DRVR_1_0"
 				(pin power_out line
-					(at 17.78 5.08 180)
-					(length 5.08)
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 40.64 -2.54 180)
+					(length 7.62)
 					(name "OUT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -679,76 +664,52 @@
 		)
 	)
 	(junction
-		(at 125.73 91.44)
+		(at 168.91 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "072025aa-57ae-4239-9194-a47022a4031e")
+		(uuid "62716d7e-0519-424b-8716-13c15ca640ef")
 	)
 	(junction
-		(at 165.1 104.14)
+		(at 179.07 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ce28d6a-87d2-4cce-980f-062eaa9eaec1")
+		(uuid "6fd022ce-50ea-4413-8587-6e3fe922e2dc")
 	)
 	(junction
-		(at 173.99 91.44)
+		(at 125.73 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84f07d44-ac5a-475d-91d3-4bde17a160d9")
+		(uuid "b3786ab4-371f-40f2-ba5a-b118a6850f8c")
 	)
 	(junction
-		(at 116.84 91.44)
+		(at 115.57 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e13ae33f-cb6d-4939-a262-189868549c16")
 	)
-	(no_connect
-		(at 165.1 96.52)
-		(uuid "26a16081-0ba5-49a8-9451-b4927d23443e")
-	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 165.1 104.14)
+			(xy 125.73 106.68) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0195f897-1669-4e00-8480-e46e41eefd46")
+		(uuid "2142d57e-2b6d-4b0b-bfa8-95d75b2ce80a")
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 125.73 91.44)
+			(xy 125.73 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08b82073-fe4d-460a-a70a-536018d49a86")
+		(uuid "298b1a87-ca70-42af-a4c6-a3e43b26eda5")
 	)
 	(wire
 		(pts
-			(xy 173.99 91.44) (xy 173.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aec0536-952d-4067-bb4b-62509edb39d5")
-	)
-	(wire
-		(pts
-			(xy 163.83 104.14) (xy 165.1 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450e836d-0e05-4490-a567-222178eb707a")
-	)
-	(wire
-		(pts
-			(xy 173.99 91.44) (xy 196.85 91.44)
+			(xy 179.07 101.6) (xy 195.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 165.1 101.6)
+			(xy 167.64 109.22) (xy 168.91 109.22)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +729,27 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 91.44) (xy 128.27 91.44)
+			(xy 167.64 106.68) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bb7465-5950-4f0a-857c-9caf4f1193f5")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775e2d36-2b57-42ef-85de-b9bb12d25983")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -778,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 116.84 91.44)
+			(xy 115.57 106.68) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -788,27 +769,37 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 91.44) (xy 125.73 96.52)
+			(xy 179.07 101.6) (xy 179.07 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8593fab0-ab9a-49dc-b8e6-7f8c954edfff")
+		(uuid "b3d90e8e-043a-4e82-a630-626d328741ed")
 	)
 	(wire
 		(pts
-			(xy 125.73 96.52) (xy 128.27 96.52)
+			(xy 125.73 99.06) (xy 125.73 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1cf17bc-ba62-4896-85e9-b15ceaa9dcd3")
+		(uuid "b8af7efc-735c-4c85-be00-aa45f15e392c")
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 116.84 91.44)
+			(xy 125.73 114.3) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fc8681-78b2-4862-b8d5-38b79baea476")
+	)
+	(wire
+		(pts
+			(xy 100.33 99.06) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -818,7 +809,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 91.44) (xy 173.99 91.44)
+			(xy 168.91 106.68) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d590f92d-0150-4420-805d-602d751f4c67")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -828,17 +829,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 163.83 96.52)
+			(xy 167.64 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f72ad851-79e8-4715-8437-7945d4df2b5a")
+		(uuid "f3a71cb7-d00a-4559-b571-872553379f74")
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 165.1 106.68)
+			(xy 168.91 109.22) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +849,7 @@
 	)
 	(hierarchical_label "5V_IN"
 		(shape input)
-		(at 106.68 91.44 180)
+		(at 100.33 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -859,7 +860,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 196.85 91.44 270)
+		(at 195.58 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -868,7 +869,7 @@
 		(fields_autoplaced yes)
 		(uuid "0343a89e-3ec9-4a7b-9902-d05c365b008f")
 		(property "Reference" "#PWR051"
-			(at 193.04 91.44 0)
+			(at 191.77 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +878,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 200.66 91.4399 90)
+			(at 199.39 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 91.44 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 91.44 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 196.85 91.44 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,301 +926,17 @@
 		)
 	)
 	(symbol
-		(lib_id "_TPS7B:TPS7B8133DRVR")
-		(at 146.05 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ae5dbcb-cb50-4711-948e-0a31e95611cf")
-		(property "Reference" "U4"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS7B8133QDGNRQ1"
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "_BMS:VSSOP8_DGN_TEX"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps7b81-q1"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LIN 3.3V 150MA 8-HVSSOP"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Texas Instruments"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "TPS7B8133QDGNRQ1"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "296-TPS7B8133QDGNRQ1CT-ND"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$1.60"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "296-TPS7B8133DRVRCT-ND"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=snap"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "WSON-6 Texas Instruments"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=eda"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "April 2020"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS7B8133DRVR"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "150-mA, off-battery (40-V), ultra-low-IQ, low-dropout (LDO) voltage regulator with enable"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f20782b-d7ca-4e66-ae8d-e05cd110d7cd")
-		)
-		(pin "2"
-			(uuid "4ea8cb64-04ba-493b-83e5-b85977dcc059")
-		)
-		(pin "3"
-			(uuid "e66234f4-937e-423a-8a52-e5bde1bd849c")
-		)
-		(pin "4"
-			(uuid "df376ae5-3e74-44b5-a94d-890c10d4c228")
-		)
-		(pin "7"
-			(uuid "d6cb30c4-3d36-47e3-ab16-1febaa8ae674")
-		)
-		(pin "6"
-			(uuid "56884558-b389-41ba-beb3-802d7fc8a881")
-		)
-		(pin "5"
-			(uuid "3879a20f-9ce6-46e6-9c5c-66a81f8fa128")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 116.84 106.68 0)
+		(at 168.91 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "611c3e10-fd72-4e1e-abd4-52992ca20059")
-		(property "Reference" "#PWR048"
-			(at 116.84 113.03 0)
+		(uuid "30969475-47f3-4ce9-8c19-9a2ff2c44f22")
+		(property "Reference" "#PWR072"
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,15 +945,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 111.76 0)
+			(at 172.72 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 106.68 0)
+			(at 168.91 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 106.68 0)
+			(at 168.91 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +972,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 106.68 0)
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ace88e0-bada-45e5-975d-0d2fd3ac0eaa")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611c3e10-fd72-4e1e-abd4-52992ca20059")
+		(property "Reference" "#PWR048"
+			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,35 +1059,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 116.84 102.87 0)
+		(lib_id "_TPS7B:TPS7B8133QDGNRQ1")
+		(at 127 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c3a05f6e-ae01-473f-8875-757be084abf8")
-		(property "Reference" "C17"
-			(at 120.65 101.5999 0)
+		(uuid "7567e193-f475-4f5f-8d5e-5f26b4290f4e")
+		(property "Reference" "U4"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS7B8133QDGNRQ1"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VSSOP8_DGN_TEX"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10uF"
-			(at 120.65 104.1399 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps7b81-q1"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 117.8052 106.68 0)
+		(property "Description" "IC REG LIN 3.3V 150MA 8-HVSSOP"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,8 +1113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
-			(at 116.84 102.87 0)
+		(property "Mfr" "Texas Instruments"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,8 +1122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 50V X5R 0805"
-			(at 116.84 102.87 0)
+		(property "Mfr P/N" "TPS7B8133QDGNRQ1"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,8 +1131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
-			(at 116.84 102.87 0)
+		(property "Supplier_1" "Digikey"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,8 +1140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM21BR61H106KE43L"
-			(at 116.84 102.87 0)
+		(property "Supplier_1 P/N" "296-TPS7B8133QDGNRQ1TR-ND"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,17 +1149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "DigiKey"
-			(at 116.84 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-18663-1-ND"
-			(at 116.84 102.87 0)
+		(property "Supplier_1 Unit Price" "1.60000"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1159,245 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 116.84 102.87 0)
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C2866190"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" "1.0295"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" "1"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8084c6e8-c96f-4b0a-a4eb-ca6786fb6b91")
+		)
+		(pin "2"
+			(uuid "a01aa1a2-a11a-4d0d-88a5-32a7c7c26df9")
+		)
+		(pin "3"
+			(uuid "4842b4f3-2be1-4720-a303-44ff5fbf99aa")
+		)
+		(pin "4"
+			(uuid "6f1cdf54-b922-42f0-a764-d5154fdfd117")
+		)
+		(pin "9"
+			(uuid "c7175bf7-4e21-4c54-82cd-3eceb4a273c6")
+		)
+		(pin "8"
+			(uuid "7b073ac2-61ec-4b57-a7ba-6ef7d9fd0ad9")
+		)
+		(pin "7"
+			(uuid "4dbefc32-e7f7-4f9b-89f0-3b41c6d94ab9")
+		)
+		(pin "6"
+			(uuid "13230259-d0cb-4ed5-ae25-de9f7da77689")
+		)
+		(pin "5"
+			(uuid "9540d697-efc0-480a-826b-3e15513e6edf")
+		)
+		(instances
+			(project ""
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7822335-d662-4248-a972-fa194c84b1d8")
+		(property "Reference" "#PWR071"
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd4b8f16-052d-4184-9ebf-d6168e212101")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/1875dae8-5675-4324-bc32-eabf0e306a05"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a05f6e-ae01-473f-8875-757be084abf8")
+		(property "Reference" "C17"
+			(at 119.38 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 119.38 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 116.5352 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 50V X5R 0805"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "GRM21BR61H106KE43L"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "490-18663-1-ND"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1375,7 +1406,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.28"
-			(at 116.84 102.87 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1415,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 116.84 102.87 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1424,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 116.84 102.87 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1433,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 116.84 102.87 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1442,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 116.84 102.87 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1467,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 106.68 0)
+		(at 179.07 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1445,7 +1476,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9725041-844c-45f9-aaf6-f2ed76e66601")
 		(property "Reference" "#PWR050"
-			(at 173.99 113.03 0)
+			(at 179.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 111.76 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 106.68 0)
+			(at 179.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 106.68 0)
+			(at 179.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 106.68 0)
+			(at 179.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1533,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.99 102.87 0)
+		(at 179.07 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1511,7 +1542,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ff9df7-b196-463a-a2fd-4323e8a4ae39")
 		(property "Reference" "C18"
-			(at 177.8 101.5999 0)
+			(at 182.88 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1551,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 177.8 104.1399 0)
+			(at 182.88 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1560,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 174.9552 106.68 0)
+			(at 180.0352 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1569,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1578,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 50V X5R 0805"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1587,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1596,7 @@
 			)
 		)
 		(property "Mfr P/N" "GRM21BR61H106KE43L"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1605,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1614,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "490-18663-1-ND"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1623,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1632,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.28"
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1641,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1650,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1659,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1668,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 173.99 102.87 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 106.68 0)
+		(at 168.91 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1671,7 +1702,7 @@
 		(fields_autoplaced yes)
 		(uuid "da6bff10-46a4-4722-9876-56f5d10f037a")
 		(property "Reference" "#PWR049"
-			(at 165.1 113.03 0)
+			(at 168.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 111.76 0)
+			(at 168.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 106.68 0)
+			(at 168.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 106.68 0)
+			(at 168.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 106.68 0)
+			(at 168.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

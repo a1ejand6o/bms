@@ -1,4 +1,4 @@
-26685144490796732
+26686916552974653
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106336,6 +106336,13 @@ powerpak sc70 sc-70 dual
 0
 6
 6
+_BMS
+SOT230P700X185-4N
+
+
+0
+4
+3
 _BMS
 SW_TS02-66-43-BK-160-LCR-D
 
