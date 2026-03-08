@@ -1913,22 +1913,10 @@
 		(uuid "cffa350e-33d1-4931-85db-b9f7a5719926")
 	)
 	(junction
-		(at 133.35 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a78f053-95c0-4c8d-a31e-cb54b7e5ef42")
-	)
-	(junction
 		(at 54.61 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f337774-a488-43bc-9db5-d29d71af6f86")
-	)
-	(junction
-		(at 130.81 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b2d506b-5313-4ba6-9509-5e0f1be55a5b")
 	)
 	(junction
 		(at 54.61 44.45)
@@ -2061,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 138.43) (xy 130.81 138.43)
+			(xy 105.41 138.43) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2078,16 +2066,6 @@
 			(type default)
 		)
 		(uuid "07ec18dd-7d00-4d4b-a593-4047e89da3c8")
-	)
-	(wire
-		(pts
-			(xy 133.35 134.62) (xy 135.89 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08dc9690-c2f2-4888-91b8-38157525c6a8")
 	)
 	(bus
 		(pts
@@ -2251,16 +2229,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 138.43) (xy 135.89 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5229d368-8a81-4460-af92-e2b612b17d6c")
-	)
-	(wire
-		(pts
 			(xy 107.95 80.01) (xy 118.11 80.01)
 		)
 		(stroke
@@ -2319,16 +2287,6 @@
 		)
 		(uuid "7f096be2-5c2b-413a-9d59-8ce3f5af7628")
 	)
-	(wire
-		(pts
-			(xy 130.81 132.08) (xy 130.81 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "821e3e23-fcee-4c31-8a5f-941c34cbbb18")
-	)
 	(bus
 		(pts
 			(xy 210.82 38.1) (xy 210.82 35.56)
@@ -2368,16 +2326,6 @@
 			(type default)
 		)
 		(uuid "92cb9102-c15e-4096-a097-c184cd79c9df")
-	)
-	(wire
-		(pts
-			(xy 133.35 140.97) (xy 135.89 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94b78951-d3e0-457e-9d6f-5b75ddbdf53b")
 	)
 	(wire
 		(pts
@@ -2441,16 +2389,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 134.62) (xy 133.35 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd741839-4d09-499e-80d1-5ccf5527257e")
-	)
-	(wire
-		(pts
 			(xy 146.05 80.01) (xy 147.32 80.01)
 		)
 		(stroke
@@ -2491,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 140.97) (xy 133.35 140.97)
+			(xy 105.41 140.97) (xy 135.89 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2508,16 +2446,6 @@
 			(type default)
 		)
 		(uuid "ce8c8762-6f97-4623-a4ca-39aeead5ae9a")
-	)
-	(wire
-		(pts
-			(xy 130.81 132.08) (xy 135.89 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c49c2f-b9b7-4259-9911-18c190076b0e")
 	)
 	(wire
 		(pts
@@ -2806,7 +2734,7 @@
 	)
 	(hierarchical_label "PACK+"
 		(shape input)
-		(at 105.41 138.43 180)
+		(at 105.41 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2861,7 +2789,7 @@
 	)
 	(hierarchical_label "PACK-"
 		(shape input)
-		(at 105.41 140.97 180)
+		(at 105.41 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5163,201 +5091,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/2982e12c-39cd-4158-a648-a90b7f6b527c"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 140.97 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb5def52-0dfd-4fc1-9cc3-6f342dc5c769")
-		(property "Reference" "J2"
-			(at 145.796 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 161.29 132.0801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR P/N" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5904f5d2-8a05-449a-821d-57c7aa8de48f")
-		)
-		(pin "2"
-			(uuid "581a02f2-5a48-4574-bb1d-6a0c18bbe6aa")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/2982e12c-39cd-4158-a648-a90b7f6b527c"
-					(reference "J2")
 					(unit 1)
 				)
 			)

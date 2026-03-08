@@ -1,4 +1,4 @@
-26686917424133653
+26692236371471120
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106333,6 +106333,27 @@ _BMS
 SC70-6
 Vishay PowerPAK SC70 dual transistor package http://www.vishay.com/docs/70487/70487.pdf
 powerpak sc70 sc-70 dual
+0
+6
+6
+_BMS
+SC_4EEH-T1_GE3_VIS
+
+SQ1464EEH-T1_GE3 
+0
+6
+6
+_BMS
+SC_4EEH-T1_GE3_VIS-L
+
+SQ1464EEH-T1_GE3 
+0
+6
+6
+_BMS
+SC_4EEH-T1_GE3_VIS-M
+
+SQ1464EEH-T1_GE3 
 0
 6
 6
