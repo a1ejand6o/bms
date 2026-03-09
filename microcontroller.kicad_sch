@@ -8659,7 +8659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "_BMS:rp_inductor"
 			(at 314.96 124.46 0)
 			(effects
 				(font
