@@ -5574,7 +5574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 326.39 210.82 0)
+		(at 326.39 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5583,7 +5583,7 @@
 		(fields_autoplaced yes)
 		(uuid "15f42f8f-f4fd-4783-a8ca-15a9ae53ea24")
 		(property "Reference" "#PWR082"
-			(at 326.39 217.17 0)
+			(at 326.39 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 326.39 215.9 0)
+			(at 326.39 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 210.82 0)
+			(at 326.39 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 210.82 0)
+			(at 326.39 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 326.39 210.82 0)
+			(at 326.39 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,7 +6479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 344.17 207.01 0)
+		(at 344.17 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6488,7 +6488,7 @@
 		(fields_autoplaced yes)
 		(uuid "26c58638-2911-41a7-98ef-38c8d6cbf82a")
 		(property "Reference" "R26"
-			(at 346.71 205.7399 0)
+			(at 346.71 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +6497,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 346.71 208.2799 0)
+			(at 346.71 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +6506,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 342.392 207.01 90)
+			(at 342.392 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6524,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6533,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6542,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6551,7 @@
 			)
 		)
 		(property "Supplier_1" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6560,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6569,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6578,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +6587,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6596,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +6605,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6614,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 344.17 207.01 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,7 +7177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 361.95 210.82 0)
+		(at 361.95 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7186,7 +7186,7 @@
 		(fields_autoplaced yes)
 		(uuid "313957e6-3e61-4697-94cb-835512b6c0db")
 		(property "Reference" "#PWR086"
-			(at 361.95 217.17 0)
+			(at 361.95 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,7 +7195,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 215.9 0)
+			(at 361.95 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 210.82 0)
+			(at 361.95 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 210.82 0)
+			(at 361.95 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 361.95 210.82 0)
+			(at 361.95 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +9420,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 344.17 193.04 0)
+		(at 344.17 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9429,7 +9429,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d49d22a-d4be-4aa4-aa95-90965335c076")
 		(property "Reference" "#PWR079"
-			(at 344.17 196.85 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9438,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 344.17 187.96 0)
+			(at 344.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 193.04 0)
+			(at 344.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 193.04 0)
+			(at 344.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 344.17 193.04 0)
+			(at 344.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 210.82 0)
+		(at 344.17 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10392,7 +10392,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f4038e9-fc5e-4c0a-b153-acc232b5afd1")
 		(property "Reference" "#PWR084"
-			(at 344.17 217.17 0)
+			(at 344.17 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,7 +10401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.17 215.9 0)
+			(at 344.17 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 210.82 0)
+			(at 344.17 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +10418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 210.82 0)
+			(at 344.17 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 344.17 210.82 0)
+			(at 344.17 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,16 +11509,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 361.95 193.04 0)
+		(at 361.95 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b820b2e4-589e-46e9-a953-d4cf996abbf4")
 		(property "Reference" "#PWR085"
-			(at 361.95 196.85 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +11526,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 361.95 187.96 0)
+			(at 361.95 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 193.04 0)
+			(at 361.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 193.04 0)
+			(at 361.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 361.95 193.04 0)
+			(at 361.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12099,7 +12098,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 361.95 207.01 0)
+		(at 361.95 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12108,7 +12107,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7fcb3ae-bd5f-407a-ba53-72a5060ee8b1")
 		(property "Reference" "R27"
-			(at 364.49 205.7399 0)
+			(at 364.49 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12117,7 +12116,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 364.49 208.2799 0)
+			(at 364.49 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12126,7 +12125,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 360.172 207.01 90)
+			(at 360.172 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,7 +12134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +12143,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +12152,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +12161,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12170,7 @@
 			)
 		)
 		(property "Supplier_1" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +12179,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,7 +12188,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12197,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +12206,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12216,7 +12215,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,7 +12224,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12234,7 +12233,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 361.95 207.01 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12681,7 +12680,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 326.39 193.04 0)
+		(at 326.39 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12690,7 +12689,7 @@
 		(fields_autoplaced yes)
 		(uuid "da242361-ab3a-4766-b099-81b5127f3949")
 		(property "Reference" "#PWR083"
-			(at 326.39 196.85 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12699,7 +12698,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 326.39 187.96 0)
+			(at 326.39 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12707,7 +12706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 193.04 0)
+			(at 326.39 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,7 +12715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 193.04 0)
+			(at 326.39 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,7 +12724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 326.39 193.04 0)
+			(at 326.39 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13235,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 326.39 207.01 0)
+		(at 326.39 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13245,7 +13244,7 @@
 		(fields_autoplaced yes)
 		(uuid "f31d36d8-7351-4301-a985-0daa9ea39641")
 		(property "Reference" "R25"
-			(at 328.93 205.7399 0)
+			(at 328.93 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13253,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 328.93 208.2799 0)
+			(at 328.93 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13262,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 324.612 207.01 90)
+			(at 324.612 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,7 +13271,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,7 +13280,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +13289,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +13298,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13307,7 @@
 			)
 		)
 		(property "Supplier_1" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13316,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13325,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13335,7 +13334,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13343,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13352,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13362,7 +13361,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13371,7 +13370,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 326.39 207.01 0)
+			(at 326.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
