@@ -533,6 +533,9 @@
       "/main/BMS/BATT+": [
         "HVBUS"
       ],
+      "/main/BMS/BATT-": [
+        "cells"
+      ],
       "/main/BMS/C1": [
         "cells"
       ],

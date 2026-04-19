@@ -9,4 +9,5 @@
   (lib (name "_GSB1")(type "KiCad")(uri "${KIPRJMOD}/symbols/GSB1CA11101DSHR.kicad_sym")(options "")(descr ""))
   (lib (name "_USBR")(type "KiCad")(uri "${KIPRJMOD}/symbols/funky_usb.kicad_sym")(options "")(descr ""))
   (lib (name "_USBSKY")(type "KiCad")(uri "${KIPRJMOD}/symbols/UJ20-C-H-G-SMT-1-P16-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "_W25Q64JVSSIQ")(type "KiCad")(uri "${KIPRJMOD}/symbols/W25Q64JVSSIQ.kicad_sym")(options "")(descr ""))
 )

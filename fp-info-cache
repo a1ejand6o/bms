@@ -1,4 +1,4 @@
-26694009370769538
+26699340578498026
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106357,6 +106357,27 @@ SQ1464EEH-T1_GE3
 0
 6
 6
+_BMS
+SOIC-8_5P28X5P28_WIN
+
+W25Q64JVSSIQ 
+0
+8
+8
+_BMS
+SOIC-8_5P28X5P28_WIN-L
+
+W25Q64JVSSIQ 
+0
+8
+8
+_BMS
+SOIC-8_5P28X5P28_WIN-M
+
+W25Q64JVSSIQ 
+0
+8
+8
 _BMS
 SOT230P700X185-4N
 

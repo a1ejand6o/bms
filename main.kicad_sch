@@ -571,7 +571,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 128.27 101.6)
+			(xy 105.41 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -671,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 99.06) (xy 128.27 99.06)
+			(xy 105.41 97.79) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -778,16 +778,6 @@
 			(type default)
 		)
 		(uuid "ac1575d0-8242-4b91-9c4a-94f37f6ccf77")
-	)
-	(wire
-		(pts
-			(xy 105.41 93.98) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1477e02-b267-45da-a5dd-157f15ef9d29")
 	)
 	(wire
 		(pts
@@ -901,7 +891,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 96.52) (xy 128.27 96.52)
+			(xy 105.41 95.25) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2211,7 +2201,7 @@
 			)
 		)
 		(pin "NTC1" output
-			(at 105.41 101.6 0)
+			(at 105.41 100.33 0)
 			(uuid "fbdc162f-565b-4322-90b7-08e498f08214")
 			(effects
 				(font
@@ -2221,7 +2211,7 @@
 			)
 		)
 		(pin "NTC2" output
-			(at 105.41 99.06 0)
+			(at 105.41 97.79 0)
 			(uuid "0cb3c64c-8b3c-4661-bd00-9bb130172d29")
 			(effects
 				(font
@@ -2231,18 +2221,8 @@
 			)
 		)
 		(pin "NTC3" output
-			(at 105.41 96.52 0)
+			(at 105.41 95.25 0)
 			(uuid "92a1545f-6247-4351-99a8-528b717331f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NTC4" output
-			(at 105.41 93.98 0)
-			(uuid "3c52de46-c6b4-47fd-8741-637470ded562")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2466,7 @@
 			)
 		)
 		(pin "NTC1" input
-			(at 128.27 101.6 180)
+			(at 128.27 100.33 180)
 			(uuid "1ef626a4-28d2-43a8-8034-1e2ea3996dd0")
 			(effects
 				(font
@@ -2496,7 +2476,7 @@
 			)
 		)
 		(pin "NTC2" input
-			(at 128.27 99.06 180)
+			(at 128.27 97.79 180)
 			(uuid "b956a955-b067-48d7-b2b2-00c79a914d90")
 			(effects
 				(font
@@ -2506,18 +2486,8 @@
 			)
 		)
 		(pin "NTC3" input
-			(at 128.27 96.52 180)
+			(at 128.27 95.25 180)
 			(uuid "f104d687-012b-4dac-ad00-832623f018a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NTC4" input
-			(at 128.27 93.98 180)
-			(uuid "abf8b46a-f469-4524-9da5-18ab81781be1")
 			(effects
 				(font
 					(size 1.27 1.27)
