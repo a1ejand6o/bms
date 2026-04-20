@@ -1,4 +1,4 @@
-26699340578498026
+26701349946587062
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106378,6 +106378,13 @@ W25Q64JVSSIQ
 0
 8
 8
+_BMS
+SOT-23
+SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
 _BMS
 SOT230P700X185-4N
 

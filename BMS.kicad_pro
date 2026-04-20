@@ -572,6 +572,9 @@
       "/main/BMS/TOP": [
         "cells"
       ],
+      "/main/PACK+": [
+        "HVBUS"
+      ],
       "GND": [
         "cells"
       ],
