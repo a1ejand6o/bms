@@ -2539,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 74.93) (xy 27.94 74.93)
+			(xy 33.02 74.93) (xy 58.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2627,16 +2627,6 @@
 		)
 		(uuid "714a5806-51bb-4960-a0d2-29be5ced519e")
 	)
-	(wire
-		(pts
-			(xy 38.1 74.93) (xy 58.42 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f096be2-5c2b-413a-9d59-8ce3f5af7628")
-	)
 	(bus
 		(pts
 			(xy 210.82 45.72) (xy 210.82 43.18)
@@ -2676,16 +2666,6 @@
 			(type default)
 		)
 		(uuid "92cb9102-c15e-4096-a097-c184cd79c9df")
-	)
-	(wire
-		(pts
-			(xy 38.1 77.47) (xy 58.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d5a1494-9d92-4ba4-8dec-f0d6db681cd3")
 	)
 	(wire
 		(pts
@@ -2799,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 77.47) (xy 27.94 77.47)
+			(xy 33.02 77.47) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2927,16 +2907,6 @@
 		)
 		(uuid "7db40a03-9046-4f93-8c49-9834d04e610f")
 	)
-	(label "V_USB"
-		(at 33.02 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7df8f2fd-3f9d-4d7b-8fc6-dfee09bbec0e")
-	)
 	(label "SWDIO"
 		(at 214.63 92.71 0)
 		(effects
@@ -3061,7 +3031,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
-		(at 22.86 74.93 180)
+		(at 33.02 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3083,7 +3053,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 22.86 77.47 180)
+		(at 33.02 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6421,181 +6391,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/2982e12c-39cd-4158-a648-a90b7f6b527c"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 33.02 74.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3900206-bf7c-4acb-abcd-d7ebd9ff2c17")
-		(property "Reference" "U1"
-			(at 30.734 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 30.734 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 31.75 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 31.75 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "STMicroelectronics"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "USBLC6-2SC6"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "497-5235-2-ND"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.36000"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" "JLCPCB"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" "C7519"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" "0.1373"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" "1"
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1afd8440-6faf-4d4c-9134-90922db4eba1")
-		)
-		(pin "5"
-			(uuid "af01e290-6abc-4373-a7ae-dd333192e244")
-		)
-		(pin "1"
-			(uuid "4c82d68f-a501-4317-b223-1948ac6d0c11")
-		)
-		(pin "4"
-			(uuid "424554d5-5dff-4c4a-b732-90094e1bd09f")
-		)
-		(pin "6"
-			(uuid "5df9f2d7-3857-4baa-a96c-71312bbe2e6c")
-		)
-		(pin "2"
-			(uuid "ff9b4e45-4dec-421c-9740-d04782b45902")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/2982e12c-39cd-4158-a648-a90b7f6b527c"
-					(reference "U1")
 					(unit 1)
 				)
 			)

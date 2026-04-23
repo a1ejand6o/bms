@@ -385,7 +385,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 51.435) (xy 74.93 51.435)
+			(xy 72.39 52.07) (xy 74.93 52.07)
 		)
 		(stroke
 			(width 0)
@@ -485,7 +485,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.055) (xy 74.93 59.055)
+			(xy 72.39 59.69) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -605,7 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.675) (xy 74.93 66.675)
+			(xy 72.39 67.31) (xy 74.93 67.31)
 		)
 		(stroke
 			(width 0)
@@ -664,7 +664,7 @@
 		(uuid "3982b223-e1ec-4800-addb-03f66ecde5fe")
 	)
 	(label "V_USB"
-		(at 72.39 66.675 180)
+		(at 72.39 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -694,7 +694,7 @@
 		(uuid "6eb53231-1975-455c-8088-1c4f24564a2f")
 	)
 	(label "EXT_5V"
-		(at 72.39 51.435 180)
+		(at 72.39 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -734,7 +734,7 @@
 		(uuid "db3260c6-abc2-40b5-91f6-98f8866c01f9")
 	)
 	(label "INT_5V"
-		(at 72.39 59.055 180)
+		(at 72.39 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1100,7 +1100,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 34.29)
+		(at 74.93 34.925)
 		(size 12.7 50.165)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1116,7 +1116,7 @@
 		)
 		(uuid "1875dae8-5675-4324-bc32-eabf0e306a05")
 		(property "Sheetname" "housekeeping"
-			(at 74.93 33.5784 0)
+			(at 74.93 34.2134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1125,7 @@
 			)
 		)
 		(property "Sheetfile" "housekeeping.kicad_sch"
-			(at 74.93 85.0396 0)
+			(at 74.93 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1134,7 @@
 			)
 		)
 		(pin "EXT_5V" input
-			(at 74.93 51.435 180)
+			(at 74.93 52.07 180)
 			(uuid "8fad544c-bb3a-4dd8-8059-fe7afa53dbc7")
 			(effects
 				(font
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(pin "INT_5V" input
-			(at 74.93 59.055 180)
+			(at 74.93 59.69 180)
 			(uuid "edd91fe9-59ef-455a-957e-6511876cadd9")
 			(effects
 				(font
@@ -1154,7 +1154,7 @@
 			)
 		)
 		(pin "USB_5V" input
-			(at 74.93 66.675 180)
+			(at 74.93 67.31 180)
 			(uuid "f22e699c-9c2f-45bc-b6fe-0ac87e855467")
 			(effects
 				(font
