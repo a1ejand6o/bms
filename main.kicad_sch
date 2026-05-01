@@ -333,6 +333,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c4a335a-a47f-4dfc-8aef-8753d0de1502")
+	)
 	(bus
 		(pts
 			(xy 162.56 80.01) (xy 162.56 101.6)
@@ -652,6 +658,16 @@
 			(type default)
 		)
 		(uuid "fb432c84-653a-4969-b07b-a8c0c6906723")
+	)
+	(bus
+		(pts
+			(xy 162.56 101.6) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0cc678-be9a-4b52-b73c-f59079bcc49b")
 	)
 	(label "{BMS_SIG}"
 		(at 162.56 106.68 0)
@@ -1318,6 +1334,16 @@
 		(pin "{BMS_SIG}" bidirectional
 			(at 190.5 106.68 180)
 			(uuid "d1ce86e5-ad5f-4dfc-9d4a-9843379e180a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMS{I2C}" bidirectional
+			(at 190.5 101.6 180)
+			(uuid "e76a4365-76ca-419c-b698-16a1d7232269")
 			(effects
 				(font
 					(size 1.27 1.27)

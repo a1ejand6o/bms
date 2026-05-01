@@ -388,7 +388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "JST"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -397,7 +397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "SM02B-GHS-TB(LF)(SN)"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -442,7 +442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -451,7 +451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C189893"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -470,6 +470,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -548,7 +557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "JST"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -557,7 +566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "SM02B-GHS-TB(LF)(SN)"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -602,7 +611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -611,7 +620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C189893"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -630,6 +639,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -708,7 +726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "JST"
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -717,7 +735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "SM02B-GHS-TB(LF)(SN)"
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -762,7 +780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -771,7 +789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C189893"
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -790,6 +808,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -823,7 +850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86ae8bf6-a29e-4236-9285-0928e66e4cce")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR093"
 			(at 135.89 93.98 0)
 			(effects
 				(font
@@ -874,7 +901,7 @@
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/b732a1a5-50cf-4d70-be91-0bf27828f771"
-					(reference "#PWR091")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -890,7 +917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9491b75c-2b7a-412b-8c4c-7463593971bb")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR094"
 			(at 135.89 104.14 0)
 			(effects
 				(font
@@ -941,7 +968,7 @@
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/b732a1a5-50cf-4d70-be91-0bf27828f771"
-					(reference "#PWR092")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -957,7 +984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4900d06-9729-4a6e-8105-73724b52b484")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR092"
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -1008,7 +1035,7 @@
 		(instances
 			(project ""
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/b732a1a5-50cf-4d70-be91-0bf27828f771"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)

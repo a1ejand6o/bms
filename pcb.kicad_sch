@@ -291,6 +291,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/fb11fb4b-d26e-4f92-a711-2d1664bdbd55"
@@ -473,6 +482,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 100.33 95.25 0)
 			(effects
 				(font
@@ -670,6 +688,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/fb11fb4b-d26e-4f92-a711-2d1664bdbd55"
@@ -852,6 +879,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 120.65 95.25 0)
 			(effects
 				(font

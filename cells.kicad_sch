@@ -999,7 +999,7 @@
 		(at 119.38 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "813d6171-a3dd-4e90-9adc-2ccb056a36f7")
@@ -1138,6 +1138,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "78401d68-8013-4f36-b143-bd9a7b37ad91")
 		)
@@ -1231,7 +1240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "Changzhou Amass Elec"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -1240,7 +1249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "XT30PW-M30.G.Y"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -1285,7 +1294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -1294,7 +1303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C431092"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -1313,6 +1322,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 119.38 106.68 0)
 			(effects
 				(font
