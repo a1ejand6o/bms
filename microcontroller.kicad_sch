@@ -9053,7 +9053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 6.3V X7R ±10% 0201"
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -9062,7 +9062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "YAGEO"
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -9071,7 +9071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "CC0201KRX7R5BB104"
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -9116,7 +9116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C1882920"
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -9134,7 +9134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" "0.0042"
+		(property "Supplier_2 Unit Price" ""
 			(at 259.08 91.44 0)
 			(effects
 				(font

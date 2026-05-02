@@ -11749,7 +11749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 269.24 271.7799 0)
 			(effects
 				(font
@@ -20008,7 +20008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10M OHM 1% 1/10W 0402"
+		(property "Description" "100mW 10MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 341.63 101.6 0)
 			(effects
 				(font
@@ -20017,7 +20017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
 			(at 341.63 101.6 0)
 			(effects
 				(font
@@ -20026,7 +20026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RK73H1ETTP1005F"
+		(property "Mfr P/N" "0603WAF1005T5E"
 			(at 341.63 101.6 0)
 			(effects
 				(font
@@ -20035,7 +20035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" ""
 			(at 341.63 101.6 90)
 			(effects
 				(font
@@ -20044,7 +20044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2019-RK73H1ETTP1005FTR-ND"
+		(property "Supplier_1 P/N" ""
 			(at 341.63 101.6 90)
 			(effects
 				(font
@@ -20053,7 +20053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "1"
+		(property "Supplier_1 Price @ QTY" ""
 			(at 341.63 101.6 90)
 			(effects
 				(font
@@ -20062,7 +20062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" ""
 			(at 341.63 101.6 90)
 			(effects
 				(font
@@ -20080,7 +20080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" "C159944"
+		(property "Supplier_2 P/N" "C7250"
 			(at 341.63 101.6 90)
 			(effects
 				(font
@@ -26253,7 +26253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10M OHM 1% 1/10W 0402"
+		(property "Description" "100mW 10MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 288.29 101.6 0)
 			(effects
 				(font
@@ -26262,7 +26262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
 			(at 288.29 101.6 0)
 			(effects
 				(font
@@ -26271,7 +26271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RK73H1ETTP1005F"
+		(property "Mfr P/N" "0603WAF1005T5E"
 			(at 288.29 101.6 0)
 			(effects
 				(font
@@ -26280,7 +26280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" ""
 			(at 288.29 101.6 90)
 			(effects
 				(font
@@ -26289,7 +26289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2019-RK73H1ETTP1005FTR-ND"
+		(property "Supplier_1 P/N" ""
 			(at 288.29 101.6 90)
 			(effects
 				(font
@@ -26298,7 +26298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ QTY" "1"
+		(property "Supplier_1 Price @ QTY" ""
 			(at 288.29 101.6 90)
 			(effects
 				(font
@@ -26307,7 +26307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" ""
 			(at 288.29 101.6 90)
 			(effects
 				(font
@@ -26325,7 +26325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" "C159944"
+		(property "Supplier_2 P/N" "C7250"
 			(at 288.29 101.6 90)
 			(effects
 				(font
