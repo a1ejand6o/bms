@@ -1003,6 +1003,10 @@
     [
       "b732a1a5-50cf-4d70-be91-0bf27828f771",
       "NTC Inputs"
+    ],
+    [
+      "5b507d3a-b1db-4604-a2a5-2db369d84636",
+      "CAN"
     ]
   ],
   "text_variables": {}
