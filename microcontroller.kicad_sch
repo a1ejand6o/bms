@@ -3404,10 +3404,6 @@
 		(at 166.37 163.83)
 		(uuid "bdaa631c-5b82-4e52-813e-d6768fee0d9b")
 	)
-	(no_connect
-		(at 59.69 204.47)
-		(uuid "e49669d3-8a77-4ea7-bbab-2643a3307d19")
-	)
 	(bus_entry
 		(at 44.45 95.25)
 		(size 2.54 2.54)

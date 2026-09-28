@@ -787,7 +787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "JST"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -796,7 +796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "S7B-XH-A(LF)(SN)"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -841,7 +841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -850,7 +850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C157916"
 			(at 118.11 82.55 0)
 			(effects
 				(font
