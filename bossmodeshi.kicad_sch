@@ -4789,6 +4789,12 @@
 		(uuid "a65f0761-c2e8-447c-ac01-52d774f48723")
 	)
 	(junction
+		(at 360.68 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a758bb0f-b137-4dad-949b-62a9057718bd")
+	)
+	(junction
 		(at 521.97 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6575,6 +6581,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 227.33) (xy 360.68 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523045cb-be28-47b3-998a-30fdac389ebf")
+	)
+	(wire
+		(pts
 			(xy 285.75 204.47) (xy 285.75 207.01)
 		)
 		(stroke
@@ -7355,6 +7371,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 234.95) (xy 356.87 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d8f93f-005e-42f0-97c8-78de551e0936")
+	)
+	(wire
+		(pts
 			(xy 109.22 173.99) (xy 121.92 173.99)
 		)
 		(stroke
@@ -7462,6 +7488,16 @@
 			(type default)
 		)
 		(uuid "8510d8ca-ede2-4a17-9697-bbe002be020e")
+	)
+	(wire
+		(pts
+			(xy 356.87 227.33) (xy 360.68 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857d7257-05a1-45b3-8945-07e02080085f")
 	)
 	(wire
 		(pts
@@ -7672,6 +7708,16 @@
 			(type default)
 		)
 		(uuid "940827a3-6038-403b-a97f-54a36a5328e5")
+	)
+	(wire
+		(pts
+			(xy 360.68 226.06) (xy 360.68 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946946da-f198-47e8-8361-c30e15caa131")
 	)
 	(wire
 		(pts
@@ -7932,6 +7978,16 @@
 			(type default)
 		)
 		(uuid "a1a16a5c-2fb2-42dd-b019-ef74de357d83")
+	)
+	(wire
+		(pts
+			(xy 344.17 234.95) (xy 349.25 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f2a426-c452-469f-a849-4444ffb1694b")
 	)
 	(wire
 		(pts
@@ -9185,6 +9241,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 227.33) (xy 369.57 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c1aeb6-67ad-49fc-8d45-eec34d52eb0f")
+	)
+	(wire
+		(pts
 			(xy 304.8 85.09) (xy 304.8 91.44)
 		)
 		(stroke
@@ -9212,16 +9278,6 @@
 			(type default)
 		)
 		(uuid "e44c49e8-0e78-47b1-bb9f-ccc0031ec440")
-	)
-	(wire
-		(pts
-			(xy 344.17 234.95) (xy 346.71 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5cd9780-25b3-4b1e-8cdf-053bf4c07dfd")
 	)
 	(wire
 		(pts
@@ -9744,6 +9800,16 @@
 		(uuid "12f53da7-c449-4712-b73c-70426ba1147b")
 	)
 	(label "TOP"
+		(at 360.68 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13824447-9765-470e-8afb-3a7dbf0d0433")
+	)
+	(label "TOP"
 		(at 506.73 134.62 0)
 		(effects
 			(font
@@ -9874,12 +9940,12 @@
 		(uuid "4b6d1d01-a706-4283-a398-20449c38101f")
 	)
 	(label "nSHDN"
-		(at 346.71 234.95 0)
+		(at 369.57 227.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4d1a547e-c105-432b-bc1f-10f6895ac2e2")
 	)
@@ -11092,6 +11158,374 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 109.22 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03e4a321-b574-44de-a40a-53593878d071")
+		(property "Reference" "R_BAL_2"
+			(at 103.632 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51 Ω"
+			(at 102.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 110.998 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8754800874893774848-C873963.pdf?response-content-disposition=attachment%3B%20filename%3DC873963.pdf%3B%20filename%2A%3DUTF-8%27%27C873963.pdf&x-oss-date=20261002T041458Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=69406590bbb3dcdcfa821e67b1a1f5615a2544b99096da71fa42211044bdafae"
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 500V 500mW 51Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "SR1206FR-7W51RL"
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" ""
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C873963"
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 109.22 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f00114e9-5c2b-456d-9952-cb37ac7a0d25")
+		)
+		(pin "2"
+			(uuid "695d54af-604c-42a2-a650-e4f5c08fe470")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_BAL_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 223.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04c48546-4367-49b3-831f-22515e367c91")
+		(property "Reference" "R_BAL_4"
+			(at 103.632 222.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51 Ω"
+			(at 102.87 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 110.998 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8754800874893774848-C873963.pdf?response-content-disposition=attachment%3B%20filename%3DC873963.pdf%3B%20filename%2A%3DUTF-8%27%27C873963.pdf&x-oss-date=20261002T041458Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=69406590bbb3dcdcfa821e67b1a1f5615a2544b99096da71fa42211044bdafae"
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 500V 500mW 51Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "SR1206FR-7W51RL"
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" ""
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C873963"
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 109.22 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 109.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdc84796-fd4d-43cc-9578-1d2ebd437031")
+		)
+		(pin "2"
+			(uuid "15ebccf7-7632-42b2-9e79-04f9acb03779")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_BAL_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 251.46 215.9 180)
 		(unit 1)
@@ -11916,7 +12350,7 @@
 				)
 			)
 		)
-		(property "Value" "500 Ω"
+		(property "Value" "100 Ω"
 			(at 222.25 261.62 90)
 			(effects
 				(font
@@ -11924,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 221.488 261.62 90)
 			(effects
 				(font
@@ -11933,7 +12367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588882030469238784-C24920.pdf?response-content-disposition=attachment%3B%20filename%3DC24920.pdf%3B%20filename%2A%3DUTF-8%27%27C24920.pdf&x-oss-date=20261002T044651Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nTPML2ip1Q3ZKPNRLhhm4xY7pFrJOZ1jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qf0rzzgm557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmqrBcr6KjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYI6pcsjaKWD5sagAGPhEl5qRh1d8nPWTWixOPWLs4saSGr81Rd4Jr85W5%2Frt%2B0sWq%2FnbNdPTuHYlqqxsCh3e8Ml48ga9QAGzO8kKIGiKcHhmsMkKKJlqrm5jpWwv50qAiVbgsB0Ii2cEXTRwoftuYe%2FfuFIpLF1YZElYez7QlT31hUwX%2B%2FBvjs4Nb5ECAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZfwxBgBqjPd74Pbndo5iCV24%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=614d6434c6f1d40ad1beffec722daefae3ae9395bb1e7775d7763648f0a8cce2"
 			(at 219.71 261.62 0)
 			(effects
 				(font
@@ -11942,7 +12376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100Ω 400mW Thin Film Resistor ±0.1% ±25ppm/℃ 1206 Chip Resistor"
+		(property "Description" "-55℃~+155℃ 100Ω 1W 200V Thick Film Resistor ±100ppm/℃ ±5% 2512 Chip Resistor - Surface Mount ROHS"
 			(at 219.71 261.62 0)
 			(effects
 				(font
@@ -11951,7 +12385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Vishay Intertech"
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
 			(at 219.71 261.62 90)
 			(effects
 				(font
@@ -11960,7 +12394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "TNPW1206100RBEEA"
+		(property "Mfr P/N" "25121WJ0101T4E"
 			(at 219.71 261.62 90)
 			(effects
 				(font
@@ -12014,7 +12448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" "C844470"
+		(property "Supplier_2 P/N" "C24920"
 			(at 219.71 261.62 90)
 			(effects
 				(font
@@ -18506,190 +18940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5823057b-920a-4a12-97ad-100d096d3604")
-		(property "Reference" "R_BAL_5"
-			(at 102.489 263.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 101.727 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.442 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 109.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "43Ω 750mW Thick Film Resistor ±1% ±100ppm/℃ 1206"
-			(at 109.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Vishay Intertech"
-			(at 109.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "CRCW120643R0FKEAHP"
-			(at 109.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" ""
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" "JLCPCB"
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" "C4017025"
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 109.22 264.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 109.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 109.22 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "979a4020-a9e6-455f-b182-71ffea9e015a")
-		)
-		(pin "2"
-			(uuid "f0278d12-d2a9-4c6c-9a44-2de033178fdc")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 160.02 255.27 0)
 		(unit 1)
@@ -19189,6 +19439,190 @@
 			(project ""
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a45ffd4-eca6-4c2a-a77c-e8d0189098ae")
+		(property "Reference" "R_BAL_3"
+			(at 103.632 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51 Ω"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 110.998 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8754800874893774848-C873963.pdf?response-content-disposition=attachment%3B%20filename%3DC873963.pdf%3B%20filename%2A%3DUTF-8%27%27C873963.pdf&x-oss-date=20261002T041458Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=69406590bbb3dcdcfa821e67b1a1f5615a2544b99096da71fa42211044bdafae"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 500V 500mW 51Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "SR1206FR-7W51RL"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" ""
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C873963"
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 109.22 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9062f46e-0ca0-4faf-b701-4f9a1cd367e3")
+		)
+		(pin "2"
+			(uuid "04e3ad44-23ef-482a-b7eb-0c0cc5325c4a")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_BAL_3")
 					(unit 1)
 				)
 			)
@@ -20318,190 +20752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64f229af-7141-4cde-85be-e1d39d4bc4a8")
-		(property "Reference" "R_BAL_4"
-			(at 102.616 224.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 103.378 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.442 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 109.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 43 OHM 1% 1/2W 1206"
-			(at 109.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Vishay Intertech"
-			(at 109.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "CRCW120643R0FKEAHP"
-			(at 109.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" ""
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" "JLCPCB"
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" "C4017025"
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 109.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 109.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 109.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13da55c3-06ae-46c2-a73f-9853fac971b8")
-		)
-		(pin "2"
-			(uuid "d3160a00-3494-4928-8a10-b1d6cc76af2c")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 129.54 165.1 180)
 		(unit 1)
@@ -21439,6 +21689,166 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 360.68 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d217818-55a6-4bfe-9dad-9bf1dc6515e0")
+		(property "Reference" "R52"
+			(at 363.22 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 363.22 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 358.902 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706152747532288-C22935.pdf?response-content-disposition=attachment%3B%20filename%3DC22935.pdf%3B%20filename%2A%3DUTF-8%27%27C22935.pdf&x-oss-date=20261002T042334Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=81f454a3bb26d676bf00744dc49a8b9fad96bde0a9c667856f4e34f1e4519545"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 1MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "0603WAF1004T5E"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C22935"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90683225-bba6-4f7b-a1d4-9352eca822a2")
+		)
+		(pin "1"
+			(uuid "68a66cd2-6a16-40cb-aef8-b990013fb62a")
+		)
+		(instances
+			(project ""
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 147.32 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21950,190 +22360,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_GATE5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78df388b-5747-416d-b6c0-ac6044df3483")
-		(property "Reference" "R_BAL_2"
-			(at 102.489 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 101.727 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.442 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 43 OHM 1% 1/2W 1206"
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Vishay Intertech"
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "CRCW120643R0FKEAHP"
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" ""
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" "JLCPCB"
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" "C4017025"
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 109.22 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16aebefb-7379-42a8-873b-ebd154b7fe33")
-		)
-		(pin "2"
-			(uuid "9267a182-bb42-4a8b-b567-7c3270c1a58f")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_2")
 					(unit 1)
 				)
 			)
@@ -23480,190 +23706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fdbae02-9db0-4334-bb59-ae8fcd9fb32e")
-		(property "Reference" "R_BAL_3"
-			(at 102.489 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 101.727 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.442 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 109.22 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 43 OHM 1% 1/2W 1206"
-			(at 109.22 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Vishay Intertech"
-			(at 109.22 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "CRCW120643R0FKEAHP"
-			(at 109.22 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" ""
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" "JLCPCB"
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" "C4017025"
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 109.22 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 109.22 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 109.22 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "502cc268-cbae-48ff-a300-06e5be57c4b5")
-		)
-		(pin "2"
-			(uuid "76341ff7-8c89-4619-a67b-4b74680db95c")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 153.67 339.09 270)
 		(unit 1)
@@ -23841,9 +23883,173 @@
 			(uuid "260f9f04-2ef5-4c8a-badf-3123cdff4170")
 		)
 		(instances
-			(project "BMS"
+			(project ""
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/5b507d3a-b1db-4604-a2a5-2db369d84636"
+					(reference "DAGND_CO1")
+					(unit 1)
+				)
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "DAGND_CO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 360.68 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93286170-2d2b-4402-ac57-c975a18f72c9")
+		(property "Reference" "R53"
+			(at 363.22 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200k"
+			(at 363.22 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 358.902 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706361896361984-C25811.pdf?response-content-disposition=attachment%3B%20filename%3DC25811.pdf%3B%20filename%2A%3DUTF-8%27%27C25811.pdf&x-oss-date=20261002T042527Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f9a153b63b5607a437d38e9056c7c77a3992b5e2b61278cf106f6ecb43573176"
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 200kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "0603WAF2003T5E"
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C25811"
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 360.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2aab01d9-e5d3-4ac3-8a17-baa5ce0528f1")
+		)
+		(pin "1"
+			(uuid "b04b7724-be96-4a29-9e7a-42480cc49c00")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -24411,6 +24617,190 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "R_DSG_DRIVER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 302.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c450356-9ca2-4099-b52a-0a998c59d271")
+		(property "Reference" "R_BAL_6"
+			(at 103.632 301.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51 Ω"
+			(at 102.87 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 110.998 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8754800874893774848-C873963.pdf?response-content-disposition=attachment%3B%20filename%3DC873963.pdf%3B%20filename%2A%3DUTF-8%27%27C873963.pdf&x-oss-date=20261002T041458Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=69406590bbb3dcdcfa821e67b1a1f5615a2544b99096da71fa42211044bdafae"
+			(at 109.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 500V 500mW 51Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+			(at 109.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 109.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "SR1206FR-7W51RL"
+			(at 109.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" ""
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C873963"
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 109.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 109.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 109.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 109.22 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "943111e6-c41c-4e7a-8514-664ab3bc0645")
+		)
+		(pin "2"
+			(uuid "7de4eb94-f763-4118-bbb8-529061529bb7")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_BAL_6")
 					(unit 1)
 				)
 			)
@@ -26711,6 +27101,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 194.31 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 194.31 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c5799b4-2674-4764-a78c-b9ceb81e20e0")
 		)
@@ -28615,7 +29023,7 @@
 				)
 			)
 		)
-		(property "Value" "43 Ω"
+		(property "Value" "51 Ω"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -28632,7 +29040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8754800874893774848-C873963.pdf?response-content-disposition=attachment%3B%20filename%3DC873963.pdf%3B%20filename%2A%3DUTF-8%27%27C873963.pdf&x-oss-date=20261002T041458Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=69406590bbb3dcdcfa821e67b1a1f5615a2544b99096da71fa42211044bdafae"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -28641,7 +29049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 43 OHM 1% 1/2W 1206"
+		(property "Description" "-55℃~+155℃ 500V 500mW 51Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -28650,7 +29058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Vishay Intertech"
+		(property "Mfr" "YAGEO"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -28659,7 +29067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "CRCW120643R0FKEAHP"
+		(property "Mfr P/N" "SR1206FR-7W51RL"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -28713,7 +29121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" "C4017025"
+		(property "Supplier_2 P/N" "C873963"
 			(at 109.22 104.14 90)
 			(effects
 				(font
@@ -30107,7 +30515,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TPSMB28CA-VR"
+		(property "Value" "SMBJ28CA"
 			(at 240.284 92.456 90)
 			(effects
 				(font
@@ -30125,7 +30533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_tpsmb_vr_datasheet.pdf?assetguid=59f7438c-3ad2-4783-8b9d-0ee7e189ef9b"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8756866138322423808-C151259.pdf?response-content-disposition=attachment%3B%20filename%3DC151259.pdf%3B%20filename%2A%3DUTF-8%27%27C151259.pdf&x-oss-date=20261002T045141Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nTPML2ip1Q3ZKPNRLhhm4xY7pFrJOZ1jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qf0rzzgm557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmqrBcr6KjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYI6pcsjaKWD5sagAGPhEl5qRh1d8nPWTWixOPWLs4saSGr81Rd4Jr85W5%2Frt%2B0sWq%2FnbNdPTuHYlqqxsCh3e8Ml48ga9QAGzO8kKIGiKcHhmsMkKKJlqrm5jpWwv50qAiVbgsB0Ii2cEXTRwoftuYe%2FfuFIpLF1YZElYez7QlT31hUwX%2B%2FBvjs4Nb5ECAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZfwxBgBqjPd74Pbndo5iCV24%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=405de63933f0b561a4068a99d16a354e486e3a630a4d1b8cfdcf0d41450948b1"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -30143,7 +30551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Littelfuse Inc."
+		(property "Mfr" "Littelfuse"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -30152,7 +30560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "TPSMB28CA-VR"
+		(property "Mfr P/N" "SMBJ28CA"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -30161,7 +30569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" ""
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -30170,7 +30578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "TPSMB28CA-VRTR-ND"
+		(property "Supplier_1 P/N" ""
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -30179,7 +30587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.23000"
+		(property "Supplier_1 Unit Price" ""
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -30188,7 +30596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -30206,7 +30614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" "C151259"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -31770,6 +32178,71 @@
 			(project ""
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 360.68 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df260fbe-6c9f-41c7-94fc-3c896a4b21b8")
+		(property "Reference" "#PWR0107"
+			(at 360.68 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 360.68 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 360.68 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7632643-91a5-4f9e-be60-cfdebc3cb421")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -33942,6 +34415,190 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 109.22 264.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f94bc2d8-99a9-46aa-be9c-b492225ee7b9")
+		(property "Reference" "R_BAL_5"
+			(at 103.632 263.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51 Ω"
+			(at 102.87 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 110.998 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8754800874893774848-C873963.pdf?response-content-disposition=attachment%3B%20filename%3DC873963.pdf%3B%20filename%2A%3DUTF-8%27%27C873963.pdf&x-oss-date=20261002T041458Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vUEtT5hrZt8KrZQVCFhjZsVbx4hfDF2jz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdNi8Dom557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirsVs1V66HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1DnP0qKWD5sagAGdajU3fbTh6TAfPcZnNShtNvVgC91P6bFWNA0Bri4H6MQFknbTSUZcf1EtC4UbR89h5LrLCM7Y4Lokk6m7KoSwtyAYy39ENQwaT00ma8EA%2FCY%2FJ0ltzzWHq1fgz4EB1yU%2BurfhootmZCveIkFhKnoM5qBKVEDIJd7ggOyNyfV5ayAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXaYnMkiLGh2Cv4b69Y3Tj5n8%2F20261002%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=69406590bbb3dcdcfa821e67b1a1f5615a2544b99096da71fa42211044bdafae"
+			(at 109.22 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 500V 500mW 51Ω Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
+			(at 109.22 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 109.22 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "SR1206FR-7W51RL"
+			(at 109.22 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ QTY" ""
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" "JLCPCB"
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" "C873963"
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ QTY" ""
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 109.22 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 109.22 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 109.22 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 109.22 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8461569a-40c1-4dbb-a868-260cb296154d")
+		)
+		(pin "2"
+			(uuid "40f35860-5ccf-49e5-b747-70134387b3d5")
+		)
+		(instances
+			(project "BMS"
+				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
+					(reference "R_BAL_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 147.32 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34657,190 +35314,6 @@
 			(project "BMS"
 				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 302.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fce0211a-594a-4032-aa18-0c138ffb264e")
-		(property "Reference" "R_BAL_6"
-			(at 102.489 301.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43 Ω"
-			(at 101.727 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.442 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
-			(at 109.22 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 43 OHM 1% 1/2W 1206"
-			(at 109.22 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Vishay Intertech"
-			(at 109.22 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "CRCW120643R0FKEAHP"
-			(at 109.22 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ QTY" ""
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" "JLCPCB"
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" "C4017025"
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ QTY" ""
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 109.22 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 109.22 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 109.22 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 109.22 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9dab9416-7fb0-4898-a192-3d14dbed4b86")
-		)
-		(pin "2"
-			(uuid "5aeaea83-30a1-41e0-8c44-ca376b77dbba")
-		)
-		(instances
-			(project "BMS"
-				(path "/124184ba-5d68-4d9f-8da6-acc6720ab30b/93f9b420-7cce-46a9-9201-666f07a18f85/d98fdb38-dbd9-4613-8402-dc473e6cf2ba"
-					(reference "R_BAL_6")
 					(unit 1)
 				)
 			)
